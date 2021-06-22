@@ -1,0 +1,5 @@
+2020/12/11-09:24:22.268 f9e Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.toppr.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/11-09:24:54.013 3eee Level-0 table #5: started
+2020/12/11-09:24:54.111 3eee Level-0 table #5: 792 bytes OK
+2020/12/11-09:24:54.200 3eee Delete type=0 #3
+2020/12/11-09:24:54.200 3eee Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,9 @@
+[2021-06-15 15:15:30.619] [sharedprocess] [info] main {"machineId":"143babd25ed60a48d84766e1b114803d6a7bf805df0b97fea3d6a15b55e1775c","windowId":2}
+[2021-06-15 15:15:33.003] [sharedprocess] [info] Deleted from disk pkief.material-icon-theme /home/gork/.vscode-oss/extensions/pkief.material-icon-theme-4.6.0
+[2021-06-15 15:15:42.349] [sharedprocess] [info] Installing extension: johnpapa.angular2
+[2021-06-15 15:15:46.796] [sharedprocess] [info] Downloaded extension: johnpapa.angular2 undefined
+[2021-06-15 15:15:46.992] [sharedprocess] [info] Extracted extension to /home/gork/.vscode-oss/extensions/.johnpapa.angular2-12.0.0: johnpapa.angular2
+[2021-06-15 15:15:46.992] [sharedprocess] [info] Renamed to /home/gork/.vscode-oss/extensions/johnpapa.angular2-12.0.0
+[2021-06-15 15:15:46.993] [sharedprocess] [info] Installation completed. johnpapa.angular2
+[2021-06-15 15:15:47.151] [sharedprocess] [info] Extensions installed successfully: johnpapa.angular2
+[2021-06-15 15:16:10.682] [sharedprocess] [info] Starting to clean up unused language packs.

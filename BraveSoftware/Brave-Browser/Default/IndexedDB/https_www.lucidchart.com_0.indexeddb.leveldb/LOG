@@ -1,0 +1,5 @@
+2021/04/11-23:41:32.476 b79c Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.lucidchart.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/11-23:41:34.846 b79d Level-0 table #5: started
+2021/04/11-23:41:34.901 b79d Level-0 table #5: 827 bytes OK
+2021/04/11-23:41:34.980 b79d Delete type=0 #3
+2021/04/11-23:41:34.980 b79d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

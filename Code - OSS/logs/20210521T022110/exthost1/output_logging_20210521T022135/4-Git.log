@@ -1,0 +1,35 @@
+Looking for git in: git
+Using git 2.26.2 from git
+> git rev-parse --git-dir
+Open repository: /home/gork/Projects/Drona/drona_api
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git check-ignore -v -z --stdin
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :drona_api/settings.py
+> git show --textconv :core_api/models.py
+> git ls-files --stage -- /home/gork/Projects/Drona/drona_api/drona_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Drona/drona_api/core_api/models.py
+> git cat-file -s f4247082e7ba83c066456714f1f91a4c1e5ddd40
+> git cat-file -s 510345b1645c0eac83b2b51032b2b47f21bfd74b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

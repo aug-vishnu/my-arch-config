@@ -1,0 +1,15 @@
+2021/04/26-13:55:28.475 6311 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.florin-pop.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/26-13:55:28.475 6311 Recovering log #7
+2021/04/26-13:55:28.475 6311 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.florin-pop.com_0.indexeddb.leveldb/000007.log 
+2021/04/26-13:56:00.795 6311 Level-0 table #11: started
+2021/04/26-13:56:00.882 6311 Level-0 table #11: 993 bytes OK
+2021/04/26-13:56:00.920 6311 Delete type=0 #7
+2021/04/26-13:56:00.920 6311 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/26-13:56:00.920 6311 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x1b\x00c\x00u\x00s\x00t\x00o\x00m\x00-\x00n\x00a\x00v\x00i\x00g\x00a\x00t\x00i\x00o\x00n\x00-\x00w\x00h\x00i\x00t\x00e\x00l\x00i\x00s\x00t' @ 293 : 1
+2021/04/26-13:56:00.920 6311 Compacting 1@1 + 1@2 files
+2021/04/26-13:56:00.983 6311 Generated table #12@1: 64 keys, 3825 bytes
+2021/04/26-13:56:00.983 6311 Compacted 1@1 + 1@2 files => 3825 bytes
+2021/04/26-13:56:01.020 6311 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/26-13:56:01.020 6311 Delete type=2 #5
+2021/04/26-13:56:01.020 6311 Delete type=2 #11
+2021/04/26-13:56:01.020 6311 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x1b\x00c\x00u\x00s\x00t\x00o\x00m\x00-\x00n\x00a\x00v\x00i\x00g\x00a\x00t\x00i\x00o\x00n\x00-\x00w\x00h\x00i\x00t\x00e\x00l\x00i\x00s\x00t' @ 293 : 1 .. (end); will stop at (end)

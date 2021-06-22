@@ -1,0 +1,5 @@
+2020/12/23-23:22:04.642 8aa9 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_stripo.email_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/23-23:23:14.417 88b2 Level-0 table #5: started
+2020/12/23-23:23:14.465 88b2 Level-0 table #5: 851 bytes OK
+2020/12/23-23:23:14.513 88b2 Delete type=0 #3
+2020/12/23-23:23:14.513 88b2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

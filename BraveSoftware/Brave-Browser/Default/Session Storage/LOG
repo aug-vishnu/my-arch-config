@@ -1,0 +1,15 @@
+2021/06/22-22:26:17.170 3 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2021/06/22-22:26:17.173 3 Recovering log #382
+2021/06/22-22:26:17.361 3 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000382.log 
+2021/06/22-22:39:33.042 8 Level-0 table #386: started
+2021/06/22-22:39:33.127 8 Level-0 table #386: 18472 bytes OK
+2021/06/22-22:39:33.174 8 Delete type=0 #382
+2021/06/22-22:39:33.174 8 Compacting 4@0 + 1@1 files
+2021/06/22-22:39:33.350 8 Generated table #387@0: 12799 keys, 261910 bytes
+2021/06/22-22:39:33.351 8 Compacted 4@0 + 1@1 files => 261910 bytes
+2021/06/22-22:39:33.394 8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/22-22:39:33.396 8 Delete type=2 #386
+2021/06/22-22:39:33.400 8 Delete type=2 #374
+2021/06/22-22:39:33.400 8 Delete type=2 #377
+2021/06/22-22:39:33.401 8 Delete type=2 #383
+2021/06/22-22:39:33.401 8 Delete type=2 #380

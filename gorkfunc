@@ -1,0 +1,86 @@
+#!/bin/bash
+project_dir=/home/gork/Projects/
+
+# Gork Func
+gork(){echo "Watha nee periya Punda da Sathituu $curr_project Velaya $backend $1 ${1:l} Paru";}
+
+## My Script if $ is Dir >> cd and if $ is File >> vim
+
+cx(){
+if [[ -d $1 ]]; then
+    cd $1
+    ls
+elif [[ -f $1 ]]; then
+    vim $1
+else
+    echo "$1 is not exists da Gork"
+fi
+
+}
+
+zsh_cor(){
+	cd /home/gork/.cache/zsh
+	mv history history_bad
+	strings history_bad > history
+	fc -R history
+}
+
+new(){
+	mkdir ~/Downloads/BugBounty/$1 &&
+	cd ~/Downloads/BugBounty/$1 &&
+	touch Thoughts
+}
+
+## This will checks the Endpoint [ API ]
+
+drf(){
+	curl -s http://127.0.0.1:8000/$1/ | jq
+}
+vw(){
+	loc=$(which $1)
+	vim $loc
+}
+
+
+hu(){
+	sudo netctl start wlp2s0-Hugin
+	sudo chown gork:wheel /sys/class/backlight/amdgpu_bl0/max_brightness /sys/class/backlight/amdgpu_bl0/brightness
+}
+
+# Django Cuts alias
+dj-aug(){
+	source $project_dir$1/${1:l}_api/${1:l}_env/bin/activate
+	cd $project_dir$1/${1:l}_api
+	#st -e cd $project_dir$1/${1:l}-head ; ng serve --host 0.0.0.0
+	python manage.py runserver 0.0.0.0:8000
+}
+
+mm(){
+	python manage.py makemigrations
+}
+
+pmi(){
+	python manage.py makemigrations && python manage.py migrate
+
+}
+
+pcs(){
+	python manage.py createsuperuser --email admin@aug.com
+}
+# Angular
+ng-aug(){
+	cd $project_dir$1/${1:l}-head
+	npm start
+
+}
+
+ngc(){
+
+}
+
+
+ngb(){
+	cd $frontend
+	source $env
+	ng build
+}

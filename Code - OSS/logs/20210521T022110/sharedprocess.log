@@ -1,0 +1,8 @@
+[2021-05-21 02:21:16.154] [sharedprocess] [info] main {"machineId":"143babd25ed60a48d84766e1b114803d6a7bf805df0b97fea3d6a15b55e1775c","windowId":2}
+[2021-05-21 02:21:26.475] [sharedprocess] [info] Installing extension: glenn2223.live-sass
+[2021-05-21 02:21:31.815] [sharedprocess] [info] Downloaded extension: glenn2223.live-sass undefined
+[2021-05-21 02:21:32.088] [sharedprocess] [info] Extracted extension to /home/gork/.vscode-oss/extensions/.glenn2223.live-sass-5.0.3: glenn2223.live-sass
+[2021-05-21 02:21:32.088] [sharedprocess] [info] Renamed to /home/gork/.vscode-oss/extensions/glenn2223.live-sass-5.0.3
+[2021-05-21 02:21:32.090] [sharedprocess] [info] Installation completed. glenn2223.live-sass
+[2021-05-21 02:21:32.192] [sharedprocess] [info] Extensions installed successfully: glenn2223.live-sass
+[2021-05-21 02:21:56.176] [sharedprocess] [info] Starting to clean up unused language packs.

@@ -1,0 +1,349 @@
+01:17:53 AM.176: CPU Name: AMD PRO A4-4350B R4, 5 COMPUTE CORES 2C+3G
+01:17:53 AM.176: CPU Speed: 1460.646MHz
+01:17:53 AM.176: Physical Cores: 2, Logical Cores: 2
+01:17:53 AM.176: Physical Memory: 3779MB Total, 1809MB Free
+01:17:53 AM.176: Kernel Version: Linux 5.6.8-arch1-1
+01:17:53 AM.176: Distribution: "Arch Linux" Unknown
+01:17:53 AM.177: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.8
+01:17:53 AM.196: Portable mode: false
+01:17:54 AM.116: OBS 25.0.8-1 (linux)
+01:17:54 AM.116: ---------------------------------
+01:17:54 AM.124: ---------------------------------
+01:17:54 AM.124: audio settings reset:
+01:17:54 AM.124: 	samples per sec: 44100
+01:17:54 AM.124: 	speakers:        2
+01:17:54 AM.174: ---------------------------------
+01:17:54 AM.174: Initializing OpenGL...
+01:17:55 AM.838: Loading up OpenGL on adapter X.Org AMD STONEY (DRM 3.36.0, 5.6.8-arch1-1, LLVM 10.0.0)
+01:17:55 AM.838: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 20.0.6, shading language 4.50
+01:17:56 AM.461: ---------------------------------
+01:17:56 AM.462: video settings reset:
+01:17:56 AM.462: 	base resolution:   1366x768
+01:17:56 AM.462: 	output resolution: 1092x614
+01:17:56 AM.462: 	downscale filter:  Bicubic
+01:17:56 AM.462: 	fps:               30/1
+01:17:56 AM.462: 	format:            NV12
+01:17:56 AM.462: 	YUV mode:          601/Partial
+01:17:56 AM.462: NV12 texture support not available
+01:17:56 AM.499: Audio monitoring device:
+01:17:56 AM.499: 	name: Default
+01:17:56 AM.499: 	id: default
+01:17:56 AM.500: ---------------------------------
+01:17:56 AM.528: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+01:17:57 AM.157: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:17:57 AM.157: No blackmagic support
+01:17:57 AM.581: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+01:17:57 AM.581: 
+01:17:57 AM.581: FFMPEG VAAPI supported
+01:17:57 AM.680: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+01:17:57 AM.680: 
+01:17:57 AM.680: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+01:17:57 AM.928: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+01:17:57 AM.928: 
+01:17:57 AM.928: Couldn't find VLC installation, VLC video source disabled
+01:17:57 AM.928: ---------------------------------
+01:17:57 AM.928:   Loaded Modules:
+01:17:57 AM.928:     vlc-video.so
+01:17:57 AM.928:     text-freetype2.so
+01:17:57 AM.928:     rtmp-services.so
+01:17:57 AM.928:     obs-x264.so
+01:17:57 AM.928:     obs-transitions.so
+01:17:57 AM.928:     obs-outputs.so
+01:17:57 AM.928:     obs-filters.so
+01:17:57 AM.928:     obs-ffmpeg.so
+01:17:57 AM.928:     linux-v4l2.so
+01:17:57 AM.928:     linux-pulseaudio.so
+01:17:57 AM.928:     linux-jack.so
+01:17:57 AM.928:     linux-decklink.so
+01:17:57 AM.928:     linux-capture.so
+01:17:57 AM.928:     linux-alsa.so
+01:17:57 AM.928:     image-source.so
+01:17:57 AM.928:     frontend-tools.so
+01:17:57 AM.928:     decklink-ouput-ui.so
+01:17:57 AM.928: ---------------------------------
+01:17:57 AM.928: ==== Startup complete ===============================================
+01:17:57 AM.940: Service '' not found
+01:17:57 AM.990: All scene data cleared
+01:17:57 AM.990: ------------------------------------------------
+01:17:58 AM.292: pulse-input: Server name: 'pulseaudio 13.0'
+01:17:58 AM.329: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+01:17:58 AM.329: pulse-input: Started recording from 'alsa_output.pci-0000_00_09.2.analog-stereo.monitor'
+01:17:58 AM.330: [Loaded global audio device]: 'Desktop Audio'
+01:17:59 AM.371: pulse-input: Server name: 'pulseaudio 13.0'
+01:17:59 AM.461: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+01:17:59 AM.462: pulse-input: Started recording from 'alsa_input.pci-0000_00_09.2.analog-stereo'
+01:17:59 AM.462: [Loaded global audio device]: 'Mic/Aux'
+01:17:59 AM.463: xshm-input: Geometry 1366x768 @ 0,0
+01:17:59 AM.465: Switched to scene 'Scene'
+01:17:59 AM.465: ------------------------------------------------
+01:17:59 AM.465: Loaded scenes:
+01:17:59 AM.465: - scene 'Scene':
+01:17:59 AM.465:     - source: 'Screen Capture (XSHM)' (xshm_input)
+01:17:59 AM.465: ------------------------------------------------
+01:17:59 AM.918: [rtmp-services plugin] Successfully updated file 'services.json' (version 140)
+01:17:59 AM.918: [rtmp-services plugin] Successfully updated package (version 140)
+01:18:00 AM.204: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+01:18:00 AM.204: 
+01:18:52 AM.056: ---------------------------------
+01:18:52 AM.056: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+01:18:52 AM.111: [x264 encoder: 'simple_h264_stream'] settings:
+01:18:52 AM.111: 	rate_control: CBR
+01:18:52 AM.111: 	bitrate:      2500
+01:18:52 AM.111: 	buffer size:  2500
+01:18:52 AM.111: 	crf:          0
+01:18:52 AM.111: 	fps_num:      30
+01:18:52 AM.111: 	fps_den:      1
+01:18:52 AM.111: 	width:        1092
+01:18:52 AM.111: 	height:       614
+01:18:52 AM.111: 	keyint:       250
+01:18:52 AM.111: 
+01:18:52 AM.170: ---------------------------------
+01:18:52 AM.170: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+01:18:52 AM.170: 
+01:18:52 AM.242: ==== Recording Start ===============================================
+01:18:52 AM.243: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gork/2020-07-02 01-18-52.mkv'...
+01:19:00 AM.763: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gork/2020-07-02 01-18-52.mkv' stopped
+01:19:00 AM.763: Output 'simple_file_output': stopping
+01:19:00 AM.763: Output 'simple_file_output': Total frames output: 237
+01:19:00 AM.764: Output 'simple_file_output': Total drawn frames: 253 (256 attempted)
+01:19:00 AM.764: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 3 (1.2%)
+01:19:00 AM.765: ==== Recording Stop ================================================
+01:19:33 AM.570: ---------------------------------
+01:19:33 AM.570: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+01:19:33 AM.570: [x264 encoder: 'simple_h264_stream'] settings:
+01:19:33 AM.570: 	rate_control: CBR
+01:19:33 AM.570: 	bitrate:      2500
+01:19:33 AM.570: 	buffer size:  2500
+01:19:33 AM.570: 	crf:          0
+01:19:33 AM.570: 	fps_num:      30
+01:19:33 AM.570: 	fps_den:      1
+01:19:33 AM.570: 	width:        1092
+01:19:33 AM.570: 	height:       614
+01:19:33 AM.570: 	keyint:       250
+01:19:33 AM.570: 
+01:19:33 AM.577: ---------------------------------
+01:19:33 AM.577: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+01:19:33 AM.577: 
+01:19:33 AM.581: ==== Recording Start ===============================================
+01:19:33 AM.581: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gork/2020-07-02 01-19-33.mkv'...
+01:19:43 AM.569: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gork/2020-07-02 01-19-33.mkv' stopped
+01:19:43 AM.569: Output 'simple_file_output': stopping
+01:19:43 AM.569: Output 'simple_file_output': Total frames output: 281
+01:19:43 AM.569: Output 'simple_file_output': Total drawn frames: 299
+01:19:43 AM.570: ==== Recording Stop ================================================
+01:20:14 AM.157: ---------------------------------
+01:20:14 AM.157: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+01:20:14 AM.157: [x264 encoder: 'simple_h264_stream'] settings:
+01:20:14 AM.157: 	rate_control: CBR
+01:20:14 AM.157: 	bitrate:      2500
+01:20:14 AM.157: 	buffer size:  2500
+01:20:14 AM.157: 	crf:          0
+01:20:14 AM.157: 	fps_num:      30
+01:20:14 AM.157: 	fps_den:      1
+01:20:14 AM.157: 	width:        1092
+01:20:14 AM.157: 	height:       614
+01:20:14 AM.157: 	keyint:       250
+01:20:14 AM.157: 
+01:20:14 AM.161: ---------------------------------
+01:20:14 AM.162: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+01:20:14 AM.162: 
+01:20:14 AM.174: ==== Recording Start ===============================================
+01:20:14 AM.174: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gork/2020-07-02 01-20-14.mkv'...
+01:20:24 AM.842: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gork/2020-07-02 01-20-14.mkv' stopped
+01:20:24 AM.842: Output 'simple_file_output': stopping
+01:20:24 AM.842: Output 'simple_file_output': Total frames output: 302
+01:20:24 AM.842: Output 'simple_file_output': Total drawn frames: 320
+01:20:24 AM.843: ==== Recording Stop ================================================
+01:22:37 AM.535: ---------------------------------
+01:22:37 AM.535: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+01:22:37 AM.535: [x264 encoder: 'simple_h264_stream'] settings:
+01:22:37 AM.535: 	rate_control: CBR
+01:22:37 AM.535: 	bitrate:      2500
+01:22:37 AM.535: 	buffer size:  2500
+01:22:37 AM.535: 	crf:          0
+01:22:37 AM.535: 	fps_num:      30
+01:22:37 AM.535: 	fps_den:      1
+01:22:37 AM.535: 	width:        1092
+01:22:37 AM.535: 	height:       614
+01:22:37 AM.535: 	keyint:       250
+01:22:37 AM.535: 
+01:22:37 AM.537: ---------------------------------
+01:22:37 AM.538: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+01:22:37 AM.538: 
+01:22:37 AM.542: ==== Recording Start ===============================================
+01:22:37 AM.542: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gork/2020-07-02 01-22-37.mkv'...
+01:22:46 AM.009: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gork/2020-07-02 01-22-37.mkv' stopped
+01:22:46 AM.009: Output 'simple_file_output': stopping
+01:22:46 AM.009: Output 'simple_file_output': Total frames output: 236
+01:22:46 AM.009: Output 'simple_file_output': Total drawn frames: 254
+01:22:46 AM.009: ==== Recording Stop ================================================
+01:26:29 AM.828: ---------------------------------
+01:26:29 AM.828: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+01:26:29 AM.828: [x264 encoder: 'simple_h264_stream'] settings:
+01:26:29 AM.828: 	rate_control: CBR
+01:26:29 AM.828: 	bitrate:      2500
+01:26:29 AM.828: 	buffer size:  2500
+01:26:29 AM.828: 	crf:          0
+01:26:29 AM.828: 	fps_num:      30
+01:26:29 AM.828: 	fps_den:      1
+01:26:29 AM.828: 	width:        1092
+01:26:29 AM.828: 	height:       614
+01:26:29 AM.828: 	keyint:       250
+01:26:29 AM.828: 
+01:26:29 AM.834: ---------------------------------
+01:26:29 AM.834: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+01:26:29 AM.834: 
+01:26:29 AM.837: ==== Recording Start ===============================================
+01:26:29 AM.837: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gork/2020-07-02 01-26-29.mkv'...
+01:26:35 AM.109: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gork/2020-07-02 01-26-29.mkv' stopped
+01:26:35 AM.109: Output 'simple_file_output': stopping
+01:26:35 AM.109: Output 'simple_file_output': Total frames output: 139
+01:26:35 AM.109: Output 'simple_file_output': Total drawn frames: 158
+01:26:35 AM.110: ==== Recording Stop ================================================
+01:27:16 AM.595: ---------------------------------
+01:27:16 AM.595: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+01:27:16 AM.595: [x264 encoder: 'simple_h264_stream'] settings:
+01:27:16 AM.595: 	rate_control: CBR
+01:27:16 AM.595: 	bitrate:      2500
+01:27:16 AM.595: 	buffer size:  2500
+01:27:16 AM.595: 	crf:          0
+01:27:16 AM.595: 	fps_num:      30
+01:27:16 AM.595: 	fps_den:      1
+01:27:16 AM.595: 	width:        1092
+01:27:16 AM.595: 	height:       614
+01:27:16 AM.595: 	keyint:       250
+01:27:16 AM.595: 
+01:27:16 AM.600: ---------------------------------
+01:27:16 AM.600: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+01:27:16 AM.600: 
+01:27:16 AM.605: ==== Recording Start ===============================================
+01:27:16 AM.605: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gork/2020-07-02 01-27-16.mkv'...
+01:28:40 AM.210: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gork/2020-07-02 01-27-16.mkv' stopped
+01:28:40 AM.210: Output 'simple_file_output': stopping
+01:28:40 AM.210: Output 'simple_file_output': Total frames output: 2485
+01:28:40 AM.210: Output 'simple_file_output': Total drawn frames: 2497 (2508 attempted)
+01:28:40 AM.210: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 11 (0.4%)
+01:28:40 AM.211: ==== Recording Stop ================================================
+01:34:29 AM.466: ---------------------------------
+01:34:29 AM.466: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+01:34:29 AM.466: [x264 encoder: 'simple_h264_stream'] settings:
+01:34:29 AM.466: 	rate_control: CBR
+01:34:29 AM.466: 	bitrate:      2500
+01:34:29 AM.466: 	buffer size:  2500
+01:34:29 AM.466: 	crf:          0
+01:34:29 AM.466: 	fps_num:      30
+01:34:29 AM.466: 	fps_den:      1
+01:34:29 AM.466: 	width:        1092
+01:34:29 AM.466: 	height:       614
+01:34:29 AM.466: 	keyint:       250
+01:34:29 AM.466: 
+01:34:29 AM.473: ---------------------------------
+01:34:29 AM.474: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+01:34:29 AM.474: 
+01:34:29 AM.477: ==== Recording Start ===============================================
+01:34:29 AM.477: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gork/2020-07-02 01-34-29.mkv'...
+01:34:33 AM.306: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gork/2020-07-02 01-34-29.mkv' stopped
+01:34:33 AM.306: Output 'simple_file_output': stopping
+01:34:33 AM.306: Output 'simple_file_output': Total frames output: 97
+01:34:33 AM.306: Output 'simple_file_output': Total drawn frames: 115
+01:34:33 AM.307: ==== Recording Stop ================================================
+01:35:04 AM.101: ---------------------------------
+01:35:04 AM.101: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+01:35:04 AM.101: [x264 encoder: 'simple_h264_stream'] settings:
+01:35:04 AM.101: 	rate_control: CBR
+01:35:04 AM.101: 	bitrate:      2500
+01:35:04 AM.101: 	buffer size:  2500
+01:35:04 AM.101: 	crf:          0
+01:35:04 AM.101: 	fps_num:      30
+01:35:04 AM.101: 	fps_den:      1
+01:35:04 AM.101: 	width:        1092
+01:35:04 AM.101: 	height:       614
+01:35:04 AM.101: 	keyint:       250
+01:35:04 AM.101: 
+01:35:04 AM.105: ---------------------------------
+01:35:04 AM.105: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+01:35:04 AM.105: 
+01:35:04 AM.108: ==== Recording Start ===============================================
+01:35:04 AM.108: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gork/2020-07-02 01-35-04.mkv'...
+01:49:58 AM.739: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gork/2020-07-02 01-35-04.mkv' stopped
+01:49:58 AM.739: Output 'simple_file_output': stopping
+01:49:58 AM.739: Output 'simple_file_output': Total frames output: 26817
+01:49:58 AM.739: Output 'simple_file_output': Total drawn frames: 26804 (26839 attempted)
+01:49:58 AM.739: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 35 (0.1%)
+01:49:58 AM.739: ==== Recording Stop ================================================
+01:49:58 AM.743: Video stopped, number of skipped frames due to encoding lag: 3/26838 (0.0%)
+02:01:49 AM.250: ==== Shutting down ==================================================
+02:01:49 AM.252: Switched to scene '(null)'
+02:01:49 AM.255: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_09.2.analog-stereo.monitor'
+02:01:49 AM.255: pulse-input: Got 600155 packets with 126157401 frames
+02:01:49 AM.258: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_09.2.analog-stereo'
+02:01:49 AM.258: pulse-input: Got 260839 packets with 115969581 frames
+02:01:49 AM.258: All scene data cleared
+02:01:49 AM.259: ------------------------------------------------
+02:01:49 AM.335: Freeing OBS context data
+02:01:49 AM.359: [Scripting] Total detached callbacks: 0
+02:01:49 AM.383: == Profiler Results =============================
+02:01:49 AM.383: run_program_init: 8475.75 ms
+02:01:49 AM.384:  ┣OBSApp::AppInit: 89.435 ms
+02:01:49 AM.384:  ┃ ┗OBSApp::InitLocale: 54.046 ms
+02:01:49 AM.384:  ┗OBSApp::OBSInit: 7553.43 ms
+02:01:49 AM.384:    ┣obs_startup: 36.573 ms
+02:01:49 AM.384:    ┗OBSBasic::OBSInit: 6595.64 ms
+02:01:49 AM.384:      ┣OBSBasic::InitBasicConfig: 6.602 ms
+02:01:49 AM.384:      ┣OBSBasic::ResetAudio: 0.371 ms
+02:01:49 AM.384:      ┣OBSBasic::ResetVideo: 2375.33 ms
+02:01:49 AM.384:      ┣OBSBasic::InitOBSCallbacks: 0.008 ms
+02:01:49 AM.384:      ┣OBSBasic::InitHotkeys: 0.068 ms
+02:01:49 AM.384:      ┣obs_load_all_modules: 1428.15 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 1.389 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(frontend-tools.so): 459.46 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(image-source.so): 0.014 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(linux-capture.so): 0.536 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(linux-decklink.so): 0.384 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(linux-jack.so): 0.005 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.004 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(linux-v4l2.so): 0.004 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(obs-ffmpeg.so): 116.046 ms
+02:01:49 AM.384:      ┃ ┃ ┗nvenc_check: 115.959 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(obs-filters.so): 0.034 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(obs-outputs.so): 0.004 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(obs-transitions.so): 0.015 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(rtmp-services.so): 23.4 ms
+02:01:49 AM.384:      ┃ ┣obs_init_module(text-freetype2.so): 0.075 ms
+02:01:49 AM.384:      ┃ ┗obs_init_module(vlc-video.so): 14.056 ms
+02:01:49 AM.384:      ┣OBSBasic::ResetOutputs: 11.578 ms
+02:01:49 AM.384:      ┣OBSBasic::CreateHotkeys: 0.051 ms
+02:01:49 AM.384:      ┣OBSBasic::InitService: 26.122 ms
+02:01:49 AM.384:      ┣OBSBasic::InitPrimitives: 0.271 ms
+02:01:49 AM.384:      ┗OBSBasic::Load: 1529.74 ms
+02:01:49 AM.384: obs_hotkey_thread(25 ms): min=0.08 ms, median=0.18 ms, max=503.095 ms, 99th percentile=5.521 ms, 99.9697% below 25 ms
+02:01:49 AM.384: audio_thread(Audio): min=0.001 ms, median=0.174 ms, max=55.545 ms, 99th percentile=3.289 ms
+02:01:49 AM.384:  ┗receive_audio: min=0.003 ms, median=0.743 ms, max=55.28 ms, 99th percentile=4.62 ms, 0.399298 calls per parent call
+02:01:49 AM.384:    ┣buffer_audio: min=0.001 ms, median=0.003 ms, max=3.139 ms, 99th percentile=0.008 ms
+02:01:49 AM.384:    ┗do_encode: min=0.015 ms, median=0.733 ms, max=44.122 ms, 99th percentile=4.599 ms
+02:01:49 AM.384:      ┗encode(simple_aac): min=0.014 ms, median=0.699 ms, max=44.117 ms, 99th percentile=4.239 ms
+02:01:49 AM.385: obs_graphics_thread(33.3333 ms): min=0.22 ms, median=8.011 ms, max=2677.67 ms, 99th percentile=30.657 ms, 99.2708% below 33.333 ms
+02:01:49 AM.385:  ┣tick_sources: min=0 ms, median=4.915 ms, max=2069.87 ms, 99th percentile=10.984 ms
+02:01:49 AM.385:  ┣output_frame: min=0.146 ms, median=1.476 ms, max=160.134 ms, 99th percentile=16.301 ms
+02:01:49 AM.385:  ┃ ┣gs_context(video->graphics): min=0.146 ms, median=1.475 ms, max=160.133 ms, 99th percentile=10.186 ms
+02:01:49 AM.385:  ┃ ┃ ┣render_video: min=0.034 ms, median=0.184 ms, max=138.884 ms, 99th percentile=10.052 ms
+02:01:49 AM.385:  ┃ ┃ ┃ ┣render_main_texture: min=0.028 ms, median=0.142 ms, max=27.215 ms, 99th percentile=0.623 ms
+02:01:49 AM.385:  ┃ ┃ ┃ ┣render_output_texture: min=0.026 ms, median=0.036 ms, max=41.342 ms, 99th percentile=0.136 ms, 0.389345 calls per parent call
+02:01:49 AM.385:  ┃ ┃ ┃ ┣render_convert_texture: min=0.03 ms, median=0.038 ms, max=58.24 ms, 99th percentile=0.167 ms, 0.389345 calls per parent call
+02:01:49 AM.385:  ┃ ┃ ┃ ┗stage_output_texture: min=3.008 ms, median=4.334 ms, max=45.081 ms, 99th percentile=13.116 ms, 0.389345 calls per parent call
+02:01:49 AM.385:  ┃ ┃ ┣gs_flush: min=0.002 ms, median=0.123 ms, max=132.238 ms, 99th percentile=1.838 ms
+02:01:49 AM.385:  ┃ ┃ ┗download_frame: min=0 ms, median=0.011 ms, max=1.602 ms, 99th percentile=0.027 ms, 0.389345 calls per parent call
+02:01:49 AM.385:  ┃ ┗output_video_data: min=0.001 ms, median=0.516 ms, max=44.627 ms, 99th percentile=13.131 ms, 0.389243 calls per parent call
+02:01:49 AM.385:  ┗render_displays: min=0.004 ms, median=0.748 ms, max=447.589 ms, 99th percentile=10.781 ms
+02:01:49 AM.385: video_thread(video): min=0.01 ms, median=1.28 ms, max=133.198 ms, 99th percentile=24.003 ms
+02:01:49 AM.385:  ┗receive_video: min=0.918 ms, median=1.273 ms, max=133.196 ms, 99th percentile=23.809 ms
+02:01:49 AM.385:    ┗do_encode: min=0.917 ms, median=1.271 ms, max=133.195 ms, 99th percentile=23.808 ms
+02:01:49 AM.385:      ┗encode(simple_h264_stream): min=0.907 ms, median=1.214 ms, max=133.179 ms, 99th percentile=23.693 ms
+02:01:49 AM.385: =================================================
+02:01:49 AM.385: == Profiler Time Between Calls ==================
+02:01:49 AM.385: obs_hotkey_thread(25 ms): min=25.131 ms, median=25.389 ms, max=528.183 ms, 72.8661% within ±2% of 25 ms (0% lower, 27.1339% higher)
+02:01:49 AM.385: obs_graphics_thread(33.3333 ms): min=5.57 ms, median=33.333 ms, max=2677.68 ms, 94.406% within ±2% of 33.333 ms (2.79891% lower, 2.79511% higher)
+02:01:49 AM.385: =================================================
+02:01:49 AM.689: Number of memory leaks: 1

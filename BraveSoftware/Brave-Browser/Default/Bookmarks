@@ -1,0 +1,212 @@
+{
+   "checksum": "559fee93d5cf9292856e4783d9464658",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13250112613075762",
+            "guid": "d8fe0404-d7fc-45ad-a435-49144471f7b1",
+            "id": "10",
+            "name": "",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+         }, {
+            "date_added": "13255780532057427",
+            "guid": "fae1694d-71a2-4154-af8f-4b0ea0e62022",
+            "id": "34",
+            "name": "",
+            "type": "url",
+            "url": "https://www.notion.so/Sithra-Guptan-3031bf8a50cb4a20a43b2d40635a8a39"
+         }, {
+            "date_added": "13250112632180506",
+            "guid": "5cf46cfc-9ba4-46c3-8af0-99de76af1d71",
+            "id": "9",
+            "name": "",
+            "type": "url",
+            "url": "https://bitbucket.org/augustus-solutions/"
+         }, {
+            "date_added": "13252833859225719",
+            "guid": "c80015b2-6854-4448-a6c6-b163d9eb9ea3",
+            "id": "24",
+            "name": "",
+            "type": "url",
+            "url": "https://www.indiehackers.com/"
+         }, {
+            "children": [ {
+               "date_added": "13250927539186868",
+               "guid": "e0390451-c497-4960-a1af-83c112859c30",
+               "id": "16",
+               "name": "NK Groups",
+               "type": "url",
+               "url": "https://nkgroups.co.in/"
+            }, {
+               "date_added": "13251388567393070",
+               "guid": "83e20f8e-cb67-4f49-991b-f5dcc7c85e51",
+               "id": "18",
+               "name": "",
+               "type": "url",
+               "url": "https://play.google.com/console/u/0/developers/4920087888805783801/app-list?onboardingflow=signup"
+            }, {
+               "date_added": "13251823006210060",
+               "guid": "d249e5fa-c2c6-4177-9d93-40800d8b2113",
+               "id": "22",
+               "name": "",
+               "type": "url",
+               "url": "https://play.google.com/console/u/0/developers/4920087888805783801/app/4974746112862834075/app-dashboard?timespan=thirtyDays"
+            } ],
+            "date_added": "13250936422070541",
+            "date_modified": "13257268695890986",
+            "guid": "09d50105-f37f-4f28-94c4-deda9f68a872",
+            "id": "15",
+            "name": "Clients",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13257268695890986",
+               "guid": "092b0886-e96f-4ae0-95a5-04867e2809ef",
+               "id": "45",
+               "name": "Aramb CMS",
+               "type": "url",
+               "url": "https://aramb.augustus.solutions/"
+            }, {
+               "date_added": "13257378617562134",
+               "guid": "214ce1e2-9bc0-4c41-816b-0fd6f398d6cd",
+               "id": "48",
+               "name": "Aramb BE",
+               "type": "url",
+               "url": "https://arambaug.pythonanywhere.com/admin/"
+            }, {
+               "date_added": "13256725601237641",
+               "guid": "7f99a0e8-0c5f-4466-87f9-c29a2df10260",
+               "id": "43",
+               "name": "Eegai CRM",
+               "type": "url",
+               "url": "https://eegai-crm.vercel.app/"
+            }, {
+               "date_added": "13259007158501048",
+               "guid": "83a067c5-ca50-4b73-b44b-18e38fc67894",
+               "id": "62",
+               "name": "Eegai BE",
+               "type": "url",
+               "url": "https://eegaicrm.pythonanywhere.com/admin/journal_api/activitymodel/"
+            }, {
+               "date_added": "13257532116963807",
+               "guid": "3fdeb269-2834-4f37-b46a-4e0535b1f250",
+               "id": "50",
+               "name": "",
+               "type": "url",
+               "url": "https://vercel.com/aug-vishnu"
+            }, {
+               "date_added": "13257811423400952",
+               "guid": "1adba26f-bdc5-416d-a94d-63f14faccd73",
+               "id": "52",
+               "name": "",
+               "type": "url",
+               "url": "https://www.startupschool.org/updates"
+            }, {
+               "date_added": "13259088516767125",
+               "guid": "12a2152e-52fe-4ed8-85f4-d28ec279329b",
+               "id": "64",
+               "name": "Inbox - vishnuprabhu.bvk@gmail.com - Gmail",
+               "type": "url",
+               "url": "https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvqsPsGcxqrsSPDkrJbFwbKWbrpTBtqmMBRFNZnpRjvgcmjWzBbfqcqjlKmQdTnVnRmDqB"
+            } ],
+            "date_added": "13257268723587175",
+            "date_modified": "13259088516767125",
+            "guid": "ddc15e42-e888-4fd6-b9d2-c37574e019dc",
+            "id": "46",
+            "name": "Products",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13268472117748070",
+               "guid": "cff20792-5790-44f1-a9d1-cc0133e0e567",
+               "id": "82",
+               "name": "Daily call",
+               "type": "url",
+               "url": "https://meet.google.com/jdu-fjcz-zgo?pli=1&authuser=5"
+            }, {
+               "date_added": "13268386015196728",
+               "guid": "49e964ee-3e5f-4063-a4a0-d018087ef6fc",
+               "id": "79",
+               "name": "Eclinic",
+               "type": "url",
+               "url": "https://eclinic.zoconut.com/auth/"
+            }, {
+               "date_added": "13268563708986078",
+               "guid": "981b2bf6-4a21-4b13-983f-8a9f3bdbdaa5",
+               "id": "84",
+               "name": "Codecommit",
+               "type": "url",
+               "url": "https://ap-south-1.console.aws.amazon.com/codesuite/codecommit/repositories?region=ap-south-1#"
+            } ],
+            "date_added": "13268492207640792",
+            "date_modified": "13268563708986078",
+            "guid": "c1912fcf-5399-4cff-b3bb-d36dcf8a5bf0",
+            "id": "81",
+            "name": "Zoc",
+            "type": "folder"
+         }, {
+            "date_added": "13264286259529786",
+            "guid": "138ffd9d-f774-468b-8057-56b5effd3969",
+            "id": "68",
+            "name": "",
+            "type": "url",
+            "url": "https://www.bootstrapdash.com/demo/skydash/template/demo/vertical-default-light/pages/documentation/documentation.html"
+         }, {
+            "date_added": "13256141372954107",
+            "guid": "4627c5f0-bcc8-4093-bf35-619f890453fc",
+            "id": "39",
+            "name": "",
+            "type": "url",
+            "url": "http://192.168.1.2:8000/admin/"
+         }, {
+            "date_added": "13264549589737422",
+            "guid": "a470dc0e-72ff-4f36-be06-ee1da886249f",
+            "id": "70",
+            "name": "",
+            "type": "url",
+            "url": "http://192.168.1.6:4200/"
+         }, {
+            "date_added": "13265140480208185",
+            "guid": "048f7418-7bb6-4bec-9f9a-1c6e75cee8cd",
+            "id": "75",
+            "name": "",
+            "type": "url",
+            "url": "https://www.canva.com/"
+         }, {
+            "date_added": "13267128127181981",
+            "guid": "d7278979-11f4-4b3e-8e09-cfc7d151016a",
+            "id": "77",
+            "name": "",
+            "type": "url",
+            "url": "https://github.com/timlrx/tailwind-nextjs-starter-blog"
+         } ],
+         "date_added": "13238011893214506",
+         "date_modified": "13268386015196728",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13238011893214514",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13238011893214517",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CooBChAIiIECEgrOkp2Ixl4AAAAAEgAaWEJOam13UXVDcXhSMGExYTUzem1KazQ3V1NDYWs3ZHVZV0NXSUF5RjFsYzcrcWFkdklzZ1RFbElmdVJHNDJKNytLazk4RnkrTHd0V2ZzWTZkQ0VhQ0tRPT0gASoYWm1CQk5GV3NDdU9MZzVVdHlPa2tmQT09EqcBCFISogEKHE5yOE5KTU0rL0s2ZmY3L091ckQvWXd2bzBoRT0SJGRjMGY1M2JhLTExNzEtNDQ4Mi05YWI0LTAxOWU5ZDNhNDUyZhgAIAAoADCzvcWaoi84s6Tr7qEvQLO9xZqiL0ocK0t5Tk13OThXY3ZnUTUrV1I1NzM5WGh0cStBPVoeIhxWcHFheDZOaWNGYkswUENTc2NVWk5Xb1dSZHM9ZfQi9RsSqgEIURKlAQocYllyTng3VU9MSnlqSWtmRXF3U0FEL0JUUW5RPRIkMzU5MDgwZWItZDQxYi00NjFjLWJiOGYtNjNhN2I3YWJkOGFmGAAgACgAMI6m8O6hLziNiuzuoS9AjYrs7qEvShxjNWZQMHJoREVsbFJYNlVzNUdOZm56d2wzQmc9WiEiH///1DlnYXVYRGo0TjVhNTVpQTQyR1FYRUVieExwdz1lAAAAABKjAQhAEp4BChwvZ0hGZXNwUUwxRW5WSTZoOFRVWk1JK0QxL0k9EiQ3MTVlOTUyYS02NmVhLTQ1NmYtYmMxYi0yNzFjMzFjMjZiMDgYACACKAIwATih3bH0/i5Aqd2x9P4uShxTWXNEOGpwRjFvNmh3RUlNNDMyQ2crS1hUZjA9Wh8iHe5Kd0ZvVEVuWWx1dzdSdVFVUmViZHh4ZnhVZnc9ZYugjNESqgEITRKlAQocYWhsUTB0VmVha0VzMU5mVjNFQ2FOMXFwYmZNPRIkMzEwNDhkNWItZmJiMC00NDRiLTkwZTUtMzE2NTRjMWM2YzEyGAAgAigCMKrTntCgLzjQzfztnC9Ajsae0KAvShxlYTJWak1pbzB2M1R2Z09zL1V2WHZTZDdyWkE9WiEiH////3c1b0Frdi9NVDJjc21mbnlvS1lzc3dkVlkvcz1lCAxKLhKiAQgtEp0BChxtNTJPNC9Bb3dNNkN2d2hrSUU2dFpaMkZnS2M9EiRmMDgyOGIwOC0wMzgzLTQ0MWMtYjhlMy00NzNhZDA5MDBhYzUYACAFKAUwBDjT1tCQ+C5ApLT+lPguShxpRGN2Z3BYaVVoYUpwc1FxZWNEMFoxaXNGYlE9Wh4iHFBYNDNWaUE0aktnZlJYSG5kRFVQZmhxUFpSWT1lliL0BhKjAQgWEp4BChxpT1FUd1ROU2FRY1F3T1NWOG95Nnpma1AwQ3M9EiRlN2RjMTUxMi0wODJkLTQxNWMtYmUwYy0yNzcyNDYyMTYyMTIYACABKAEwAjiClPbr4y5AgpT26+MuShxhTFRYUFVEekY5L0cyaFh1R1lUVjVZVjVaUXM9Wh8iHdB0VERHemNSRy9yMEhYT29yamxxVTlpNmVCazQ9ZQio4bASpAEIDxKfAQocVS92bkx1VDMveDc3ckVHeEVtQy9vVDZhNjBFPRIkYWYyNTFjMTAtZGVjMS00MmExLWI4YzYtMjg0ODJlZTAxYjBiGAAgAigCMAQ4iof2wOAuQITNhcvyLkocUjRWZU1VV09QbXdTY2tYQU1qek9yUjdlRFBzPVogIh7//nNzQTNKMVRodDN1OUhGTzIrRU1memx4N1h4Yz1lAAAAABKlAQguEqABChxSME55V1AyM3RLbnZkQWlQSkVnTEE5TUN5dXM9EiQ5ZjRjMjJjOC02M2RkLTQyNTQtYTU5NS1lY2U2NTM5YjhjODcYACABKAEwATiDr9KQ+C5Ag6/SkPguShxlMFRhUnhweXNnVTlYZ1dKOXdzbTcwNG03TGs9WiEiH///tzE3MGExNUVGOFB3dHovcmFndXhyd1A2Y05COD1lAAAAABKlAQhEEqABChw3djFDOVJsUEZHajVUeVh1U0dYZnMrQW9jU2M9EiRiYzYwMDA5NC1iYTEzLTRlMTMtOWVkYy1iMDNmOGFhMmQ3NGYYACAEKAQwBTjM4u6iki9A3b2dgpUvShx1UGVGYlR3NHFEbzBFbDZRYTBJT0R6djh0V1E9WiEiH///8WN3YUpzU084ajk3V1FHRDNyanZ0UmNsZzhoYz1lt2pi+hKqAQhGEqUBChxsckFnOWpUZHRLWVB3Z2UrSjBHTUpLVTBsR2c9EiQ2OWEwYmM2NS1iZjA3LTQzNmUtOTJmMC0wNzBjNzhiZmJkZTUYACAhKCEwi9af26EvOJaWt6CTL0CIiJ3boS9KHFFHanJ3dTVPQWlYSXpZRlVrQk5vZGErRWI1az1aISIf///4MjBoTXI2Vm5HRmVMOWFvYzNzWnhCK2RpSEFFPWVmS0H6EqcBCCsSogEKHGYwQjIwR1BKelk2bkl3V2ZqS1M4MDYva3VTRT0SJDllMmMwNmQ0LTcyMWItNGNlNS05NjIzLWQ0YWYwMjk5YTEzNRgAIAgoCDDyi+z8oC841ufUjfYuQPKL7PygL0occVJPVFh4RXJtbGpCN1NLYk1HeWR3em9RUWFrPVoeIhx0b25EbGMrRkVpOUpaMGtZdjkwSFl0ZjhaZ3M9ZWZLQfoSpQEISxKgAQocYWRYOVVzL3ltalV4UGU3djgxWHcxS296elJBPRIkM2U4Y2U2NjgtNGU4My00NTZhLWE4NWUtMDNkZGJkZTZjOWYyGAAgACgAMAI40KGYupUvQM7f27CWL0occ3RJRzdBMXJ2UlB3dHZwUmptaldENlI1Y2lvPVohIh////55aGVqenlVMjhnVlErVy9nNmxCL1Y3UUJPNFU9ZXQode0SqgEIJxKlAQocL1NHV2cwZ2p3V1gwUktPNTdSUDZtVTIyb1dFPRIkOTNjYjc1MWEtNTI0NC00MmIyLTk2OGEtZTZiOWY2ZjM3OTRkGAAgBigGMKfJjoSjLzibrIr38y5Ap8mOhKMvShx2aXdQZm1jbDNWMzhMRTY4RndSVll5dUUwR1U9WiEiH///9k0rUXNRRk5uYnlqNVJ3bHJ6L0E0d05rRk94OD1lAAAAABKiAQgSEp0BChxJSlRVT2dZNjJ2VGdWZVFSc0hoNjEvZDJrUDA9EiQzYjQ1MzAzZi03NzRiLTRjMTUtYTZhMS1mODM1MzgwMmVlMDUYACABKAEwAjjhjuKc4i5A4Y7inOIuShw3SWhvMEdaOGtoVlNaNXFPVXlVQVJWdGVWTXM9Wh4iHEFGa2t3a0N2OFNBZmI1RmlrcW5CaEtLMXVDST1lCKjhsBKiAQgQEp0BChxOY09sL2dlZ1g3TTF4NTBFdTI0TFB6MDNrclU9EiQwZjk0MzQxYy0wMmUzLTRkNDYtYTJmNi0zOGY5NzkxODVlNWIYACACKAIwBDjzl/fA4C5AuJeA+uEuShx5YW1ab2tLT1VmUVZwaEljRWhWZGNKYVZqOWs9Wh4iHDVjNk95ZXh0SlB4V2NNbm9OekNoWm5ZdHN5WT1ldeIiTRKoAQgYEqMBChxVRVhRdnpJU2tzY2lrZkVndlN0V1h0cE9oamM9EiRhYTk1OGU4MC1jMmRhLTQ1MjUtYmYyYi04N2Q3MGM0NTE0MmQYACAAKAAwq9fW/5ovOJrd983nLkCr19b/mi9KHFVMM0Y0RlBYN2ZrTlJVQ1dOZENkdy83U0dFVT1aHyId5StPaHI5ZDMyMFoyT3RJNDZaSU9WZS9kTHZmdz1lbmGQARKDAQgBEn8KHC9FS0xhVVV5TWRiS0VrMUJhMlVpbnlEbmY3ST0SJGZlMTRhOThiLTY2NDYtNDMzOC04N2EzLWE4OGExNmExMGZkOBgAIAAoADABONvD7ObcLkDbw+zm3C5KHFUrR0dJdFpFRHBac0lTbE9VYUlUdUlMZE1uST1aAGUAAAAAEqMBCAkSngEKHDVNMEtrQmxMNnIyMWdTNTRLZXlpZjQzczJpYz0SJGIxYTU0MGM4LTUzYTEtNDg5Ny1hNzY1LTYzYmI0MDJkYjg4MhgAIA4oDjAVOPWarbzdLkDU5rT5ly9KHGZQMVZxTnZpeno1VmJ2NDZLK0k3N1NNV0NGYz1aHyId1UVHY3VXcHUrTS9BRitIZ290cUtyQm5abHpGQT1lGNiuTBKjAQg+Ep4BChx2R05NY2p4bG9zY2NSMXlvaUp1ZEVGdy9PWDA9EiRiODg3M2UyNy01ZDA0LTRmZTgtYjE3MC0yMDc5ZDEyYTU3MWEYACADKAMwAzjlgczN/i5AhtzMzf4uShxacVJjWWdzdktURGkwdGZWamg1SHIzWnkxQmc9Wh8iHZdKN2tBb2JwTm1XOXU4em1WWWN6dG04aFkvbnM9ZQAAAAASogEIMBKdAQocOW5aMk41Ry9ueVVOd0VzUThOcDBaTVphaVUwPRIkY2ViNzNkM2UtNTQyYi00NWYyLTkzMmYtNTRlN2ViYWI1MTA5GAAgACgAMAM42+GFxfguQJiSh8X4LkocU3JXeVZ4VXZFUnBEVEt6aUFaeXJFLzc2ejUwPVoeIhxmc09PdG05Tk9tcWJ1UTltSXZpbWVRSmFxTkk9ZQAAAAASowEIMhKeAQocaUdTUFZYRm42UkhoMTFIM25CQnY3OG82QUFjPRIkZmI2ZjVmOWYtMmQyNC00MGYyLWJjMGUtZmE3ZmEwMjVkZTRjGAAgBSgFMAc45M+ejvkuQIWwpeaDL0ocMUNLTnlINmZBU0Vyd1FPQ21keGJtV2U0bWNjPVofIh26UFQrSUNZckRXZVJOSHdSaWZSemZQZ0daQ3dBPWWNq0rAEoMBCAMSfwoceTVXRTI3dUk2dlgvRGVJU0hKem5qTXF1V1dzPRIkMTIwMGM2YjYtZDQ4OC00MjA0LThmNTQtMWVkZTQxMWJlMjNhGAAgACgAMAE428Ps5twuQNvD7ObcLkocNzlsK0xSRVVwaWFFdkREK0c0M2NwWFN0d0JjPVoAZQAAAAASqAEITxKjAQocY2orbm1Bb3MxT1h2aFdiWlV4aTF5R0JlTXVRPRIkZDg2Y2I4ZGYtNTVlMC00OGY5LWI3NzQtNzFlN2JiMjIzNmNkGAAgAigCMLm9xZqiLzje/+PFoS9Aub3FmqIvShw5dWRaczR1S1FxbVFmaFlQbzBxRDJMTUNGWlU9Wh8iHas4NUJUY2Nzc0JtcWFVbjMvQ3ZGYkFOVVlXMG89ZYq97wESowEINBKeAQocekdXSTRqalZFTEh4ZzlXeHBaa0FSWkFEajJVPRIkZWUzNjhkZWItNDliNi00MjliLWE0ODUtYTFhNzRhYWMyZjE0GAAgACgAMAE4qZG2k/ouQKmRtpP6LkocRVl1MXNTaHFaYWtjcTdaZC9QMVZwVmFjdGlZPVofIh3daXJybEJNM29kaWwzc1Y5SVY4dUtlZ1VCeXJNPWVW4SgaEqMBCCISngEKHGZ0enVtanpUd1ZjN3Q5WldDRDVZVGRKMFNHZz0SJDg5Y2M5Yzk4LTQ1ODgtNDJmNi05NWJiLWZkMjI1NDA3YWYwOBgAIAQoBDAIONqugsvyLkD4vZ2ClS9KHEt4VElWZWNCUDNOcWdhcm9NOXhUaytLNEZXMD1aHyIdwGpZQmQvdDFseXczMU4wbTdsSG04MmplT3RZRT1lqnggAhKDAQgCEn8KHHpEVkdycnRaTGRNKzRCVHliZytIQ09yV2d5bz0SJGQwMTM1ZWIwLTc5NGItNGI0My1hM2M1LTNmMjM5NGJiMzMxNRgAIAAoADABONvD7ObcLkDbw+zm3C5KHDV1c3kvY3BmcGkxRXRvQkhEZ1hJczBxYjRyQT1aAGUAAAAAEqgBCAoSowEKHEZpclBpejhnclE2elBaNGt5RmwzZWoyQTZuUT0SJDljNDkxOTE5LTllNmItNDdlOC04YTIwLTI2ZWFkZDgwZDE0MhgAIAUoBTDtwcmxny841IWsvN0uQO3BybGfL0ocNGdvNWU5ZmhXYjl3VUtPQkEzSi9GMlgvYzB3PVofIh2rVXRmN2lpMGpMZVVVeGdhVExLVFdBc2pDSVBjPWWLoIzREqgBCFQSowEKHHZHbnlEcmUyeGw2Z0xXeGtCSFRaeEFCNDVEZz0SJDI1MTgyYTMwLTk0ZDEtNGJkYi1iYzAwLWI5NzEzYjM4OTQzMBgAIAAoADCp1cOaoi84vsjBmqIvQL7IwZqiL0ocNjRGa1ZtaFplN1psUzVWYkdHcEF1cTYyWHlvPVofIh3VblFYTm1LTmdXODJnWlkwSWcxSm40bmxNTi9jPWWx4+mnGAEgztaUhKMvKAA=",
+   "version": 1
+}

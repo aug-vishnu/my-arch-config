@@ -1,0 +1,15 @@
+2020/12/11-09:31:34.136 4ffc Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_gmatclub.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/11-09:31:34.137 4ffc Recovering log #4
+2020/12/11-09:31:34.137 4ffc Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_gmatclub.com_0.indexeddb.leveldb/000004.log 
+2020/12/11-09:38:52.481 3eed Level-0 table #8: started
+2020/12/11-09:38:52.527 3eed Level-0 table #8: 1056 bytes OK
+2020/12/11-09:38:52.574 3eed Delete type=0 #4
+2020/12/11-09:38:52.574 3eed Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/11-09:38:52.574 3eed Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x11\x00u\x00s\x00e\x00r\x00S\x00u\x00b\x00s\x00c\x00r\x00i\x00p\x00t\x00i\x00o\x00n\x00s' @ 102 : 0
+2020/12/11-09:38:52.574 3eed Compacting 1@1 + 1@2 files
+2020/12/11-09:38:52.616 3eed Generated table #9@1: 30 keys, 1170 bytes
+2020/12/11-09:38:52.616 3eed Compacted 1@1 + 1@2 files => 1170 bytes
+2020/12/11-09:38:52.663 3eed compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/11-09:38:52.663 3eed Delete type=2 #5
+2020/12/11-09:38:52.663 3eed Delete type=2 #8
+2020/12/11-09:38:52.663 3eed Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x11\x00u\x00s\x00e\x00r\x00S\x00u\x00b\x00s\x00c\x00r\x00i\x00p\x00t\x00i\x00o\x00n\x00s' @ 102 : 0 .. (end); will stop at (end)

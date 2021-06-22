@@ -1,0 +1,7 @@
+2021/01/22-14:42:36.615 510 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/22-14:42:36.615 510 Recovering log #3
+2021/01/22-14:42:36.617 510 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000003.log 
+2021/01/23-00:15:02.550 92ae Level-0 table #5: started
+2021/01/23-00:15:02.603 92ae Level-0 table #5: 144376 bytes OK
+2021/01/23-00:15:02.643 92ae Delete type=0 #3
+2021/01/23-00:15:02.643 92b0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

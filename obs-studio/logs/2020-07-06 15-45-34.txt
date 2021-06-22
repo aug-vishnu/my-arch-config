@@ -1,0 +1,147 @@
+03:45:34 PM.021: CPU Name: AMD PRO A4-4350B R4, 5 COMPUTE CORES 2C+3G
+03:45:34 PM.021: CPU Speed: 1455.226MHz
+03:45:34 PM.021: Physical Cores: 2, Logical Cores: 2
+03:45:34 PM.021: Physical Memory: 3779MB Total, 3287MB Free
+03:45:34 PM.021: Kernel Version: Linux 5.6.8-arch1-1
+03:45:34 PM.037: Distribution: "Arch Linux" Unknown
+03:45:34 PM.037: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.8
+03:45:34 PM.063: Portable mode: false
+03:45:34 PM.607: OBS 25.0.8-1 (linux)
+03:45:34 PM.607: ---------------------------------
+03:45:34 PM.614: ---------------------------------
+03:45:34 PM.614: audio settings reset:
+03:45:34 PM.614: 	samples per sec: 44100
+03:45:34 PM.614: 	speakers:        2
+03:45:34 PM.664: ---------------------------------
+03:45:34 PM.664: Initializing OpenGL...
+03:45:34 PM.906: Loading up OpenGL on adapter X.Org AMD STONEY (DRM 3.36.0, 5.6.8-arch1-1, LLVM 10.0.0)
+03:45:34 PM.906: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 20.0.6, shading language 4.50
+03:45:35 PM.219: ---------------------------------
+03:45:35 PM.219: video settings reset:
+03:45:35 PM.219: 	base resolution:   1366x768
+03:45:35 PM.219: 	output resolution: 1092x614
+03:45:35 PM.219: 	downscale filter:  Bicubic
+03:45:35 PM.219: 	fps:               30/1
+03:45:35 PM.219: 	format:            NV12
+03:45:35 PM.219: 	YUV mode:          601/Partial
+03:45:35 PM.219: NV12 texture support not available
+03:45:35 PM.248: Audio monitoring device:
+03:45:35 PM.248: 	name: Default
+03:45:35 PM.248: 	id: default
+03:45:35 PM.248: ---------------------------------
+03:45:35 PM.289: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+03:45:35 PM.673: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+03:45:35 PM.673: No blackmagic support
+03:45:36 PM.052: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+03:45:36 PM.052: 
+03:45:36 PM.052: FFMPEG VAAPI supported
+03:45:36 PM.085: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+03:45:36 PM.085: 
+03:45:36 PM.085: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+03:45:36 PM.316: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+03:45:36 PM.316: 
+03:45:36 PM.316: Couldn't find VLC installation, VLC video source disabled
+03:45:36 PM.316: ---------------------------------
+03:45:36 PM.316:   Loaded Modules:
+03:45:36 PM.317:     vlc-video.so
+03:45:36 PM.317:     text-freetype2.so
+03:45:36 PM.317:     rtmp-services.so
+03:45:36 PM.317:     obs-x264.so
+03:45:36 PM.317:     obs-transitions.so
+03:45:36 PM.317:     obs-outputs.so
+03:45:36 PM.317:     obs-filters.so
+03:45:36 PM.317:     obs-ffmpeg.so
+03:45:36 PM.317:     linux-v4l2.so
+03:45:36 PM.317:     linux-pulseaudio.so
+03:45:36 PM.317:     linux-jack.so
+03:45:36 PM.317:     linux-decklink.so
+03:45:36 PM.317:     linux-capture.so
+03:45:36 PM.317:     linux-alsa.so
+03:45:36 PM.317:     image-source.so
+03:45:36 PM.317:     frontend-tools.so
+03:45:36 PM.317:     decklink-ouput-ui.so
+03:45:36 PM.317: ---------------------------------
+03:45:36 PM.317: ==== Startup complete ===============================================
+03:45:36 PM.333: Service '' not found
+03:45:36 PM.395: All scene data cleared
+03:45:36 PM.395: ------------------------------------------------
+03:45:36 PM.415: pulse-input: Server name: 'pulseaudio 13.0'
+03:45:36 PM.415: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:45:36 PM.416: pulse-input: Started recording from 'alsa_output.pci-0000_00_09.2.analog-stereo.monitor'
+03:45:36 PM.416: [Loaded global audio device]: 'Desktop Audio'
+03:45:36 PM.418: pulse-input: Server name: 'pulseaudio 13.0'
+03:45:36 PM.418: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:45:36 PM.420: pulse-input: Started recording from 'alsa_input.pci-0000_00_09.2.analog-stereo'
+03:45:36 PM.420: [Loaded global audio device]: 'Mic/Aux'
+03:45:36 PM.421: xshm-input: Geometry 1366x768 @ 0,0
+03:45:36 PM.423: Switched to scene 'Scene'
+03:45:36 PM.423: ------------------------------------------------
+03:45:36 PM.423: Loaded scenes:
+03:45:36 PM.423: - scene 'Scene':
+03:45:36 PM.437:     - source: 'Screen Capture (XSHM)' (xshm_input)
+03:45:36 PM.437: ------------------------------------------------
+03:45:36 PM.967: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+03:45:36 PM.967: 
+03:46:24 PM.753: v4l2-input: Start capture from 
+03:46:24 PM.754: v4l2-input: Unable to open device
+03:46:24 PM.754: v4l2-input: Initialization failed
+03:46:24 PM.757: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Scene'
+03:46:24 PM.868: v4l2-input: /dev/video1 seems to not support video capture
+03:46:24 PM.981: v4l2-input: Found device 'EasyCamera: EasyCamera' at /dev/video0
+03:46:24 PM.982: v4l2-input: Found input 'Camera 1' (Index 0)
+03:46:24 PM.989: v4l2-input: Start capture from /dev/video0
+03:46:24 PM.990: v4l2-input: Input: 0
+03:46:24 PM.990: v4l2-input: Input: 0
+03:46:24 PM.990: v4l2-controls: setting default for Power Line Frequency to 1
+03:46:24 PM.990: v4l2-input: Resolution: 640x480
+03:46:24 PM.990: v4l2-input: Pixelformat: VYUY
+03:46:24 PM.990: v4l2-input: Linesize: 1280 Bytes
+03:46:24 PM.990: v4l2-input: Framerate: 30.00 fps
+03:46:25 PM.136: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+03:46:25 PM.136: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+03:46:25 PM.136: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+03:46:25 PM.136: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+03:46:25 PM.136: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+03:46:25 PM.136: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+03:46:25 PM.137: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+03:46:25 PM.139: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+03:46:25 PM.139: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+03:46:25 PM.139: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+03:46:25 PM.139: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+03:46:25 PM.139: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+03:46:25 PM.140: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+03:46:25 PM.140: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+03:46:25 PM.143: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+03:46:25 PM.494: v4l2-input: Stopped capture after 1 frames
+03:46:25 PM.524: v4l2-input: Start capture from /dev/video0
+03:46:25 PM.525: v4l2-input: Input: 0
+03:46:25 PM.530: v4l2-input: Resolution: 640x480
+03:46:25 PM.531: v4l2-input: Pixelformat: VYUY
+03:46:25 PM.531: v4l2-input: Linesize: 1280 Bytes
+03:46:25 PM.531: v4l2-input: Framerate: 30.00 fps
+03:47:34 PM.934: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Scene'
+03:47:34 PM.939: v4l2-input: Stopped capture after 1861 frames
+03:52:11 PM.068: ---------------------------------
+03:52:11 PM.068: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+03:52:11 PM.376: [x264 encoder: 'simple_h264_stream'] settings:
+03:52:11 PM.376: 	rate_control: CBR
+03:52:11 PM.376: 	bitrate:      2500
+03:52:11 PM.376: 	buffer size:  2500
+03:52:11 PM.376: 	crf:          0
+03:52:11 PM.376: 	fps_num:      30
+03:52:11 PM.376: 	fps_den:      1
+03:52:11 PM.376: 	width:        1092
+03:52:11 PM.376: 	height:       614
+03:52:11 PM.376: 	keyint:       250
+03:52:11 PM.376: 
+03:52:11 PM.403: ---------------------------------
+03:52:11 PM.403: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+03:52:11 PM.403: 
+03:52:11 PM.449: ==== Recording Start ===============================================
+03:52:11 PM.449: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gork/2020-07-06 15-52-11.mkv'...
+03:54:45 PM.713: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gork/2020-07-06 15-52-11.mkv' stopped
+03:54:45 PM.714: Output 'simple_file_output': stopping
+03:54:45 PM.714: Output 'simple_file_output': Total frames output: 4610
+03:54:45 PM.714: Output 'simple_file_output': Total drawn frames: 4624 (4628 attempted)
+03:54:45 PM.714: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 4 (0.1%)
+03:54:45 PM.714: ==== Recording Stop ================================================

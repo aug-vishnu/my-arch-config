@@ -1,0 +1,19 @@
+Looking for git in: git
+Using git 2.26.2 from git
+> git rev-parse --git-dir
+Open repository: /home/gork/Projects/Aramb/aramb_api
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :requirements.txt
+> git show --textconv :core_api/models.py
+> git ls-files --stage -- /home/gork/Projects/Aramb/aramb_api/requirements.txt
+> git ls-files --stage -- /home/gork/Projects/Aramb/aramb_api/core_api/models.py
+> git cat-file -s 264c9921a325c09985efe7369d24ddf529f1ed06
+> git cat-file -s 8cb3eab2bbaee657b6bde1c292fa430d15f11ddd

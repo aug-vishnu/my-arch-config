@@ -1,0 +1,15 @@
+2021/04/27-01:57:52.931 12944 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/27-01:57:52.931 12944 Recovering log #26
+2021/04/27-01:57:52.931 12944 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/000026.log 
+2021/04/27-02:02:37.277 12a58 Level-0 table #31: started
+2021/04/27-02:02:37.353 12a58 Level-0 table #31: 840 bytes OK
+2021/04/27-02:02:37.446 12a58 Delete type=0 #26
+2021/04/27-02:02:37.446 12a58 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/27-02:02:37.446 12a58 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x01\x02\x00e\x00n\x00\x01\x13\x00l\x00a\x00n\x00g\x00u\x00a\x00g\x00e\x00_\x00p\x00r\x00e\x00f\x00e\x00r\x00e\x00n\x00c\x00e' @ 1237 : 1
+2021/04/27-02:02:37.446 12a58 Compacting 1@1 + 1@2 files
+2021/04/27-02:02:37.508 12a58 Generated table #32@1: 30 keys, 808 bytes
+2021/04/27-02:02:37.508 12a58 Compacted 1@1 + 1@2 files => 808 bytes
+2021/04/27-02:02:37.556 12a58 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/27-02:02:37.556 12a58 Delete type=2 #28
+2021/04/27-02:02:37.556 12a58 Delete type=2 #31
+2021/04/27-02:02:37.557 12a58 Manual compaction at level-1 from '\x00\x01\x01 \x01\x02\x00e\x00n\x00\x01\x13\x00l\x00a\x00n\x00g\x00u\x00a\x00g\x00e\x00_\x00p\x00r\x00e\x00f\x00e\x00r\x00e\x00n\x00c\x00e' @ 1237 : 1 .. (end); will stop at (end)

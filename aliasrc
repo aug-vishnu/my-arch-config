@@ -1,0 +1,71 @@
+#!/bin/sh
+
+# Use neovim for vim if present.
+command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
+gitdir=/home/gork/Git
+# Gork Alias
+alias \
+	eye="python $gitdir/EyeWitness/Python/EyeWitness.py -f" \
+	bb="cd /home/gork/Downloads/BugBounty; lfcd" \
+	ae="amass enum -o Amass_scan -d" \
+	n="nmap -v -oN Nmap_scan" \
+# Git Alias
+
+alias \
+	gia="git add *" \
+	gis="git status" \
+	gic="git add . && git commit -m "$1"" \
+	gicp="git add . && git commit -m "$1" && git push"\
+	gip="git push -u origin master" \
+	gil="git log" \
+	gir="git remote -v"
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	pi="ping 8.8.8.8" \
+#	hu="netctl start wlp2s0-Hugin" \
+#	b="sudo  chown gork:wheel  /sys/class/backlight/amdgpu_bl0/max_brightness /sys/class/backlight/amdgpu_bl0/brightness" \
+	t="tmux a -t wsl"\
+	ov="cd Downloads/TryHackMe ; sudo openvpn Gork52.ovpn" \
+	wi="sudo wifi-menu" \
+	bat="cat /sys/class/power_supply/BAT?/capacity && cat /sys/class/power_supply/BAT1/status " \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -v" \
+	mkd="mkdir -pv" \
+	yt="youtube-dl --add-metadata -i" \
+	yta="yt -x -f bestaudio/best" \
+	ffmpeg="ffmpeg -hide_banner"
+
+# Colorize commands when possible.
+alias \
+	sl="ls -hN --color=auto --group-directories-first" \
+	l="ls -hN --color=auto --group-directories-first" \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi"
+
+# These common commands are just too long! Abbreviate them.
+alias \
+	ka="killall" \
+	g="git" \
+	trem="transmission-remote" \
+	YT="youtube-viewer" \
+	sdn="sudo shutdown -h now" \
+	f="$FILE" \
+	e="$EDITOR" \
+	v="$EDITOR" \
+	p="sudo pacman" \
+	xi="sudo xbps-install" \
+	xr="sudo xbps-remove -R" \
+	xq="xbps-query"
+
+# This alias is important. It enables the `pauseallmpv` command.
+alias mpv="mpv --input-ipc-server=/tmp/mpvsoc$(date +%s)"
+
+# Some other stuff
+alias \
+	magit="nvim -c MagitOnly" \
+	ref="shortcuts >/dev/null; source ~/.config/shortcutrc" \
+	weath="less -S ~/.local/share/weatherreport" \

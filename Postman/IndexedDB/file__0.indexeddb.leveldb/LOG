@@ -1,0 +1,13 @@
+2021/02/17-20:56:24.376 4e68 Reusing MANIFEST /home/gork/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/02/17-20:56:24.390 4e68 Recovering log #102
+2021/02/17-20:56:24.433 4e68 Reusing old log /home/gork/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000102.log 
+2021/02/17-20:56:38.642 4f1c Level-0 table #107: started
+2021/02/17-20:56:38.731 4f1c Level-0 table #107: 241090 bytes OK
+2021/02/17-20:56:38.857 4f1c Delete type=0 #102
+2021/02/17-20:56:38.859 4f1c Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/02/17-20:56:47.914 4f1c Compacting 1@1 + 1@2 files
+2021/02/17-20:56:48.046 4f1c Generated table #108@1: 11528 keys, 1200048 bytes
+2021/02/17-20:56:48.046 4f1c Compacted 1@1 + 1@2 files => 1200048 bytes
+2021/02/17-20:56:48.144 4f1c compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/17-20:56:48.144 4f1c Delete type=2 #107
+2021/02/17-20:56:48.144 4f1c Delete type=2 #104

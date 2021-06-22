@@ -1,0 +1,68 @@
+Looking for git in: git
+Using git 2.26.2 from git
+> git rev-parse --git-dir
+Open repository: /home/gork/Projects/Eegai/eegai_api
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git check-ignore -v -z --stdin
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git config --get commit.template
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git show --textconv :eegai_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py
+> git cat-file -s 054a1ff4ec0c72c92205b179e8e30074280c1fa7
+> git show --textconv :eegai_api/urls.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/eegai_api/urls.py
+> git cat-file -s 42eb8a41d0fa8ee37691ff2fe1c587c622ecfedb
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gork/Projects/koffeea_api
+> git status -z -u
+> git show --textconv :auth_api/models.py
+> git show --textconv :auth_api/serializers.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/models.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/serializers.py
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/models.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/serializers.py
+> git cat-file -s 06191d163827bdf1b950a639faa19d89d7914231
+> git cat-file -s 5d475fcdbea24643465ce9b45c2baf39db7211b6
+> git show --textconv :auth_api/models.py
+> git show --textconv :auth_api/serializers.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gork/Projects/koffeea_api/auth_api/serializers.py

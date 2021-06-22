@@ -1,0 +1,2671 @@
+[2020-06-30 19:40:54.803] [info] Checking for update
+[2020-06-30 19:40:54.976] [info] Error reading /home/gork/.config/Notion/cookies.json Error: /home/gork/.config/Notion/cookies.json: ENOENT: no such file or directory, open '/home/gork/.config/Notion/cookies.json'
+    at Object.openSync (fs.js:447:3)
+    at Object.func (electron/js2c/asar.js:138:31)
+    at Object.func [as openSync] (electron/js2c/asar.js:138:31)
+    at Object.readFileSync (fs.js:349:35)
+    at Object.fs.readFileSync (electron/js2c/asar.js:580:40)
+    at Object.fs.readFileSync (electron/js2c/asar.js:580:40)
+    at Object.readFileSync (/opt/notion-app/app.asar/node_modules/jsonfile/index.js:61:22)
+    at JsonStore.loadSync (/opt/notion-app/app.asar/main/JsonStore.js:92:28)
+    at new JsonStore (/opt/notion-app/app.asar/main/JsonStore.js:46:14)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/CookieStore.js:53:23)
+[2020-06-30 19:40:56.595] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:110:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:107:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-06-30 19:40:56.601] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:110:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:107:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-06-30 19:40:56.682] [info] Error reading /home/gork/.config/Notion/assets.json Error: ENOENT: no such file or directory, open '/home/gork/.config/Notion/assets.json'
+[2020-06-30 19:40:56.685] [info] Error reading /home/gork/.config/Notion/headers.json Error: ENOENT: no such file or directory, open '/home/gork/.config/Notion/headers.json'
+[2020-06-30 19:40:56.686] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 159 }
+}
+[2020-06-30 19:40:56.688] [info] Error reading /home/gork/.config/Notion/assets.json Error: ENOENT: no such file or directory, open '/home/gork/.config/Notion/assets.json'
+[2020-06-30 19:40:56.689] [info] Error reading /home/gork/.config/Notion/headers.json Error: ENOENT: no such file or directory, open '/home/gork/.config/Notion/headers.json'
+[2020-06-30 19:40:56.690] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'verifyCache',
+  data: { time: 4 }
+}
+[2020-06-30 19:40:56.691] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetCacheInitialize',
+  data: { time: 165 }
+}
+[2020-06-30 19:41:04.957] [info] Checking for app update
+[2020-06-30 19:41:06.092] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1133 }
+}
+[2020-06-30 19:41:06.117] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 22 }
+}
+[2020-06-30 19:41:06.118] [info] App update available 22.7.17
+[2020-06-30 19:41:06.194] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetJson',
+  data: { time: 76 }
+}
+[2020-06-30 19:41:19.456] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'prepare',
+  data: { time: 13251 }
+}
+[2020-06-30 19:41:19.473] [info] App update download complete 22.7.17
+[2020-06-30 19:41:19.478] [info] Installing app update 22.7.17
+[2020-06-30 19:41:19.495] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'download',
+  data: { time: 23 }
+}
+[2020-06-30 19:41:19.496] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'checkForUpdatesNow',
+  data: { time: 14540 }
+}
+[2020-06-30 19:42:19.520] [info] Checking for app update
+[2020-06-30 19:42:20.613] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1065 }
+}
+[2020-06-30 19:42:20.638] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 11 }
+}
+[2020-06-30 19:42:20.639] [info] No app update available
+[2020-06-30 19:43:20.644] [info] Checking for app update
+[2020-06-30 19:43:23.355] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 2682 }
+}
+[2020-06-30 19:43:23.364] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 19:43:23.365] [info] No app update available
+[2020-06-30 19:44:23.368] [info] Checking for app update
+[2020-06-30 19:44:24.841] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1471 }
+}
+[2020-06-30 19:44:24.850] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 4 }
+}
+[2020-06-30 19:44:24.851] [info] No app update available
+[2020-06-30 19:45:24.854] [info] Checking for app update
+[2020-06-30 19:45:26.958] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 2096 }
+}
+[2020-06-30 19:45:26.995] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 30 }
+}
+[2020-06-30 19:45:26.996] [info] No app update available
+[2020-06-30 19:46:27.002] [info] Checking for app update
+[2020-06-30 19:46:28.613] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1601 }
+}
+[2020-06-30 19:46:28.622] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 19:46:28.623] [info] No app update available
+[2020-06-30 19:47:28.625] [info] Checking for app update
+[2020-06-30 19:47:29.640] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1009 }
+}
+[2020-06-30 19:47:29.651] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 19:47:29.652] [info] No app update available
+[2020-06-30 19:48:29.654] [info] Checking for app update
+[2020-06-30 19:48:30.561] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 905 }
+}
+[2020-06-30 19:48:30.571] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 19:48:30.572] [info] No app update available
+[2020-06-30 19:49:30.577] [info] Checking for app update
+[2020-06-30 19:49:32.152] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1572 }
+}
+[2020-06-30 19:49:32.182] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 27 }
+}
+[2020-06-30 19:49:32.184] [info] No app update available
+[2020-06-30 19:50:32.189] [info] Checking for app update
+[2020-06-30 19:50:33.581] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1385 }
+}
+[2020-06-30 19:50:33.592] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 19:50:33.594] [info] No app update available
+[2020-06-30 19:51:33.597] [info] Checking for app update
+[2020-06-30 19:51:34.376] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 770 }
+}
+[2020-06-30 19:51:34.387] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 19:51:34.389] [info] No app update available
+[2020-06-30 19:52:34.394] [info] Checking for app update
+[2020-06-30 19:52:36.564] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 2162 }
+}
+[2020-06-30 19:52:36.574] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 19:52:36.576] [info] No app update available
+[2020-06-30 19:53:36.582] [info] Checking for app update
+[2020-06-30 19:53:38.310] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1722 }
+}
+[2020-06-30 19:53:38.328] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 15 }
+}
+[2020-06-30 19:53:38.330] [info] No app update available
+[2020-06-30 19:54:38.332] [info] Checking for app update
+[2020-06-30 19:54:39.033] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 693 }
+}
+[2020-06-30 19:54:39.047] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 10 }
+}
+[2020-06-30 19:54:39.049] [info] No app update available
+[2020-06-30 19:55:39.053] [info] Checking for app update
+[2020-06-30 19:55:40.227] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1172 }
+}
+[2020-06-30 19:55:40.239] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 19:55:40.240] [info] No app update available
+[2020-06-30 19:56:40.244] [info] Checking for app update
+[2020-06-30 19:56:41.269] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1019 }
+}
+[2020-06-30 19:56:41.277] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-06-30 19:56:41.278] [info] No app update available
+[2020-06-30 19:57:41.281] [info] Checking for app update
+[2020-06-30 19:57:42.292] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1004 }
+}
+[2020-06-30 19:57:42.340] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 41 }
+}
+[2020-06-30 19:57:42.341] [info] No app update available
+[2020-06-30 19:58:42.348] [info] Checking for app update
+[2020-06-30 19:58:43.487] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1133 }
+}
+[2020-06-30 19:58:43.500] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 19:58:43.547] [info] No app update available
+[2020-06-30 19:59:43.551] [info] Checking for app update
+[2020-06-30 19:59:44.917] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1355 }
+}
+[2020-06-30 19:59:44.926] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 19:59:44.928] [info] No app update available
+[2020-06-30 20:00:44.931] [info] Checking for app update
+[2020-06-30 20:01:00.893] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 15954 }
+}
+[2020-06-30 20:01:00.909] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 11 }
+}
+[2020-06-30 20:01:00.910] [info] No app update available
+[2020-06-30 20:02:00.913] [info] Checking for app update
+[2020-06-30 20:02:01.911] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 988 }
+}
+[2020-06-30 20:02:01.923] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 20:02:01.925] [info] No app update available
+[2020-06-30 20:03:01.930] [info] Checking for app update
+[2020-06-30 20:03:03.170] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1237 }
+}
+[2020-06-30 20:03:03.181] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 20:03:03.183] [info] No app update available
+[2020-06-30 20:04:03.185] [info] Checking for app update
+[2020-06-30 20:04:04.055] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 862 }
+}
+[2020-06-30 20:04:04.067] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 8 }
+}
+[2020-06-30 20:04:04.069] [info] No app update available
+[2020-06-30 20:05:04.072] [info] Checking for app update
+[2020-06-30 20:05:05.234] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1153 }
+}
+[2020-06-30 20:05:05.245] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 4 }
+}
+[2020-06-30 20:05:05.247] [info] No app update available
+[2020-06-30 20:06:05.251] [info] Checking for app update
+[2020-06-30 20:06:05.960] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 700 }
+}
+[2020-06-30 20:06:06.061] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 97 }
+}
+[2020-06-30 20:06:06.064] [info] No app update available
+[2020-06-30 20:07:06.067] [info] Checking for app update
+[2020-06-30 20:07:07.357] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1283 }
+}
+[2020-06-30 20:07:07.412] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 52 }
+}
+[2020-06-30 20:07:07.414] [info] No app update available
+[2020-06-30 20:08:07.421] [info] Checking for app update
+[2020-06-30 20:08:08.541] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1109 }
+}
+[2020-06-30 20:08:08.557] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 12 }
+}
+[2020-06-30 20:08:08.559] [info] No app update available
+[2020-06-30 20:09:08.561] [info] Checking for app update
+[2020-06-30 20:09:09.261] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 696 }
+}
+[2020-06-30 20:09:09.367] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 103 }
+}
+[2020-06-30 20:09:09.369] [info] No app update available
+[2020-06-30 20:10:09.372] [info] Checking for app update
+[2020-06-30 20:10:11.083] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1708 }
+}
+[2020-06-30 20:10:11.096] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 9 }
+}
+[2020-06-30 20:10:11.097] [info] No app update available
+[2020-06-30 20:11:11.102] [info] Checking for app update
+[2020-06-30 20:11:12.145] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1034 }
+}
+[2020-06-30 20:11:12.155] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 20:11:12.155] [info] No app update available
+[2020-06-30 20:12:12.163] [info] Checking for app update
+[2020-06-30 20:12:12.836] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 668 }
+}
+[2020-06-30 20:12:12.865] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 24 }
+}
+[2020-06-30 20:12:12.867] [info] No app update available
+[2020-06-30 20:13:12.871] [info] Checking for app update
+[2020-06-30 20:13:14.308] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1435 }
+}
+[2020-06-30 20:13:14.411] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 99 }
+}
+[2020-06-30 20:13:14.413] [info] No app update available
+[2020-06-30 20:14:14.417] [info] Checking for app update
+[2020-06-30 20:14:15.853] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1432 }
+}
+[2020-06-30 20:14:15.863] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 20:14:15.865] [info] No app update available
+[2020-06-30 20:15:15.867] [info] Checking for app update
+[2020-06-30 20:15:16.982] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1101 }
+}
+[2020-06-30 20:15:17.110] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 122 }
+}
+[2020-06-30 20:15:17.112] [info] No app update available
+[2020-06-30 20:16:17.119] [info] Checking for app update
+[2020-06-30 20:16:18.705] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1584 }
+}
+[2020-06-30 20:16:18.717] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 8 }
+}
+[2020-06-30 20:16:18.719] [info] No app update available
+[2020-06-30 20:17:18.721] [info] Checking for app update
+[2020-06-30 20:17:20.584] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1854 }
+}
+[2020-06-30 20:17:20.610] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 23 }
+}
+[2020-06-30 20:17:20.611] [info] No app update available
+[2020-06-30 20:18:20.614] [info] Checking for app update
+[2020-06-30 20:18:21.685] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1069 }
+}
+[2020-06-30 20:18:21.699] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 9 }
+}
+[2020-06-30 20:18:21.700] [info] No app update available
+[2020-06-30 20:19:21.706] [info] Checking for app update
+[2020-06-30 20:19:22.954] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1242 }
+}
+[2020-06-30 20:19:22.963] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-06-30 20:19:22.964] [info] No app update available
+[2020-06-30 20:20:22.966] [info] Checking for app update
+[2020-06-30 20:20:24.289] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1321 }
+}
+[2020-06-30 20:20:24.302] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 20:20:24.303] [info] No app update available
+[2020-06-30 20:21:24.306] [info] Checking for app update
+[2020-06-30 20:21:25.629] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1320 }
+}
+[2020-06-30 20:21:25.641] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 20:21:25.642] [info] No app update available
+[2020-06-30 20:22:25.646] [info] Checking for app update
+[2020-06-30 20:22:26.736] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1079 }
+}
+[2020-06-30 20:22:26.754] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 14 }
+}
+[2020-06-30 20:22:26.755] [info] No app update available
+[2020-06-30 20:23:26.758] [info] Checking for app update
+[2020-06-30 20:23:27.662] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 896 }
+}
+[2020-06-30 20:23:27.678] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 20:23:27.681] [info] No app update available
+[2020-06-30 20:24:27.684] [info] Checking for app update
+[2020-06-30 20:24:28.791] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1100 }
+}
+[2020-06-30 20:24:28.811] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 13 }
+}
+[2020-06-30 20:24:28.813] [info] No app update available
+[2020-06-30 20:25:28.817] [info] Checking for app update
+[2020-06-30 20:25:29.549] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 706 }
+}
+[2020-06-30 20:25:29.634] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 81 }
+}
+[2020-06-30 20:25:29.636] [info] No app update available
+[2020-06-30 20:26:29.640] [info] Checking for app update
+[2020-06-30 20:26:30.406] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 755 }
+}
+[2020-06-30 20:26:30.669] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 259 }
+}
+[2020-06-30 20:26:30.670] [info] No app update available
+[2020-06-30 20:27:30.674] [info] Checking for app update
+[2020-06-30 20:27:32.652] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1977 }
+}
+[2020-06-30 20:27:32.941] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 284 }
+}
+[2020-06-30 20:27:32.942] [info] No app update available
+[2020-06-30 20:28:32.945] [info] Checking for app update
+[2020-06-30 20:28:34.585] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1639 }
+}
+[2020-06-30 20:28:34.637] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 49 }
+}
+[2020-06-30 20:28:34.638] [info] No app update available
+[2020-06-30 20:29:34.640] [info] Checking for app update
+[2020-06-30 20:29:35.694] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1041 }
+}
+[2020-06-30 20:29:36.031] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 335 }
+}
+[2020-06-30 20:29:36.036] [info] No app update available
+[2020-06-30 20:30:36.038] [info] Checking for app update
+[2020-06-30 20:30:37.099] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1058 }
+}
+[2020-06-30 20:30:37.116] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 13 }
+}
+[2020-06-30 20:30:37.117] [info] No app update available
+[2020-06-30 20:31:37.121] [info] Checking for app update
+[2020-06-30 20:31:37.721] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 594 }
+}
+[2020-06-30 20:31:37.735] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 8 }
+}
+[2020-06-30 20:31:37.737] [info] No app update available
+[2020-06-30 20:32:37.739] [info] Checking for app update
+[2020-06-30 20:32:39.614] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1867 }
+}
+[2020-06-30 20:32:39.923] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 306 }
+}
+[2020-06-30 20:32:39.925] [info] No app update available
+[2020-06-30 20:33:39.928] [info] Checking for app update
+[2020-06-30 20:33:41.118] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1184 }
+}
+[2020-06-30 20:33:41.181] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 59 }
+}
+[2020-06-30 20:33:41.183] [info] No app update available
+[2020-06-30 20:34:41.186] [info] Checking for app update
+[2020-06-30 20:34:42.690] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1500 }
+}
+[2020-06-30 20:34:42.703] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 20:34:42.705] [info] No app update available
+[2020-06-30 20:35:42.708] [info] Checking for app update
+[2020-06-30 20:35:44.129] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1411 }
+}
+[2020-06-30 20:35:44.139] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 20:35:44.141] [info] No app update available
+[2020-06-30 20:36:44.143] [info] Checking for app update
+[2020-06-30 20:36:45.975] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1825 }
+}
+[2020-06-30 20:36:45.987] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 20:36:45.988] [info] No app update available
+[2020-06-30 20:37:45.994] [info] Checking for app update
+[2020-06-30 20:37:47.412] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1411 }
+}
+[2020-06-30 20:37:47.431] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 15 }
+}
+[2020-06-30 20:37:47.432] [info] No app update available
+[2020-06-30 20:38:47.438] [info] Checking for app update
+[2020-06-30 20:38:48.541] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1095 }
+}
+[2020-06-30 20:38:48.551] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 20:38:48.553] [info] No app update available
+[2020-06-30 20:39:48.556] [info] Checking for app update
+[2020-06-30 20:39:49.262] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 698 }
+}
+[2020-06-30 20:39:49.288] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 17 }
+}
+[2020-06-30 20:39:49.290] [info] No app update available
+[2020-06-30 20:40:49.296] [info] Checking for app update
+[2020-06-30 20:40:50.671] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1373 }
+}
+[2020-06-30 20:40:50.681] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 20:40:50.683] [info] No app update available
+[2020-06-30 20:41:50.687] [info] Checking for app update
+[2020-06-30 20:41:51.858] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1161 }
+}
+[2020-06-30 20:41:51.868] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-06-30 20:41:51.869] [info] No app update available
+[2020-06-30 20:42:51.875] [info] Checking for app update
+[2020-06-30 20:42:53.273] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1396 }
+}
+[2020-06-30 20:42:53.285] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 20:42:53.286] [info] No app update available
+[2020-06-30 20:43:53.290] [info] Checking for app update
+[2020-06-30 20:43:54.679] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1381 }
+}
+[2020-06-30 20:43:54.687] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 4 }
+}
+[2020-06-30 20:43:54.688] [info] No app update available
+[2020-06-30 20:44:54.701] [info] Checking for app update
+[2020-06-30 20:44:56.147] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1439 }
+}
+[2020-06-30 20:44:56.311] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 156 }
+}
+[2020-06-30 20:44:56.313] [info] No app update available
+[2020-06-30 20:45:56.319] [info] Checking for app update
+[2020-06-30 20:45:57.728] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1403 }
+}
+[2020-06-30 20:45:57.994] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 261 }
+}
+[2020-06-30 20:45:57.995] [info] No app update available
+[2020-06-30 20:46:57.997] [info] Checking for app update
+[2020-06-30 20:46:59.638] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1632 }
+}
+[2020-06-30 20:46:59.715] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 73 }
+}
+[2020-06-30 20:46:59.716] [info] No app update available
+[2020-06-30 20:47:59.718] [info] Checking for app update
+[2020-06-30 20:48:00.872] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1152 }
+}
+[2020-06-30 20:48:00.883] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 20:48:00.884] [info] No app update available
+[2020-06-30 20:49:00.887] [info] Checking for app update
+[2020-06-30 20:49:02.311] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1414 }
+}
+[2020-06-30 20:49:02.518] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 202 }
+}
+[2020-06-30 20:49:02.519] [info] No app update available
+[2020-06-30 20:50:02.525] [info] Checking for app update
+[2020-06-30 20:50:04.366] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1832 }
+}
+[2020-06-30 20:50:04.378] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 20:50:04.379] [info] No app update available
+[2020-06-30 20:51:04.380] [info] Checking for app update
+[2020-06-30 20:51:05.087] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 696 }
+}
+[2020-06-30 20:51:05.192] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 99 }
+}
+[2020-06-30 20:51:05.194] [info] No app update available
+[2020-06-30 20:52:05.200] [info] Checking for app update
+[2020-06-30 20:52:05.912] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 706 }
+}
+[2020-06-30 20:52:05.921] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 20:52:05.922] [info] No app update available
+[2020-06-30 20:53:05.927] [info] Checking for app update
+[2020-06-30 20:53:06.709] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 773 }
+}
+[2020-06-30 20:53:06.718] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-06-30 20:53:06.720] [info] No app update available
+[2020-06-30 20:54:06.724] [info] Checking for app update
+[2020-06-30 20:54:07.467] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 741 }
+}
+[2020-06-30 20:54:07.478] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 20:54:07.480] [info] No app update available
+[2020-06-30 20:55:07.485] [info] Checking for app update
+[2020-06-30 20:55:08.388] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 886 }
+}
+[2020-06-30 20:55:08.399] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 20:55:08.401] [info] No app update available
+[2020-06-30 20:56:08.403] [info] Checking for app update
+[2020-06-30 20:56:09.754] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1341 }
+}
+[2020-06-30 20:56:09.761] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 4 }
+}
+[2020-06-30 20:56:09.762] [info] No app update available
+[2020-06-30 20:57:09.764] [info] Checking for app update
+[2020-06-30 20:57:10.960] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1189 }
+}
+[2020-06-30 20:57:10.971] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-06-30 20:57:10.972] [info] No app update available
+[2020-06-30 20:58:10.980] [info] Checking for app update
+[2020-06-30 20:58:12.297] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1309 }
+}
+[2020-06-30 20:58:12.306] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 20:58:12.308] [info] No app update available
+[2020-06-30 20:59:12.310] [info] Checking for app update
+[2020-06-30 20:59:14.148] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1836 }
+}
+[2020-06-30 20:59:14.158] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 20:59:14.160] [info] No app update available
+[2020-06-30 21:00:14.163] [info] Checking for app update
+[2020-06-30 21:00:15.280] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1110 }
+}
+[2020-06-30 21:00:15.290] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 21:00:15.292] [info] No app update available
+[2020-06-30 21:01:15.297] [info] Checking for app update
+[2020-06-30 21:01:17.025] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1725 }
+}
+[2020-06-30 21:01:17.034] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-06-30 21:01:17.035] [info] No app update available
+[2020-06-30 21:02:17.039] [info] Checking for app update
+[2020-06-30 21:02:18.055] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1007 }
+}
+[2020-06-30 21:02:18.065] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 21:02:18.066] [info] No app update available
+[2020-06-30 21:03:18.069] [info] Checking for app update
+[2020-06-30 21:03:19.289] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1207 }
+}
+[2020-06-30 21:03:19.305] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 12 }
+}
+[2020-06-30 21:03:19.306] [info] No app update available
+[2020-06-30 21:04:19.309] [info] Checking for app update
+[2020-06-30 21:04:20.426] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1109 }
+}
+[2020-06-30 21:04:20.435] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-06-30 21:04:20.438] [info] No app update available
+[2020-06-30 21:05:20.440] [info] Checking for app update
+[2020-06-30 21:05:21.640] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1190 }
+}
+[2020-06-30 21:05:21.653] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 9 }
+}
+[2020-06-30 21:05:21.654] [info] No app update available
+[2020-06-30 21:06:21.659] [info] Checking for app update
+[2020-06-30 21:06:23.231] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1564 }
+}
+[2020-06-30 21:06:23.325] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 91 }
+}
+[2020-06-30 21:06:23.326] [info] No app update available
+[2020-06-30 21:07:23.328] [info] Checking for app update
+[2020-06-30 21:07:24.366] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1029 }
+}
+[2020-06-30 21:07:24.380] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 21:07:24.382] [info] No app update available
+[2020-06-30 21:08:24.387] [info] Checking for app update
+[2020-06-30 21:08:25.602] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1210 }
+}
+[2020-06-30 21:08:25.645] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 38 }
+}
+[2020-06-30 21:08:25.646] [info] No app update available
+[2020-06-30 21:09:25.648] [info] Checking for app update
+[2020-06-30 21:09:26.639] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 990 }
+}
+[2020-06-30 21:09:26.682] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 39 }
+}
+[2020-06-30 21:09:26.684] [info] No app update available
+[2020-06-30 21:10:26.687] [info] Checking for app update
+[2020-06-30 21:10:27.756] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1056 }
+}
+[2020-06-30 21:10:27.791] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 29 }
+}
+[2020-06-30 21:10:27.792] [info] No app update available
+[2020-06-30 21:11:27.794] [info] Checking for app update
+[2020-06-30 21:11:29.427] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1630 }
+}
+[2020-06-30 21:11:29.436] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 4 }
+}
+[2020-06-30 21:11:29.437] [info] No app update available
+[2020-06-30 21:12:29.440] [info] Checking for app update
+[2020-06-30 21:12:31.281] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1834 }
+}
+[2020-06-30 21:12:31.288] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-06-30 21:12:31.289] [info] No app update available
+[2020-06-30 21:13:31.294] [info] Checking for app update
+[2020-06-30 21:13:32.418] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1121 }
+}
+[2020-06-30 21:13:32.427] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 4 }
+}
+[2020-06-30 21:13:32.428] [info] No app update available
+[2020-06-30 21:14:32.430] [info] Checking for app update
+[2020-06-30 21:14:33.452] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1016 }
+}
+[2020-06-30 21:14:33.462] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 21:14:33.463] [info] No app update available
+[2020-06-30 21:15:33.465] [info] Checking for app update
+[2020-06-30 21:15:34.998] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1526 }
+}
+[2020-06-30 21:15:35.007] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 21:15:35.009] [info] No app update available
+[2020-06-30 21:16:35.013] [info] Checking for app update
+[2020-06-30 21:16:36.338] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1322 }
+}
+[2020-06-30 21:16:36.348] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 21:16:36.349] [info] No app update available
+[2020-06-30 21:17:36.354] [info] Checking for app update
+[2020-06-30 21:17:37.167] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 797 }
+}
+[2020-06-30 21:17:37.183] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 8 }
+}
+[2020-06-30 21:17:37.184] [info] No app update available
+[2020-06-30 21:18:37.187] [info] Checking for app update
+[2020-06-30 21:18:38.404] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1215 }
+}
+[2020-06-30 21:18:38.415] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 21:18:38.417] [info] No app update available
+[2020-06-30 21:19:38.420] [info] Checking for app update
+[2020-06-30 21:19:39.818] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1390 }
+}
+[2020-06-30 21:19:39.978] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 156 }
+}
+[2020-06-30 21:19:39.980] [info] No app update available
+[2020-06-30 21:20:39.984] [info] Checking for app update
+[2020-06-30 21:20:41.119] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1128 }
+}
+[2020-06-30 21:20:41.145] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 24 }
+}
+[2020-06-30 21:20:41.147] [info] No app update available
+[2020-06-30 21:21:41.151] [info] Checking for app update
+[2020-06-30 21:21:42.222] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1057 }
+}
+[2020-06-30 21:21:42.233] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-06-30 21:21:42.235] [info] No app update available
+[2020-06-30 21:22:42.240] [info] Checking for app update
+[2020-06-30 21:22:42.763] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 522 }
+}
+[2020-06-30 21:22:42.829] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 63 }
+}
+[2020-06-30 21:22:42.830] [info] No app update available
+[2020-06-30 21:23:42.833] [info] Checking for app update
+[2020-06-30 21:23:45.108] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 2271 }
+}
+[2020-06-30 21:23:45.301] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 189 }
+}
+[2020-06-30 21:23:45.302] [info] No app update available
+[2020-06-30 21:24:45.304] [info] Checking for app update
+[2020-06-30 21:24:47.574] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 2267 }
+}
+[2020-06-30 21:24:47.586] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-06-30 21:24:47.587] [info] No app update available
+[2020-06-30 21:25:47.595] [info] Checking for app update
+[2020-06-30 21:25:49.730] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 2133 }
+}
+[2020-06-30 21:25:49.769] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 36 }
+}
+[2020-06-30 21:25:49.770] [info] No app update available
+[2020-06-30 21:26:49.773] [info] Checking for app update
+[2020-06-30 21:26:50.833] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1058 }
+}
+[2020-06-30 21:26:50.863] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-06-30 21:26:50.865] [info] No app update available
+[2020-06-30 21:27:50.870] [info] Checking for app update
+[2020-06-30 21:27:51.921] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1044 }
+}
+[2020-06-30 21:27:51.939] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 14 }
+}
+[2020-06-30 21:27:51.940] [info] No app update available
+[2020-07-05 17:51:26.580] [info] Checking for update
+[2020-07-05 17:51:31.797] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:110:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:107:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-07-05 17:51:31.804] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:110:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:107:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-07-05 17:51:32.077] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 487 }
+}
+[2020-07-05 17:51:33.992] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'verifyCache',
+  data: { time: 1914 }
+}
+[2020-07-05 17:51:33.997] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetCacheInitialize',
+  data: { time: 2407 }
+}
+[2020-07-05 17:51:37.705] [info] Checking for app update
+[2020-07-05 17:51:39.136] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1416 }
+}
+[2020-07-05 17:51:39.269] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 122 }
+}
+[2020-07-05 17:51:39.275] [info] App update available 22.7.19
+[2020-07-05 17:51:40.358] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetJson',
+  data: { time: 1084 }
+}
+[2020-07-05 17:51:43.151] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'prepare',
+  data: { time: 2788 }
+}
+[2020-07-05 17:51:43.155] [info] App update download complete 22.7.19
+[2020-07-05 17:51:43.161] [info] Installing app update 22.7.19
+[2020-07-05 17:51:43.392] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'download',
+  data: { time: 237 }
+}
+[2020-07-05 17:51:43.395] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'checkForUpdatesNow',
+  data: { time: 5689 }
+}
+[2020-07-05 17:52:43.409] [info] Checking for app update
+[2020-07-05 17:52:44.072] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 644 }
+}
+[2020-07-05 17:52:44.088] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 9 }
+}
+[2020-07-05 17:52:44.089] [info] No app update available
+[2020-07-05 17:53:44.094] [info] Checking for app update
+[2020-07-05 17:53:45.326] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1225 }
+}
+[2020-07-05 17:53:45.559] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 228 }
+}
+[2020-07-05 17:53:45.560] [info] No app update available
+[2020-07-05 17:54:45.562] [info] Checking for app update
+[2020-07-05 17:54:47.867] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 2302 }
+}
+[2020-07-05 17:54:47.918] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 47 }
+}
+[2020-07-05 17:54:47.920] [info] No app update available
+[2020-07-05 17:55:47.923] [info] Checking for app update
+[2020-07-05 17:55:49.333] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1400 }
+}
+[2020-07-05 17:55:49.417] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 81 }
+}
+[2020-07-05 17:55:49.418] [info] No app update available
+[2020-07-05 17:56:49.424] [info] Checking for app update
+[2020-07-05 17:56:51.308] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1876 }
+}
+[2020-07-05 17:56:51.319] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-07-05 17:56:51.320] [info] No app update available
+[2020-07-05 17:57:51.323] [info] Checking for app update
+[2020-07-05 17:57:59.988] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 8655 }
+}
+[2020-07-05 17:58:00.644] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 651 }
+}
+[2020-07-05 17:58:00.645] [info] No app update available
+[2020-07-05 17:59:00.647] [info] Checking for app update
+[2020-07-05 17:59:15.878] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 15219 }
+}
+[2020-07-05 17:59:17.173] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 1291 }
+}
+[2020-07-05 17:59:17.177] [info] No app update available
+[2020-07-05 18:00:17.181] [info] Checking for app update
+[2020-07-05 18:00:18.844] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1660 }
+}
+[2020-07-05 18:00:18.860] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-07-05 18:00:18.865] [info] No app update available
+[2020-07-05 18:01:18.870] [info] Checking for app update
+[2020-07-05 18:01:19.534] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 649 }
+}
+[2020-07-05 18:01:19.548] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-07-05 18:01:19.551] [info] No app update available
+[2020-07-05 18:02:19.554] [info] Checking for app update
+[2020-07-05 18:02:20.919] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1357 }
+}
+[2020-07-05 18:02:21.173] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 248 }
+}
+[2020-07-05 18:02:21.175] [info] No app update available
+[2020-07-05 18:03:21.201] [info] Checking for app update
+[2020-07-05 18:03:32.842] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 11639 }
+}
+[2020-07-05 18:03:34.322] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 1475 }
+}
+[2020-07-05 18:03:34.325] [info] No app update available
+[2020-07-05 18:04:34.331] [info] Checking for app update
+[2020-07-05 18:04:35.608] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1270 }
+}
+[2020-07-05 18:04:35.647] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 36 }
+}
+[2020-07-05 18:04:35.650] [info] No app update available
+[2020-07-05 18:05:35.654] [info] Checking for app update
+[2020-07-05 18:05:36.296] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 637 }
+}
+[2020-07-05 18:05:36.304] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-07-05 18:05:36.305] [info] No app update available
+[2020-07-05 18:06:36.310] [info] Checking for app update
+[2020-07-05 18:06:37.720] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1404 }
+}
+[2020-07-05 18:06:37.787] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 65 }
+}
+[2020-07-05 18:06:37.789] [info] No app update available
+[2020-07-05 18:07:37.797] [info] Checking for app update
+[2020-07-05 18:07:39.455] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1649 }
+}
+[2020-07-05 18:07:39.463] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-07-05 18:07:39.464] [info] No app update available
+[2020-07-05 18:08:39.473] [info] Checking for app update
+[2020-07-05 18:08:40.192] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 708 }
+}
+[2020-07-05 18:08:40.246] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 51 }
+}
+[2020-07-05 18:08:40.248] [info] No app update available
+[2020-07-05 18:09:40.257] [info] Checking for app update
+[2020-07-05 18:09:41.539] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1277 }
+}
+[2020-07-05 18:09:41.836] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 291 }
+}
+[2020-07-05 18:09:41.837] [info] No app update available
+[2020-07-05 18:10:41.846] [info] Checking for app update
+[2020-07-05 18:10:43.275] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1421 }
+}
+[2020-07-05 18:10:43.409] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 130 }
+}
+[2020-07-05 18:10:43.411] [info] No app update available
+[2020-07-05 18:11:43.423] [info] Checking for app update
+[2020-07-05 18:11:44.793] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1359 }
+}
+[2020-07-05 18:11:44.917] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 120 }
+}
+[2020-07-05 18:11:44.919] [info] No app update available
+[2020-07-05 18:12:44.932] [info] Checking for app update
+[2020-07-05 18:12:45.613] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 673 }
+}
+[2020-07-05 18:12:45.624] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-07-05 18:12:45.625] [info] No app update available
+[2020-07-05 18:13:45.641] [info] Checking for app update
+[2020-07-05 18:13:46.333] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 685 }
+}
+[2020-07-05 18:13:46.479] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 142 }
+}
+[2020-07-05 18:13:46.480] [info] No app update available
+[2020-07-05 18:14:46.492] [info] Checking for app update
+[2020-07-05 18:14:48.318] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1817 }
+}
+[2020-07-05 18:14:48.328] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-07-05 18:14:48.330] [info] No app update available
+[2020-07-05 18:15:48.340] [info] Checking for app update
+[2020-07-05 18:15:49.965] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1617 }
+}
+[2020-07-05 18:15:50.068] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 99 }
+}
+[2020-07-05 18:15:50.069] [info] No app update available
+[2020-07-05 18:16:50.087] [info] Checking for app update
+[2020-07-05 18:16:51.688] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1593 }
+}
+[2020-07-05 18:16:52.064] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 373 }
+}
+[2020-07-05 18:16:52.066] [info] No app update available
+[2020-07-05 18:17:52.072] [info] Checking for app update
+[2020-07-05 18:17:53.101] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1026 }
+}
+[2020-07-05 18:17:53.125] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 20 }
+}
+[2020-07-05 18:17:53.126] [info] No app update available
+[2020-07-05 18:18:53.147] [info] Checking for app update
+[2020-07-05 18:18:54.137] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 983 }
+}
+[2020-07-05 18:18:54.148] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 8 }
+}
+[2020-07-05 18:18:54.149] [info] No app update available
+[2020-07-05 18:19:54.156] [info] Checking for app update
+[2020-07-05 18:19:55.267] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1104 }
+}
+[2020-07-05 18:19:55.276] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-07-05 18:19:55.278] [info] No app update available
+[2020-07-05 18:20:55.304] [info] Checking for app update
+[2020-07-05 18:20:56.139] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 829 }
+}
+[2020-07-05 18:20:56.152] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-07-05 18:20:56.154] [info] No app update available
+[2020-07-05 18:21:56.180] [info] Checking for app update
+[2020-07-05 18:21:56.977] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 781 }
+}
+[2020-07-05 18:21:56.987] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-07-05 18:21:56.988] [info] No app update available
+[2020-07-05 18:22:57.008] [info] Checking for app update
+[2020-07-05 18:23:13.131] [info] No app update available
+[2020-07-05 18:24:13.158] [info] Checking for app update
+[2020-07-05 18:24:13.702] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 537 }
+}
+[2020-07-05 18:24:13.713] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-07-05 18:24:13.715] [info] No app update available
+[2020-07-05 18:25:13.750] [info] Checking for app update
+[2020-07-05 18:25:14.612] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 849 }
+}
+[2020-07-05 18:25:14.622] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-07-05 18:25:14.624] [info] No app update available
+[2020-07-05 18:26:14.647] [info] Checking for app update
+[2020-07-05 18:26:16.052] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1398 }
+}
+[2020-07-05 18:26:16.063] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-07-05 18:26:16.065] [info] No app update available
+[2020-07-05 18:27:16.110] [info] Checking for app update
+[2020-07-05 18:27:16.767] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 649 }
+}
+[2020-07-05 18:27:16.778] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-07-05 18:27:16.780] [info] No app update available
+[2020-07-05 18:28:16.829] [info] Checking for app update
+[2020-07-05 18:28:18.318] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1484 }
+}
+[2020-07-05 18:28:18.327] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-07-05 18:28:18.329] [info] No app update available
+[2020-07-05 18:29:18.365] [info] Checking for app update
+[2020-07-05 18:29:19.140] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 771 }
+}
+[2020-07-05 18:29:19.148] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-07-05 18:29:19.149] [info] No app update available
+[2020-07-05 18:30:19.198] [info] Checking for app update
+[2020-07-05 18:30:20.369] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1165 }
+}
+[2020-07-05 18:30:20.383] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 8 }
+}
+[2020-07-05 18:30:20.385] [info] No app update available
+[2020-07-07 01:18:27.916] [info] Checking for update
+[2020-07-07 01:18:30.226] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at createError (electron/js2c/asar.js:109:17)
+    at fs.readFile (electron/js2c/asar.js:546:23)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:110:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:107:12)
+    at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+    at new Promise (<anonymous>)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+    at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+[2020-07-07 01:18:30.233] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+      at createError (electron/js2c/asar.js:109:17)
+      at fs.readFile (electron/js2c/asar.js:546:23)
+      at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:110:14)
+      at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:107:12)
+      at /opt/notion-app/app.asar/node_modules/universalify/index.js:13:12
+      at new Promise (<anonymous>)
+      at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:7:14)
+      at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:589:67)
+      at Lazy.<anonymous> (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:209:58)
+      at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25) {
+    code: 'ENOENT',
+    errno: -2
+  }
+}
+[2020-07-07 01:18:30.556] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 456 }
+}
+[2020-07-07 01:18:32.474] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'verifyCache',
+  data: { time: 1916 }
+}
+[2020-07-07 01:18:32.483] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'invalidAssetCache',
+  error: {
+    message: 'files did not verify',
+    errors: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object]
+    ],
+    currentCacheDir: '/home/gork/.config/Notion/assetCache/22.7.19'
+  },
+  data: { time: 1922 }
+}
+[2020-07-07 01:18:32.898] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'deleteCache',
+  data: { time: 412 }
+}
+[2020-07-07 01:18:32.899] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetCacheInitialize',
+  data: { time: 2799 }
+}
+[2020-07-07 01:18:38.779] [info] Checking for app update
+[2020-07-07 01:18:39.889] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1107 }
+}
+[2020-07-07 01:18:39.899] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-07-07 01:18:39.900] [info] App update available 22.7.19
+[2020-07-07 01:18:39.954] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetJson',
+  data: { time: 54 }
+}
+[2020-07-07 01:18:54.439] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'prepare',
+  data: { time: 14471 }
+}
+[2020-07-07 01:18:54.510] [info] App update download complete 22.7.19
+[2020-07-07 01:18:54.515] [info] Installing app update 22.7.19
+[2020-07-07 01:18:54.549] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'download',
+  data: { time: 40 }
+}
+[2020-07-07 01:18:54.554] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'checkForUpdatesNow',
+  data: { time: 15775 }
+}
+[2020-07-07 01:19:54.570] [info] Checking for app update
+[2020-07-07 01:19:56.169] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1576 }
+}
+[2020-07-07 01:19:56.198] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 20 }
+}
+[2020-07-07 01:19:56.201] [info] No app update available
+[2020-07-07 01:20:56.208] [info] Checking for app update
+[2020-07-07 01:20:57.608] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1397 }
+}
+[2020-07-07 01:20:57.765] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 152 }
+}
+[2020-07-07 01:20:57.769] [info] No app update available
+[2020-07-07 01:21:57.798] [info] Checking for app update
+[2020-07-07 01:21:59.228] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1423 }
+}
+[2020-07-07 01:21:59.284] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 51 }
+}
+[2020-07-07 01:21:59.287] [info] No app update available
+[2020-07-07 01:22:59.293] [info] Checking for app update
+[2020-07-07 01:23:00.648] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1347 }
+}
+[2020-07-07 01:23:00.865] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 213 }
+}
+[2020-07-07 01:23:00.867] [info] No app update available
+[2020-07-07 01:24:00.893] [info] Checking for app update
+[2020-07-07 01:24:01.779] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 880 }
+}
+[2020-07-07 01:24:01.884] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 100 }
+}
+[2020-07-07 01:24:01.885] [info] No app update available
+[2020-07-07 01:25:01.906] [info] Checking for app update
+[2020-07-07 01:25:04.508] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 2595 }
+}
+[2020-07-07 01:25:04.951] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 439 }
+}
+[2020-07-07 01:25:04.952] [info] No app update available
+[2020-07-07 01:26:04.988] [info] Checking for app update
+[2020-07-07 01:26:06.657] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1665 }
+}
+[2020-07-07 01:26:06.668] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-07-07 01:26:06.670] [info] No app update available
+[2020-07-07 01:27:06.705] [info] Checking for app update
+[2020-07-07 01:27:08.216] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1503 }
+}
+[2020-07-07 01:27:08.231] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 12 }
+}
+[2020-07-07 01:27:08.232] [info] No app update available
+[2020-07-07 01:28:08.244] [info] Checking for app update
+[2020-07-07 01:28:09.737] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1486 }
+}
+[2020-07-07 01:28:09.748] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-07-07 01:28:09.749] [info] No app update available
+[2020-07-07 01:29:09.765] [info] Checking for app update
+[2020-07-07 01:29:11.159] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1387 }
+}
+[2020-07-07 01:29:11.317] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 153 }
+}
+[2020-07-07 01:29:11.320] [info] No app update available
+[2020-07-07 01:30:11.325] [info] Checking for app update
+[2020-07-07 01:30:12.687] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1347 }
+}
+[2020-07-07 01:30:12.894] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 205 }
+}
+[2020-07-07 01:30:12.896] [info] No app update available
+[2020-07-07 01:31:12.932] [info] Checking for app update
+[2020-07-07 01:31:14.320] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1380 }
+}
+[2020-07-07 01:31:14.503] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 180 }
+}
+[2020-07-07 01:31:14.504] [info] No app update available
+[2020-07-07 01:32:14.523] [info] Checking for app update
+[2020-07-07 01:32:15.132] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 606 }
+}
+[2020-07-07 01:32:15.143] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 4 }
+}
+[2020-07-07 01:32:15.144] [info] No app update available
+[2020-07-07 01:33:15.191] [info] Checking for app update
+[2020-07-07 01:33:15.843] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 645 }
+}
+[2020-07-07 01:33:15.852] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 5 }
+}
+[2020-07-07 01:33:15.853] [info] No app update available
+[2020-07-07 01:34:15.892] [info] Checking for app update
+[2020-07-07 01:34:17.343] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1444 }
+}
+[2020-07-07 01:34:17.373] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 24 }
+}
+[2020-07-07 01:34:17.376] [info] No app update available
+[2020-07-07 01:35:17.431] [info] Checking for app update
+[2020-07-07 01:35:17.982] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 548 }
+}
+[2020-07-07 01:35:17.991] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-07-07 01:35:17.992] [info] No app update available
+[2020-07-07 01:36:18.035] [info] Checking for app update
+[2020-07-07 01:36:18.941] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 898 }
+}
+[2020-07-07 01:36:18.951] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 7 }
+}
+[2020-07-07 01:36:18.952] [info] No app update available
+[2020-07-07 01:37:18.992] [info] Checking for app update
+[2020-07-07 01:37:20.589] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1590 }
+}
+[2020-07-07 01:37:20.896] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 302 }
+}
+[2020-07-07 01:37:20.898] [info] No app update available
+[2020-07-07 01:38:20.948] [info] Checking for app update
+[2020-07-07 01:38:22.649] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1691 }
+}
+[2020-07-07 01:38:22.763] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 110 }
+}
+[2020-07-07 01:38:22.764] [info] No app update available
+[2020-07-07 01:39:22.792] [info] Checking for app update
+[2020-07-07 01:39:24.294] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1493 }
+}
+[2020-07-07 01:39:24.330] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 32 }
+}
+[2020-07-07 01:39:24.333] [info] No app update available
+[2020-07-07 01:40:24.381] [info] Checking for app update
+[2020-07-07 01:40:25.937] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1548 }
+}
+[2020-07-07 01:40:25.948] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-07-07 01:40:25.949] [info] No app update available
+[2020-07-07 01:41:25.988] [info] Checking for app update
+[2020-07-07 01:41:27.444] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1449 }
+}
+[2020-07-07 01:41:27.585] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 136 }
+}
+[2020-07-07 01:41:27.587] [info] No app update available
+[2020-07-07 01:42:27.592] [info] Checking for app update
+[2020-07-07 01:42:29.218] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1618 }
+}
+[2020-07-07 01:42:29.228] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-07-07 01:42:29.229] [info] No app update available
+[2020-07-07 01:43:29.236] [info] Checking for app update
+[2020-07-07 01:43:30.037] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 797 }
+}
+[2020-07-07 01:43:30.048] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 8 }
+}
+[2020-07-07 01:43:30.049] [info] No app update available
+[2020-07-07 01:44:30.099] [info] Checking for app update
+[2020-07-07 01:44:30.699] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 596 }
+}
+[2020-07-07 01:44:30.709] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 8 }
+}
+[2020-07-07 01:44:30.710] [info] No app update available
+[2020-07-07 01:45:30.713] [info] Checking for app update
+[2020-07-07 01:45:31.315] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 593 }
+}
+[2020-07-07 01:45:31.325] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 6 }
+}
+[2020-07-07 01:45:31.326] [info] No app update available
+[2020-07-07 01:46:31.328] [info] Checking for app update
+[2020-07-07 01:46:32.808] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 1473 }
+}
+[2020-07-07 01:46:32.971] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 157 }
+}
+[2020-07-07 01:46:32.973] [info] No app update available
+[2020-07-07 01:47:32.975] [info] Checking for app update
+[2020-07-07 01:47:35.009] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 2030 }
+}
+[2020-07-07 01:47:35.249] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 237 }
+}
+[2020-07-07 01:47:35.250] [info] No app update available
+[2020-07-07 01:48:35.257] [info] Checking for app update

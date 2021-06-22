@@ -1,0 +1,5 @@
+2021/03/01-21:32:41.842 d28 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/01-21:36:30.970 7c0 Level-0 table #5: started
+2021/03/01-21:36:31.034 7c0 Level-0 table #5: 414376 bytes OK
+2021/03/01-21:36:31.077 7c0 Delete type=0 #3
+2021/03/01-21:36:31.078 7c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

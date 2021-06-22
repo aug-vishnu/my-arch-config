@@ -1,0 +1,49 @@
+--------------------------------------------------------------------------------
+[Jun 14, 2021, 3:48:18.7 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 14, 2021, 3:48:23.0 PM:ERROR:ad_rewards.cc(65)] Failed to reconcile ad rewards due to invalid wallet
+[Jun 14, 2021, 3:48:23.1 PM:ERROR:redeem_unblinded_payment_tokens.cc(55)] Failed to redeem unblinded payment tokens due to invalid wallet
+[Jun 14, 2021, 3:48:23.4 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 14, 2021, 5:11:15.9 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 14, 2021, 10:34:32.2 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 15, 2021, 4:44:08.7 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 15, 2021, 5:31:53.4 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 15, 2021, 7:11:34.7 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 16, 2021, 12:32:44.2 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 16, 2021, 1:50:53.8 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 16, 2021, 3:06:19.1 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+--------------------------------------------------------------------------------
+[Jun 17, 2021, 9:00:17.5 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 17, 2021, 9:00:24.2 PM:ERROR:ad_rewards.cc(65)] Failed to reconcile ad rewards due to invalid wallet
+[Jun 17, 2021, 9:00:24.2 PM:ERROR:redeem_unblinded_payment_tokens.cc(55)] Failed to redeem unblinded payment tokens due to invalid wallet
+[Jun 17, 2021, 9:00:24.4 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 18, 2021, 12:48:53.2 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 18, 2021, 3:24:11.3 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 18, 2021, 3:50:42.4 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+--------------------------------------------------------------------------------
+[Jun 18, 2021, 5:46:17.6 PM:ERROR:ad_rewards.cc(65)] Failed to reconcile ad rewards due to invalid wallet
+[Jun 18, 2021, 5:46:17.8 PM:ERROR:redeem_unblinded_payment_tokens.cc(55)] Failed to redeem unblinded payment tokens due to invalid wallet
+[Jun 18, 2021, 5:46:18.2 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 18, 2021, 9:21:01.4 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 18, 2021, 10:58:16.5 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 19, 2021, 12:23:34.9 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+--------------------------------------------------------------------------------
+[Jun 21, 2021, 12:16:14.5 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 21, 2021, 12:16:20.2 AM:ERROR:ad_rewards.cc(65)] Failed to reconcile ad rewards due to invalid wallet
+[Jun 21, 2021, 12:16:20.2 AM:ERROR:redeem_unblinded_payment_tokens.cc(55)] Failed to redeem unblinded payment tokens due to invalid wallet
+[Jun 21, 2021, 12:16:20.5 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 21, 2021, 2:39:41.6 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 21, 2021, 4:21:30.8 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 21, 2021, 4:41:27.3 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 21, 2021, 5:25:08.5 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 21, 2021, 6:15:23.7 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 21, 2021, 8:33:30.9 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 21, 2021, 8:36:58.0 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+--------------------------------------------------------------------------------
+[Jun 22, 2021, 1:37:05.2 AM:ERROR:ad_rewards.cc(65)] Failed to reconcile ad rewards due to invalid wallet
+[Jun 22, 2021, 1:37:05.4 AM:ERROR:redeem_unblinded_payment_tokens.cc(55)] Failed to redeem unblinded payment tokens due to invalid wallet
+[Jun 22, 2021, 1:37:06.2 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+[Jun 22, 2021, 3:09:24.3 AM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet
+--------------------------------------------------------------------------------
+[Jun 22, 2021, 10:26:26.1 PM:ERROR:ad_rewards.cc(65)] Failed to reconcile ad rewards due to invalid wallet
+[Jun 22, 2021, 10:26:26.3 PM:ERROR:redeem_unblinded_payment_tokens.cc(55)] Failed to redeem unblinded payment tokens due to invalid wallet
+[Jun 22, 2021, 10:26:26.6 PM:ERROR:refill_unblinded_tokens.cc(71)] Failed to refill unblinded tokens due to an invalid wallet

@@ -1,0 +1,40 @@
+{
+   "app": {
+      "display_mode": "standalone",
+      "icon_color": "#867DC5",
+      "launch": {
+         "web_url": "https://bulkresizephotos.com/en?utm_source=pwa"
+      },
+      "linked_icons": [ {
+         "size": 64,
+         "url": "https://bulkresizephotos.com/favicon.ico"
+      }, {
+         "size": 144,
+         "url": "https://bulkresizephotos.com/favicon-144.png"
+      }, {
+         "size": 512,
+         "url": "https://bulkresizephotos.com/favicon-512.png"
+      } ],
+      "theme_color": "rgba(248,248,248,1)"
+   },
+   "description": "The fastest online image resizer.",
+   "icons": {
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "S3QRstcJyWjo+qw7cG7b/ezpfi4DvhoN8kwLpZyBbjE=",
+   "name": "Bulk Resize Photos",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://bulkresizephotos.com/*" ],
+         "title": "Bulk Resize Photos"
+      }
+   },
+   "version": "2020.12.30.21003"
+}

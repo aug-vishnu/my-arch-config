@@ -1,0 +1,15 @@
+2021/04/27-20:19:42.384 bcb7 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_6088205b6305ad0007a7806a--portico-gtb.netlify.app_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/27-20:19:42.385 bcb7 Recovering log #4
+2021/04/27-20:19:42.385 bcb7 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_6088205b6305ad0007a7806a--portico-gtb.netlify.app_0.indexeddb.leveldb/000004.log 
+2021/04/27-20:19:50.331 bcb5 Level-0 table #8: started
+2021/04/27-20:19:50.390 bcb5 Level-0 table #8: 482 bytes OK
+2021/04/27-20:19:50.435 bcb5 Delete type=0 #4
+2021/04/27-20:19:50.436 bcb5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/27-20:19:50.436 bcb5 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x00l\x00o\x00c\x00a\x00l\x00F\x00o\x00r\x00a\x00g\x00e\x00T\x00e\x00s\x00t' @ 95 : 1
+2021/04/27-20:19:50.436 bcb5 Compacting 1@1 + 1@2 files
+2021/04/27-20:19:50.481 bcb5 Generated table #9@1: 27 keys, 768 bytes
+2021/04/27-20:19:50.481 bcb5 Compacted 1@1 + 1@2 files => 768 bytes
+2021/04/27-20:19:50.524 bcb5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/27-20:19:50.524 bcb5 Delete type=2 #5
+2021/04/27-20:19:50.524 bcb5 Delete type=2 #8
+2021/04/27-20:19:50.524 bcb5 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0f\x00l\x00o\x00c\x00a\x00l\x00F\x00o\x00r\x00a\x00g\x00e\x00T\x00e\x00s\x00t' @ 95 : 1 .. (end); will stop at (end)

@@ -1,0 +1,133 @@
+Looking for git in: git
+Using git 2.26.2 from git
+> git rev-parse --git-dir
+Open repository: /home/gork/Zoconut/zoconut
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gork/Zoconut/zoconut/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gork/Zoconut/zoconut/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :requirements.txt
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/requirements.txt
+> git cat-file -s 5ed40926ee0429b55f048f127f8cdd305cbd2587
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gork/Zoconut/zoconut/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gork/Zoconut/zoconut/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gork/Zoconut/zoconut/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gork/Zoconut/zoconut/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gork/Zoconut/zoconut/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gork/Zoconut/zoconut/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :utils/notify.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/utils/notify.py
+> git cat-file -s 5423aa43d0729a5b7f01c7e43c921baa540a33b7
+> git show --textconv :utils/notify.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/utils/notify.py
+> git cat-file -s 5423aa43d0729a5b7f01c7e43c921baa540a33b7
+> git check-ignore -v -z --stdin
+> git show --textconv :dietitianportal/settings.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/dietitianportal/settings.py
+> git cat-file -s 66a5ba5a75a6d53afbc0ad425bdb47db6f3c4dea
+> git show --textconv :utils/notify.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/utils/notify.py
+> git cat-file -s 5423aa43d0729a5b7f01c7e43c921baa540a33b7
+> git show --textconv :dietitianportal/settings.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/dietitianportal/settings.py
+> git cat-file -s 66a5ba5a75a6d53afbc0ad425bdb47db6f3c4dea
+> git show --textconv :utils/notify.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/utils/notify.py
+> git cat-file -s 5423aa43d0729a5b7f01c7e43c921baa540a33b7
+> git show --textconv :dietitianportal/settings.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/dietitianportal/settings.py
+> git cat-file -s 66a5ba5a75a6d53afbc0ad425bdb47db6f3c4dea
+> git show --textconv :utils/notify.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/utils/notify.py
+> git cat-file -s 5423aa43d0729a5b7f01c7e43c921baa540a33b7
+> git show --textconv :dietitianportal/settings.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/dietitianportal/settings.py
+> git cat-file -s 66a5ba5a75a6d53afbc0ad425bdb47db6f3c4dea
+> git show --textconv :utils/notify.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/utils/notify.py
+> git cat-file -s 5423aa43d0729a5b7f01c7e43c921baa540a33b7
+> git show --textconv :dietitianportal/settings.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/dietitianportal/settings.py
+> git cat-file -s 66a5ba5a75a6d53afbc0ad425bdb47db6f3c4dea
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gork/Zoconut/zoconut/dietitianportal/settings.py
+> git show --textconv :.env
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/.env
+> git cat-file -s ed28eeb37e557dab8bbbf5e8a393cb574c63b408
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gork/Zoconut/zoconut/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :utils/notify.py
+> git ls-files --stage -- /home/gork/Zoconut/zoconut/utils/notify.py
+> git cat-file -s 5423aa43d0729a5b7f01c7e43c921baa540a33b7

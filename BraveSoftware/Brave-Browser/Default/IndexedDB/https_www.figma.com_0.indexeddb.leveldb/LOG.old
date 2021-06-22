@@ -1,0 +1,8 @@
+2021/05/11-21:57:56.160 6f8 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/11-21:57:56.160 6f8 Recovering log #97
+2021/05/11-21:57:56.165 6f8 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/000097.log 
+2021/05/11-22:01:24.064 6b5 Level-0 table #101: started
+2021/05/11-22:01:24.064 6b5 Level-0 table #101: 0 bytes OK
+2021/05/11-22:01:24.174 6b5 Delete type=0 #97
+2021/05/11-22:01:24.175 6b5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/11-22:01:24.175 6b5 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

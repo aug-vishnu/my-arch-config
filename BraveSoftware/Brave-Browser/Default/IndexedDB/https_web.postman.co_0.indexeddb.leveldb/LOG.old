@@ -1,0 +1,26 @@
+2021/02/16-16:44:11.348 914 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.postman.co_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/16-16:44:11.348 914 Recovering log #7
+2021/02/16-16:44:11.354 914 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.postman.co_0.indexeddb.leveldb/000007.log 
+2021/02/16-16:44:11.965 95a Level-0 table #12: started
+2021/02/16-16:44:12.029 95a Level-0 table #12: 962 bytes OK
+2021/02/16-16:44:12.102 95a Delete type=0 #7
+2021/02/16-16:44:12.103 95a Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/02/16-22:59:03.199 f2d0 Level-0 table #14: started
+2021/02/16-22:59:03.288 f2d0 Level-0 table #14: 674 bytes OK
+2021/02/16-22:59:03.379 f2d0 Delete type=0 #11
+2021/02/16-22:59:03.383 f2d0 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01,\x002\x001\x007\x00a\x004\x00c\x005\x00d\x00-\x00f\x003\x008\x005\x00-\x004\x009\x007\x005\x00-\x008\x00d\x000\x003\x00-\x009\x000\x000\x005\x009\x007\x005\x00d\x007\x000\x002\x005\x00-\x00R\x00u\x00n\x00t\x00i\x00m\x00e' @ 432 : 1
+2021/02/16-22:59:03.383 f2d0 Compacting 1@0 + 1@1 files
+2021/02/16-22:59:03.434 f2d0 Generated table #15@0: 15 keys, 657 bytes
+2021/02/16-22:59:03.434 f2d0 Compacted 1@0 + 1@1 files => 657 bytes
+2021/02/16-22:59:03.566 f2d0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/02/16-22:59:03.566 f2d0 Delete type=2 #12
+2021/02/16-22:59:03.566 f2d0 Delete type=2 #14
+2021/02/16-22:59:03.567 f2d0 Manual compaction at level-0 from '\x00\x02\x01\x02\x01,\x002\x001\x007\x00a\x004\x00c\x005\x00d\x00-\x00f\x003\x008\x005\x00-\x004\x009\x007\x005\x00-\x008\x00d\x000\x003\x00-\x009\x000\x000\x005\x009\x007\x005\x00d\x007\x000\x002\x005\x00-\x00R\x00u\x00n\x00t\x00i\x00m\x00e' @ 432 : 1 .. (end); will stop at (end)
+2021/02/16-22:59:03.567 f2d0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01,\x002\x001\x007\x00a\x004\x00c\x005\x00d\x00-\x00f\x003\x008\x005\x00-\x004\x009\x007\x005\x00-\x008\x00d\x000\x003\x00-\x009\x000\x000\x005\x009\x007\x005\x00d\x007\x000\x002\x005\x00-\x00R\x00u\x00n\x00t\x00i\x00m\x00e' @ 432 : 1
+2021/02/16-22:59:03.567 f2d0 Compacting 1@1 + 1@2 files
+2021/02/16-22:59:03.602 f2d0 Generated table #16@1: 110 keys, 2374 bytes
+2021/02/16-22:59:03.602 f2d0 Compacted 1@1 + 1@2 files => 2374 bytes
+2021/02/16-22:59:03.688 f2d0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/16-22:59:03.689 f2d0 Delete type=2 #15
+2021/02/16-22:59:03.689 f2d0 Delete type=2 #9
+2021/02/16-22:59:03.689 f2d0 Manual compaction at level-1 from '\x00\x02\x01\x02\x01,\x002\x001\x007\x00a\x004\x00c\x005\x00d\x00-\x00f\x003\x008\x005\x00-\x004\x009\x007\x005\x00-\x008\x00d\x000\x003\x00-\x009\x000\x000\x005\x009\x007\x005\x00d\x007\x000\x002\x005\x00-\x00R\x00u\x00n\x00t\x00i\x00m\x00e' @ 432 : 1 .. (end); will stop at (end)

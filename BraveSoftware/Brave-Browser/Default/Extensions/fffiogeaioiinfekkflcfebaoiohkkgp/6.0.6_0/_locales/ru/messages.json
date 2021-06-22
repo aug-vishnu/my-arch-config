@@ -1,0 +1,26 @@
+{
+   "appDesc": {
+      "message": "Расширение для просмотра тэгов у любого видео на YouTube"
+   },
+   "appName": {
+      "message": "YouTube Tags"
+   },
+   "optionsSuggestionsName": {
+      "message": "Показывать рекомендации"
+   },
+   "rowSuggestionClose": {
+      "message": "Закрыть"
+   },
+   "rowSuggestionName": {
+      "message": "Рекомендация"
+   },
+   "rowTagsContentEmpty": {
+      "message": "У видео нет тэгов"
+   },
+   "rowTagsContentError": {
+      "message": "Ошибка"
+   },
+   "rowTagsName": {
+      "message": "Тэги"
+   }
+}

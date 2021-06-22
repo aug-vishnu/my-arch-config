@@ -1,0 +1,10 @@
+hash -d h=~/
+hash -d D=~/Documents
+hash -d d=~/Downloads
+hash -d m=~/Music
+hash -d dj=~/Projects/Django/
+hash -d pp=~/Pictures
+hash -d vv=~/Videos
+hash -d cf=${XDG_CONFIG_HOME:-$HOME/.config}
+hash -d sc=~/.local/bin
+hash -d mn=/mnt

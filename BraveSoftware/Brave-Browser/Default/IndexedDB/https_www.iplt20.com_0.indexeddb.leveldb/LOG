@@ -1,0 +1,15 @@
+2021/05/02-15:26:05.947 677 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.iplt20.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/02-15:26:05.947 677 Recovering log #7
+2021/05/02-15:26:06.071 677 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.iplt20.com_0.indexeddb.leveldb/000007.log 
+2021/05/02-15:28:43.736 630 Level-0 table #12: started
+2021/05/02-15:28:43.853 630 Level-0 table #12: 42093 bytes OK
+2021/05/02-15:28:43.896 630 Delete type=0 #7
+2021/05/02-15:28:43.896 651 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/02-15:28:43.896 651 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00`\x99\x1b\xc8\x92wB\x00\x01a\x00c\x00o\x00n\x00t\x00e\x00n\x00t\x00-\x00p\x00a\x00g\x00e\x00s\x00-\x00c\x00a\x00c\x00h\x00e\x00-\x001\x006\x001\x009\x001\x005\x009\x006\x006\x003\x004\x009\x007\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00w\x00w\x00.\x00i\x00p\x00l\x00t\x002\x000\x00.\x00c\x00o\x00m\x00/\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00/\x00v\x004\x00.\x002\x004\x00.\x000\x00/\x00i\x00/\x00e\x00l\x00e\x00m\x00e\x00n\x00t\x00s\x00/\x00f\x00a\x00v\x00i\x00c\x00o\x00n\x00.\x00i\x00c\x00o' @ 3157 : 1
+2021/05/02-15:28:43.896 651 Compacting 1@1 + 1@2 files
+2021/05/02-15:28:43.942 651 Generated table #13@1: 274 keys, 22058 bytes
+2021/05/02-15:28:43.942 651 Compacted 1@1 + 1@2 files => 22058 bytes
+2021/05/02-15:28:43.984 651 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/02-15:28:43.985 651 Delete type=2 #12
+2021/05/02-15:28:43.985 651 Delete type=2 #9
+2021/05/02-15:28:43.985 651 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00`\x99\x1b\xc8\x92wB\x00\x01a\x00c\x00o\x00n\x00t\x00e\x00n\x00t\x00-\x00p\x00a\x00g\x00e\x00s\x00-\x00c\x00a\x00c\x00h\x00e\x00-\x001\x006\x001\x009\x001\x005\x009\x006\x006\x003\x004\x009\x007\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00w\x00w\x00.\x00i\x00p\x00l\x00t\x002\x000\x00.\x00c\x00o\x00m\x00/\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00/\x00v\x004\x00.\x002\x004\x00.\x000\x00/\x00i\x00/\x00e\x00l\x00e\x00m\x00e\x00n\x00t\x00s\x00/\x00f\x00a\x00v\x00i\x00c\x00o\x00n\x00.\x00i\x00c\x00o' @ 3157 : 1 .. (end); will stop at (end)

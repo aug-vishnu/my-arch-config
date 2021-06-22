@@ -1,0 +1,45 @@
+{
+	"analytics-uuid": "3c69e3bd-b7a7-4139-b8c0-8d05242b8d24",
+	"usage": true,
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1594757823366
+	},
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "102346630316062684123",
+		"email": "vishnuprabhu.bvk@gmail.com",
+		"email_verified": true,
+		"at_hash": "RtB1KTG3AgcXFlxi8BYorw",
+		"iat": 1594663851,
+		"exp": 1594667451
+	},
+	"tokens": {
+		"expires_at": 1594761429576,
+		"refresh_token": "1//0gal_HLen7A13CgYIARAAGBASNwF-L9Irz8FNnWX33PFx0U3D8dIsUD5Drz11muDigwx6jR_kmbcyM6VBJOvwkVYXJjv4eaaBINM",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0AfH6SMC8y-uBOlSO1Nf6cP464Nk3KIUfuMhxrIUDaXIibF-jnZ8jbIswH5y73GOxPnnYG7tbT7RrpX6sFQ8DvyR8Oj9xcfktMk2DTVjBN8E3Pra5lYIhRO6xIyeK9LoPYlWNpapN30hh9tl3SR8I71ej6ARCNUYoUqVRXOT9eDiy",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjY1YjNmZWFhZDlkYjBmMzhiMWI0YWI5NDU1M2ZmMTdkZTRkZDRkNDkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAyMzQ2NjMwMzE2MDYyNjg0MTIzIiwiZW1haWwiOiJ2aXNobnVwcmFiaHUuYnZrQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiSll2MHlXM1ZzM0pkMkk5SExXdjdBZyIsImlhdCI6MTU5NDc1NzgzMCwiZXhwIjoxNTk0NzYxNDMwfQ.rlSql_3RDxa_X8GrUNliLyeC6DAmIUjB2TGWfuhVVCE5chePYmMa6QNwZNm217MbIIL4EwBNIj0SPHkTiQVvwdkaj6hM-ZeKQamQHd_p8NE-AWRl_TSkKjYTGbaqXL5ZWzY4NHY6B32ORFj2FRTqizEyrIE4neGZbUQSM07x5XYyz-3M4MOd8eXer0QXuWNoMyNjK7c186op_LQu8r02ObYl_lJbMdr3tvfmdLQZP0y5XO6zXbJblkZ6CgUzZKavAlOeLbESg5v4cK9HMemYSMj-gl6P2PyPSryWXYZlFBLrUbtlDVSCVs3l9Dfdl15MRE_ipGF6N2hANY0-nDG-Ww"
+	},
+	"activeProjects": {
+		"/home/gork/Projects/Hoard/hoard-head": "hoard-ea2b0",
+		"/home/gork/Projects/front-end": "hoard-ea2b0"
+	}
+}

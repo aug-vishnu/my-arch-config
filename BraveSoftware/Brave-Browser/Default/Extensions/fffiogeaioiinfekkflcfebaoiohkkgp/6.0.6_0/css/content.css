@@ -1,0 +1,132 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* My styles */
+.ytt-row-container {
+  margin: 8px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* Preload youtube styles */
+.description #content.ytd-expander {
+  margin-bottom: 8px;
+}
+#always-shown ytd-metadata-row-renderer:first-child,
+#collapsible ytd-metadata-row-renderer:first-child {
+  margin-top: 0;
+}
+#title.ytd-metadata-row-renderer {
+  color: hsl(0, 0%, 53.3%);
+  margin-right: 16px;
+  width: 110px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  flex: none;
+}
+h4.ytd-metadata-row-renderer,
+div.ytd-metadata-row-renderer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+#content.ytd-metadata-row-renderer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.content.ytd-metadata-row-renderer {
+  --yt-endpoint-color: var(--yt-primary-text-color);
+  color: var(--yt-primary-text-color);
+  white-space: pre-wrap;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+.content.content-line-height-override.ytd-metadata-row-renderer {
+  line-height: 2.1rem;
+
+  /* Custom */
+  position: relative;
+}
+
+
+.ytt-suggestion {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ytt-suggestion__footer {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.ytt-suggestion__action {
+  display: block;
+  margin: 0;
+  padding: 4px 8px;
+  border-radius: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: var(--yt-spec-text-primary-inverse);
+  background-color: var(--yt-spec-call-to-action);
+
+  font-size: var(--ytd-tab-system_-_font-size);
+  font-weight: var(--ytd-tab-system_-_font-weight);
+  letter-spacing: var(--ytd-tab-system_-_letter-spacing);
+}
+.ytt-suggestion__close {
+  display: block;
+  border: none;
+  margin: 0;
+  margin-left: 8px;
+  padding: 4px 8px;
+  border-radius: 2px;
+  text-transform: uppercase;
+
+  color: var(--yt-spec-text-secondary);
+  background-color: transparent;
+
+  font-size: var(--ytd-tab-system_-_font-size);
+  font-weight: var(--ytd-tab-system_-_font-weight);
+  letter-spacing: var(--ytd-tab-system_-_letter-spacing);
+}
+

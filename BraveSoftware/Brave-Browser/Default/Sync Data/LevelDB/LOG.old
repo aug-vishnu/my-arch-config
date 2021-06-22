@@ -1,0 +1,6 @@
+2021/06/22-01:36:49.942 415 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/06/22-01:36:49.953 415 Recovering log #139
+2021/06/22-01:36:50.418 415 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000139.log 
+2021/06/22-01:37:38.451 414 Level-0 table #144: started
+2021/06/22-01:37:38.567 414 Level-0 table #144: 64953 bytes OK
+2021/06/22-01:37:38.755 414 Delete type=0 #139

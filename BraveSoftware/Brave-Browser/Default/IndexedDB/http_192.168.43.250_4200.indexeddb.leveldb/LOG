@@ -1,0 +1,8 @@
+2021/04/26-02:48:05.691 17edc Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/http_192.168.43.250_4200.indexeddb.leveldb/MANIFEST-000001
+2021/04/26-02:48:05.692 17edc Recovering log #4
+2021/04/26-02:48:05.692 17edc Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/http_192.168.43.250_4200.indexeddb.leveldb/000004.log 
+2021/04/26-02:48:08.397 17edc Level-0 table #8: started
+2021/04/26-02:48:08.398 17edc Level-0 table #8: 0 bytes OK
+2021/04/26-02:48:08.511 17edc Delete type=0 #4
+2021/04/26-02:48:08.511 17edc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/26-02:48:08.511 17edc Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,10 @@
+2021/06/14-15:47:30.692 23f4 Reusing MANIFEST /home/gork/.config/Slack/Local Storage/leveldb/MANIFEST-000001
+2021/06/14-21:28:32.796 13956 Level-0 table #5: started
+2021/06/14-21:28:32.923 13956 Level-0 table #5: 9735 bytes OK
+2021/06/14-21:28:33.000 13956 Delete type=0 #3
+2021/06/15-18:23:57.596 1fcaa Level-0 table #7: started
+2021/06/15-18:23:57.690 1fcaa Level-0 table #7: 10870 bytes OK
+2021/06/15-18:23:57.750 1fcaa Delete type=0 #4
+2021/06/16-00:51:57.593 31676 Level-0 table #9: started
+2021/06/16-00:51:57.686 31676 Level-0 table #9: 9293 bytes OK
+2021/06/16-00:51:57.792 31676 Delete type=0 #6

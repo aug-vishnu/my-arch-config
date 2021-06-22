@@ -1,0 +1,5 @@
+2021/06/22-22:26:08.991 26d7 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/MANIFEST-000001
+2021/06/22-22:26:08.991 26d7 Recovering log #3
+2021/06/22-22:26:09.277 26d7 (ignoring error) /home/gork/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000003.log: dropping 65 bytes; Corruption: missing start of fragmented record(2)
+2021/06/22-22:26:09.277 26d7 (ignoring error) /home/gork/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000003.log: dropping 2 bytes; Corruption: missing start of fragmented record(2)
+2021/06/22-22:26:09.278 26d7 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000003.log 

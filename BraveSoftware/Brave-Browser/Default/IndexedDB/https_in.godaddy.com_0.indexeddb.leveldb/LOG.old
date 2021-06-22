@@ -1,0 +1,15 @@
+2021/02/24-22:18:17.902 18a2e Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_in.godaddy.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/24-22:18:17.902 18a2e Recovering log #4
+2021/02/24-22:18:17.902 18a2e Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_in.godaddy.com_0.indexeddb.leveldb/000004.log 
+2021/02/24-22:18:22.306 18a2d Level-0 table #8: started
+2021/02/24-22:18:22.342 18a2d Level-0 table #8: 1280 bytes OK
+2021/02/24-22:18:22.386 18a2d Delete type=0 #4
+2021/02/24-22:18:22.386 18a2d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/24-22:18:22.386 18a2e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x003\x000\x001\x008\x007\x003\x003\x007' @ 141 : 1
+2021/02/24-22:18:22.386 18a2e Compacting 1@1 + 1@2 files
+2021/02/24-22:18:22.431 18a2e Generated table #9@1: 22 keys, 759 bytes
+2021/02/24-22:18:22.431 18a2e Compacted 1@1 + 1@2 files => 759 bytes
+2021/02/24-22:18:22.507 18a2e compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/24-22:18:22.508 18a2e Delete type=2 #5
+2021/02/24-22:18:22.508 18a2e Delete type=2 #8
+2021/02/24-22:18:22.509 18a2e Manual compaction at level-1 from '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x003\x000\x001\x008\x007\x003\x003\x007' @ 141 : 1 .. (end); will stop at (end)

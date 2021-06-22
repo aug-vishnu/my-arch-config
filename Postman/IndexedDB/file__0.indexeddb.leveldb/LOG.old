@@ -1,0 +1,33 @@
+2021/02/13-01:36:16.143 b725 Reusing MANIFEST /home/gork/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/02/13-01:36:16.171 b725 Recovering log #92
+2021/02/13-01:36:16.195 b725 Reusing old log /home/gork/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000092.log 
+2021/02/13-01:36:16.196 b725 Delete type=2 #93
+2021/02/13-01:36:16.196 b725 Delete type=2 #90
+2021/02/13-01:36:46.294 b830 Level-0 table #97: started
+2021/02/13-01:36:46.342 b830 Level-0 table #97: 65999 bytes OK
+2021/02/13-01:36:46.420 b830 Delete type=0 #92
+2021/02/13-01:36:46.421 b830 Manual compaction at level-0 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/02/13-01:36:52.734 b830 Compacting 1@1 + 1@2 files
+2021/02/13-01:36:52.958 b830 Generated table #98@1: 11527 keys, 1180930 bytes
+2021/02/13-01:36:52.958 b830 Compacted 1@1 + 1@2 files => 1180930 bytes
+2021/02/13-01:36:53.028 b830 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/13-01:36:53.028 b830 Delete type=2 #94
+2021/02/13-01:36:53.028 b830 Delete type=2 #97
+2021/02/13-01:39:26.152 b830 Level-0 table #100: started
+2021/02/13-01:39:26.252 b830 Level-0 table #100: 894701 bytes OK
+2021/02/13-01:39:26.292 b830 Delete type=0 #96
+2021/02/13-01:39:32.931 b830 Compacting 1@1 + 1@2 files
+2021/02/13-01:39:33.085 b830 Generated table #101@1: 11551 keys, 1242755 bytes
+2021/02/13-01:39:33.085 b830 Compacted 1@1 + 1@2 files => 1242755 bytes
+2021/02/13-01:39:33.120 b830 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/13-01:39:40.085 b830 Level-0 table #103: started
+2021/02/13-01:39:40.167 b830 Level-0 table #103: 703227 bytes OK
+2021/02/13-01:39:40.278 b830 Delete type=2 #100
+2021/02/13-01:39:40.279 b830 Delete type=0 #99
+2021/02/13-01:39:40.279 b830 Delete type=2 #98
+2021/02/13-01:40:43.345 b830 Compacting 1@1 + 1@2 files
+2021/02/13-01:40:43.493 b830 Generated table #104@1: 11537 keys, 1237613 bytes
+2021/02/13-01:40:43.493 b830 Compacted 1@1 + 1@2 files => 1237613 bytes
+2021/02/13-01:40:43.532 b830 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/13-01:40:43.532 b830 Delete type=2 #101
+2021/02/13-01:40:43.532 b830 Delete type=2 #103

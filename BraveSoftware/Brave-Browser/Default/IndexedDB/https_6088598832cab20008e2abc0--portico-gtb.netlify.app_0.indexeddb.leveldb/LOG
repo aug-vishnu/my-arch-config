@@ -1,0 +1,5 @@
+2021/04/28-00:14:28.819 1429c Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_6088598832cab20008e2abc0--portico-gtb.netlify.app_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/28-00:14:37.539 14452 Level-0 table #5: started
+2021/04/28-00:14:37.583 14452 Level-0 table #5: 1533 bytes OK
+2021/04/28-00:14:37.672 14452 Delete type=0 #3
+2021/04/28-00:14:37.687 14452 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,19 @@
+Looking for git in: git
+Using git 2.26.2 from git
+> git rev-parse --git-dir
+Open repository: /home/gork/Projects/Eegai/eegai_api
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git check-ignore -v -z --stdin
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :auth_api/views/customer_views.py
+> git show --textconv :auth_api/models.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/auth_api/views/customer_views.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/auth_api/models.py
+> git cat-file -s 5136de527ceffb0f667ac835c50ae11260897880
+> git cat-file -s ee34691d40d63df49e844cdbcc1401893e82f1bc

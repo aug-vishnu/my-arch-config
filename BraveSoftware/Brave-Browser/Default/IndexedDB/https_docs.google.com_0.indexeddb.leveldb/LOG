@@ -1,0 +1,15 @@
+2021/05/29-01:58:06.478 1bd2 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/29-01:58:06.478 1bd2 Recovering log #193
+2021/05/29-01:58:06.478 1bd2 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000193.log 
+2021/05/29-02:42:08.066 355c Level-0 table #197: started
+2021/05/29-02:42:08.109 355c Level-0 table #197: 190 bytes OK
+2021/05/29-02:42:08.149 355c Delete type=0 #193
+2021/05/29-02:42:08.149 355c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/29-02:42:08.149 355c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 2413 : 1
+2021/05/29-02:42:08.149 355c Compacting 1@1 + 1@2 files
+2021/05/29-02:42:08.199 355c Generated table #198@1: 295 keys, 62317 bytes
+2021/05/29-02:42:08.199 355c Compacted 1@1 + 1@2 files => 62317 bytes
+2021/05/29-02:42:08.237 355c compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/29-02:42:08.237 355c Delete type=2 #179
+2021/05/29-02:42:08.237 355c Delete type=2 #197
+2021/05/29-02:42:08.238 355c Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 2413 : 1 .. (end); will stop at (end)

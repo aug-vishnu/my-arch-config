@@ -1,0 +1,5 @@
+2021/06/14-15:49:49.117 2bd4 Reusing MANIFEST /home/gork/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/15-15:02:26.207 15c5c Level-0 table #5: started
+2021/06/15-15:02:26.284 15c5c Level-0 table #5: 4960 bytes OK
+2021/06/15-15:02:26.330 15c5c Delete type=0 #3
+2021/06/15-15:02:26.330 15c5c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

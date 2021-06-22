@@ -1,0 +1,28 @@
+Looking for git in: git
+Using git 2.26.2 from git
+> git rev-parse --git-dir
+Open repository: /home/gork/Projects/Hoard/hoard_api
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git check-ignore -v -z --stdin
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core/mail_sender.py
+> git show --textconv :core/models.py
+> git ls-files --stage -- /home/gork/Projects/Hoard/hoard_api/core/mail_sender.py
+> git ls-files --stage -- /home/gork/Projects/Hoard/hoard_api/core/models.py
+> git cat-file -s 99e4d16eda7f0f21326e2248d565e6a7862f2aae
+> git cat-file -s 0096996ee3b18580756bb0aaac8724b7bca106d1
+> git show --textconv :requirements.txt
+> git ls-files --stage -- /home/gork/Projects/Hoard/hoard_api/requirements.txt
+> git cat-file -s bb4b622108cd4859052280e57b49a3b3a35f8738
+> git show --textconv :core/mail_sender.py
+> git ls-files --stage -- /home/gork/Projects/Hoard/hoard_api/core/mail_sender.py
+> git cat-file -s 0096996ee3b18580756bb0aaac8724b7bca106d1
+> git show --textconv :core/admin.py
+> git ls-files --stage -- /home/gork/Projects/Hoard/hoard_api/core/admin.py
+> git cat-file -s 9d54a139798595b425d17f3cb802669b64407964

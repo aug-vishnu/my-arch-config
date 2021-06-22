@@ -1,0 +1,8 @@
+2021/04/26-13:32:50.315 52fd Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.florin-pop.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/26-13:32:50.316 52fd Recovering log #4
+2021/04/26-13:32:50.316 52fd Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.florin-pop.com_0.indexeddb.leveldb/000004.log 
+2021/04/26-13:33:30.427 52fd Level-0 table #8: started
+2021/04/26-13:33:30.427 52fd Level-0 table #8: 0 bytes OK
+2021/04/26-13:33:30.535 52fd Delete type=0 #4
+2021/04/26-13:33:30.536 52fd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/26-13:33:30.536 52fd Manual compaction at level-1 from (begin) .. (end); will stop at (end)

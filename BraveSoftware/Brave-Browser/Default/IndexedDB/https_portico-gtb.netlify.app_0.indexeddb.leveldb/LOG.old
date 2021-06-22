@@ -1,0 +1,15 @@
+2021/04/27-23:22:45.552 1284a Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_portico-gtb.netlify.app_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/27-23:22:45.552 1284a Recovering log #27
+2021/04/27-23:22:45.553 1284a Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_portico-gtb.netlify.app_0.indexeddb.leveldb/000027.log 
+2021/04/27-23:23:23.534 1341d Level-0 table #32: started
+2021/04/27-23:23:23.655 1341d Level-0 table #32: 482 bytes OK
+2021/04/27-23:23:23.770 1341d Delete type=0 #27
+2021/04/27-23:23:23.770 1341d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/27-23:23:23.770 1284a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x00l\x00o\x00c\x00a\x00l\x00F\x00o\x00r\x00a\x00g\x00e\x00T\x00e\x00s\x00t' @ 1401 : 1
+2021/04/27-23:23:23.770 1284a Compacting 1@1 + 1@2 files
+2021/04/27-23:23:23.836 1284a Generated table #33@1: 35 keys, 1266 bytes
+2021/04/27-23:23:23.836 1284a Compacted 1@1 + 1@2 files => 1266 bytes
+2021/04/27-23:23:23.898 1284a compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/27-23:23:23.898 1284a Delete type=2 #29
+2021/04/27-23:23:23.898 1284a Delete type=2 #32
+2021/04/27-23:23:23.899 1284a Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0f\x00l\x00o\x00c\x00a\x00l\x00F\x00o\x00r\x00a\x00g\x00e\x00T\x00e\x00s\x00t' @ 1401 : 1 .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/03/24-23:20:11.247 8acb Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.lenskart.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/24-23:23:29.184 895c Level-0 table #5: started
+2021/03/24-23:23:29.229 895c Level-0 table #5: 1364 bytes OK
+2021/03/24-23:23:29.277 895c Delete type=0 #3
+2021/03/24-23:23:29.277 895c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

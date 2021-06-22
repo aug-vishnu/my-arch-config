@@ -1,0 +1,37 @@
+2021/05/06-16:03:51.049 8fd5 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/06-16:03:51.049 8fd5 Recovering log #116
+2021/05/06-16:03:51.049 8fd5 Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000116.log 
+2021/05/06-16:04:19.093 8fd5 Level-0 table #121: started
+2021/05/06-16:04:19.148 8fd5 Level-0 table #121: 19548 bytes OK
+2021/05/06-16:04:19.189 8fd5 Delete type=0 #116
+2021/05/06-16:04:19.189 8fd5 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/05/06-16:04:19.189 8fd5 Manual compaction at level-1 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x03\x1f\x04\x02\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x000\xe8\xde\x13\x94wB\x00\x03\x00\x00\x00\x00\x00\x00E@' @ 16297 : 1
+2021/05/06-16:04:19.189 8fd5 Compacting 1@1 + 1@2 files
+2021/05/06-16:04:19.238 8fd5 Generated table #122@1: 237 keys, 8302 bytes
+2021/05/06-16:04:19.238 8fd5 Compacted 1@1 + 1@2 files => 8302 bytes
+2021/05/06-16:04:19.277 8fd5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/06-16:04:19.277 8fd5 Delete type=2 #121
+2021/05/06-16:04:19.278 8fd5 Manual compaction at level-1 from '\x00\x0c\x03\x1f\x04\x02\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x000\xe8\xde\x13\x94wB\x00\x03\x00\x00\x00\x00\x00\x00E@' @ 16297 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/05/06-16:07:18.772 9020 Level-0 table #124: started
+2021/05/06-16:07:18.827 9020 Level-0 table #124: 38573 bytes OK
+2021/05/06-16:07:18.889 9020 Delete type=0 #120
+2021/05/06-16:07:18.889 9020 Delete type=2 #118
+2021/05/06-16:07:18.890 9020 Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/05/06-16:08:54.584 9020 Compacting 1@1 + 1@2 files
+2021/05/06-16:08:54.690 9020 Generated table #125@1: 208 keys, 7113 bytes
+2021/05/06-16:08:54.690 9020 Compacted 1@1 + 1@2 files => 7113 bytes
+2021/05/06-16:08:54.786 9020 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/06-16:08:54.787 9020 Delete type=2 #124
+2021/05/06-16:08:54.787 9020 Delete type=2 #122
+2021/05/06-16:40:15.906 a966 Level-0 table #127: started
+2021/05/06-16:40:15.959 a966 Level-0 table #127: 90548 bytes OK
+2021/05/06-16:40:16.007 a966 Delete type=0 #123
+2021/05/06-16:40:16.007 a966 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/06-16:40:16.007 a966 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0e\x03\x1f\x04\x02\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x000'O\x14\x94wB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 18288 : 1
+2021/05/06-16:40:16.007 a966 Compacting 1@1 + 1@2 files
+2021/05/06-16:40:16.049 a966 Generated table #128@1: 288 keys, 14407 bytes
+2021/05/06-16:40:16.049 a966 Compacted 1@1 + 1@2 files => 14407 bytes
+2021/05/06-16:40:16.095 a966 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/06-16:40:16.095 a966 Delete type=2 #125
+2021/05/06-16:40:16.095 a966 Delete type=2 #127
+2021/05/06-16:40:16.096 a966 Manual compaction at level-1 from '\x00\x0e\x03\x1f\x04\x02\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x000'O\x14\x94wB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 18288 : 1 .. (end); will stop at (end)

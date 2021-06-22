@@ -1,0 +1,31 @@
+{
+   "author": "alik0211",
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "css/content.css" ],
+      "js": [ "js/content.js" ],
+      "matches": [ "https://www.youtube.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "differential_fingerprint": "1.59e08c0aabca52fdbbc0bfecd302c7b09d007fea6783de504dafb27c6f634831",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo5/5rfACLEOzmnbB1vsIj4c7KQW0MMYm7bxYgmYvVzl1CskJIwKuasXuJJ7pi80/W9V6yvkh/eEK1ficjMU7e4i7RYBH5xwez5GgBrm6XbLdzE/3+F0gDtMZdKcwrrWA83mHPJdqtzri4c1/ctrE/zicqxRix/6LZtgSmKFobXy1lklwBxfuvcCKCn/QrOxmd8zmMZ4jxbnwUNtaRWEhl4t2djkb6RUH009TWh0lzTDHD42ZwA+PhKSFlcr7oJ+rXIAMK6jhst3hwP9tPgNi8TkZf9VLLIyTvZqaY4rYSBe9aAnzVu2B6VZCNyzUMlOwSOI1bKYZo6+zqAfx1Tf7owIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "https://www.youtube.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.0.6",
+   "web_accessible_resources": [ "css/*.css" ]
+}

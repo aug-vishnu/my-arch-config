@@ -1,0 +1,5 @@
+2021/02/08-03:16:37.808 19ab1 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_account.godaddy.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/08-03:23:45.328 19ab1 Level-0 table #5: started
+2021/02/08-03:23:45.706 19ab1 Level-0 table #5: 1839 bytes OK
+2021/02/08-03:23:45.908 19ab1 Delete type=0 #3
+2021/02/08-03:23:45.910 19ab1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

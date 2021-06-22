@@ -1,0 +1,33 @@
+<html>
+  <head>
+	<script>
+		function showIcon(tabId, changeInfo, tab){ 
+			if(tab.url.substring(0,9) == 'chrome://') return;
+				chrome.pageAction.show(tabId);       
+		}       
+		function toDomain(url) { 
+			return url.match(/:\/\/(.[^/]+)/)[1];
+		}
+		function doAdplanner(tab){          
+			chrome.tabs.create({url:'https://builtwith.com/' + toDomain(tab.url) });						
+		}
+		chrome.tabs.onUpdated.addListener(showIcon);
+		chrome.pageAction.onClicked.addListener(doAdplanner);
+  </script>
+  </head>
+  <body>
+	<script>
+		 var _gaq = _gaq || [];
+		 _gaq.push(['_setAccount', 'UA-112399887-1']);
+		 _gaq.push(['_trackPageview']);
+
+		 (function() {
+		   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		   ga.src = 'https://ssl.google-analytics.com/ga.js';
+		   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		 })();
+   </script>  
+  </body>
+</html>
+
+

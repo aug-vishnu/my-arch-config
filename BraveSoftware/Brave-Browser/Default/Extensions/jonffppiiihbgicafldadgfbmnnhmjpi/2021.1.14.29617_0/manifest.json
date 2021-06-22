@@ -1,0 +1,59 @@
+{
+   "app": {
+      "display_mode": "standalone",
+      "icon_color": "#0297F9",
+      "launch": {
+         "web_url": "https://stackblitz.com/"
+      },
+      "linked_icons": [ {
+         "size": 72,
+         "url": "https://c.staticblitz.com/assets/icons/icon-72x72-7250c7dd69145c328a4171d62d2616d84e1715292f85c43252e8da49718be1c1.png"
+      }, {
+         "size": 96,
+         "url": "https://c.staticblitz.com/assets/icons/icon-96x96-6d07f8021c30b9cd56b514faab0a117f33fc5fbb4cce61071c6412bbd6499248.png"
+      }, {
+         "size": 128,
+         "url": "https://c.staticblitz.com/assets/icons/icon-128x128-e0c24603497d06f8dad38afff653793cdebba89ca5ad63b13b64824302215360.png"
+      }, {
+         "size": 144,
+         "url": "https://c.staticblitz.com/assets/icons/icon-144x144-087fc0a60e0073134b9d301ac02a1d2a547db3428c0c010818aa431fa85fffd8.png"
+      }, {
+         "size": 152,
+         "url": "https://c.staticblitz.com/assets/icons/icon-152x152-5c669b01d245aa4f0c2f5fb108e3b4125c70b2412804d2675cb260ec4ca21a70.png"
+      }, {
+         "size": 192,
+         "url": "https://c.staticblitz.com/assets/icons/icon-192x192-6f792cdd53407d8fad7004302cd1a23c8d8c10d77cb8e677d1a27e999a3af7e5.png"
+      }, {
+         "size": 384,
+         "url": "https://c.staticblitz.com/assets/icons/icon-384x384-7729eea9ad6cf903ee67d16b7e321ca83268e0437f36eaddad01a28d76a2682e.png"
+      }, {
+         "size": 512,
+         "url": "https://c.staticblitz.com/assets/icons/icon-512x512-812852674f3373ef85d86eb89d8d2401ab5fa722a1c9d46600c076ccbd70160d.png"
+      } ],
+      "theme_color": "rgba(54,54,54,1)"
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "152": "icons/152.png",
+      "192": "icons/192.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "384": "icons/384.png",
+      "48": "icons/48.png",
+      "503": "icons/503.png",
+      "64": "icons/64.png",
+      "72": "icons/72.png",
+      "96": "icons/96.png"
+   },
+   "key": "bVqSnJceX6Fo2v+5uQ4cWrwafdbl1JIOcnFewiuDp7A=",
+   "name": "StackBlitz",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://stackblitz.com/*" ],
+         "title": "StackBlitz"
+      }
+   },
+   "version": "2021.1.14.29617"
+}

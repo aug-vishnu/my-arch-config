@@ -1,0 +1,29 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "onFocusChange",
+    "workbench.statusBar.visible": true,
+    "workbench.panel.defaultLocation": "right",
+    "editor.fontWeight": "600",
+    "editor.fontSize": 16,
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "window.zoomLevel": -2,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "git.enableSmartCommit": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "timeline.excludeSources": [],
+    "diffEditor.renderSideBySide": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

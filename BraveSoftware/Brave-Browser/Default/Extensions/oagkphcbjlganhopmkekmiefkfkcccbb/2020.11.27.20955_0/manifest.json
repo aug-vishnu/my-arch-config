@@ -1,0 +1,24 @@
+{
+   "app": {
+      "display_mode": "browser",
+      "launch": {
+         "web_url": "https://nkgroups.co.in/"
+      },
+      "linked_icons": [ {
+         "size": 0,
+         "url": "https://nkgroups.co.in/favicon.ico"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "bovJ9Lh9UuoOEvNsogK4qSvAay02IzkV4RFFvP99kok=",
+   "name": "NK Groups",
+   "version": "2020.11.27.20955"
+}

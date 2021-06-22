@@ -1,0 +1,39 @@
+Looking for git in: git
+Using git 2.26.2 from git
+> git rev-parse --git-dir
+Open repository: /home/gork/Projects/Eegai/eegai_api
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :auth_api/models.py
+> git show --textconv :journal_api/models.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/auth_api/models.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/journal_api/models.py
+> git cat-file -s 5136de527ceffb0f667ac835c50ae11260897880
+> git cat-file -s 8edca44c8209f283b3eb9cfb69f9fc4524a6c889
+> git show --textconv :core_api/models.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/core_api/models.py
+> git cat-file -s a2d3c13d1d3e0fce5f08eb038937f68359f0c3ea
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gork/Projects/Eegai/eegai_api/journal_api/models.py
+> git show --textconv :auth_api/models.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/auth_api/models.py
+> git cat-file -s 5136de527ceffb0f667ac835c50ae11260897880
+> git show --textconv :journal_api/serializers.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/journal_api/serializers.py
+> git cat-file -s e785f8b3a541ce0d030d1420e94b6f83cee1aa24
+> git check-ignore -v -z --stdin
+> git show --textconv :core_api/views/lead_views.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/core_api/views/lead_views.py
+> git cat-file -s 3ee090668dd22ac83dc8166200d2d11718f9763a
+> git show --textconv :auth_api/views/customer_views.py
+> git ls-files --stage -- /home/gork/Projects/Eegai/eegai_api/auth_api/views/customer_views.py
+> git cat-file -s ee34691d40d63df49e844cdbcc1401893e82f1bc

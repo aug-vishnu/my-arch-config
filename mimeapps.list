@@ -1,0 +1,24 @@
+[Default Applications]
+text/x-shellscript=text.desktop;
+x-scheme-handler/magnet=torrent.desktop;
+application/x-bittorrent=torrent.desktop;
+x-scheme-handler/mailto=mail.desktop;
+text/plain=text.desktop;
+application/postscript=pdf.desktop;
+application/pdf=pdf.desktop;
+image/png=img.desktop;
+image/jpeg=img.desktop;
+image/gif=img.desktop;
+application/rss+xml=rss.desktop
+video/x-matroska=video.desktop
+x-scheme-handler/lbry=lbry.desktop
+inode/directory=file.desktop
+x-scheme-handler/kite=kite-copilot.desktop
+x-scheme-handler/postman=Postman.desktop
+x-scheme-handler/tg=telegramdesktop.desktop
+
+[Added Associations]
+application/x-compressed-tar=xarchiver.desktop;google-chrome.desktop;
+text/vnd.qt.linguist=vim.desktop;
+text/html=chromium.desktop;sublime-text2.desktop;nvim.desktop;vim.desktop;
+image/png=sxiv.desktop;google-chrome.desktop;

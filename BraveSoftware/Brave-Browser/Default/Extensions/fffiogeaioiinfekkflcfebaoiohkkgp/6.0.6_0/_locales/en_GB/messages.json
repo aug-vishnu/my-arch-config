@@ -1,0 +1,26 @@
+{
+   "appDesc": {
+      "message": "The extension to view the tags of any YouTube video"
+   },
+   "appName": {
+      "message": "YouTube Tags"
+   },
+   "optionsSuggestionsName": {
+      "message": "Show suggestions"
+   },
+   "rowSuggestionClose": {
+      "message": "Close"
+   },
+   "rowSuggestionName": {
+      "message": "Suggestion"
+   },
+   "rowTagsContentEmpty": {
+      "message": "The video has no tags"
+   },
+   "rowTagsContentError": {
+      "message": "Error"
+   },
+   "rowTagsName": {
+      "message": "Tags"
+   }
+}

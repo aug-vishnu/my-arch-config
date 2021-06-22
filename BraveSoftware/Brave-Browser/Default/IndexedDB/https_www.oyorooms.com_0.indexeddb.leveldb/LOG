@@ -1,0 +1,15 @@
+2021/04/14-00:00:05.840 143a Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.oyorooms.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/14-00:00:05.840 143a Recovering log #4
+2021/04/14-00:00:05.840 143a Reusing old log /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.oyorooms.com_0.indexeddb.leveldb/000004.log 
+2021/04/14-00:00:43.819 19c9 Level-0 table #8: started
+2021/04/14-00:00:43.862 19c9 Level-0 table #8: 3632 bytes OK
+2021/04/14-00:00:43.908 19c9 Delete type=0 #4
+2021/04/14-00:00:43.909 19c9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/14-00:00:43.909 19c9 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x014\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00d\x00e\x00s\x00k\x00t\x00o\x00p\x00/\x00l\x00i\x00s\x00t\x00i\x00n\x00g\x00.\x00f\x008\x00f\x00f\x00a\x003\x004\x002\x00e\x009\x006\x007\x002\x005\x00e\x00d\x00f\x004\x009\x009\x00.\x00r\x00t\x00l\x00.\x00c\x00s\x00s' @ 193 : 1
+2021/04/14-00:00:43.909 19c9 Compacting 1@1 + 1@2 files
+2021/04/14-00:00:43.952 19c9 Generated table #9@1: 37 keys, 1627 bytes
+2021/04/14-00:00:43.952 19c9 Compacted 1@1 + 1@2 files => 1627 bytes
+2021/04/14-00:00:43.997 19c9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/14-00:00:43.997 19c9 Delete type=2 #5
+2021/04/14-00:00:43.997 19c9 Delete type=2 #8
+2021/04/14-00:00:43.997 19c9 Manual compaction at level-1 from '\x00\x01\x01\x02\x014\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00d\x00e\x00s\x00k\x00t\x00o\x00p\x00/\x00l\x00i\x00s\x00t\x00i\x00n\x00g\x00.\x00f\x008\x00f\x00f\x00a\x003\x004\x002\x00e\x009\x006\x007\x002\x005\x00e\x00d\x00f\x004\x009\x009\x00.\x00r\x00t\x00l\x00.\x00c\x00s\x00s' @ 193 : 1 .. (end); will stop at (end)

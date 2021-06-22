@@ -1,0 +1,133 @@
+09:45:01 PM.068: CPU Name: AMD PRO A4-4350B R4, 5 COMPUTE CORES 2C+3G
+09:45:01 PM.069: CPU Speed: 2016.679MHz
+09:45:01 PM.069: Physical Cores: 2, Logical Cores: 2
+09:45:01 PM.069: Physical Memory: 3779MB Total, 1142MB Free
+09:45:01 PM.069: Kernel Version: Linux 5.6.8-arch1-1
+09:45:01 PM.069: Distribution: "Arch Linux" Unknown
+09:45:01 PM.069: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.8
+09:45:01 PM.070: Portable mode: false
+09:45:01 PM.148: OBS 25.0.8-1 (linux)
+09:45:01 PM.148: ---------------------------------
+09:45:01 PM.149: ---------------------------------
+09:45:01 PM.149: audio settings reset:
+09:45:01 PM.149: 	samples per sec: 44100
+09:45:01 PM.149: 	speakers:        2
+09:45:01 PM.158: ---------------------------------
+09:45:01 PM.158: Initializing OpenGL...
+09:45:01 PM.345: Loading up OpenGL on adapter X.Org AMD STONEY (DRM 3.36.0, 5.6.8-arch1-1, LLVM 10.0.0)
+09:45:01 PM.345: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 20.0.6, shading language 4.50
+09:45:01 PM.374: ---------------------------------
+09:45:01 PM.374: video settings reset:
+09:45:01 PM.374: 	base resolution:   1366x768
+09:45:01 PM.374: 	output resolution: 1092x614
+09:45:01 PM.374: 	downscale filter:  Bicubic
+09:45:01 PM.374: 	fps:               30/1
+09:45:01 PM.374: 	format:            NV12
+09:45:01 PM.374: 	YUV mode:          601/Partial
+09:45:01 PM.374: NV12 texture support not available
+09:45:01 PM.379: Audio monitoring device:
+09:45:01 PM.379: 	name: Default
+09:45:01 PM.379: 	id: default
+09:45:01 PM.379: ---------------------------------
+09:45:01 PM.382: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+09:45:01 PM.383: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libpython3.8.so.1.0: cannot open shared object file: No such file or directory
+09:45:01 PM.383: 
+09:45:01 PM.383: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+09:45:01 PM.391: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:45:01 PM.391: No blackmagic support
+09:45:01 PM.409: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+09:45:01 PM.409: 
+09:45:01 PM.409: FFMPEG VAAPI supported
+09:45:01 PM.411: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+09:45:01 PM.411: 
+09:45:01 PM.411: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+09:45:01 PM.422: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+09:45:01 PM.422: 
+09:45:01 PM.422: Couldn't find VLC installation, VLC video source disabled
+09:45:01 PM.422: ---------------------------------
+09:45:01 PM.422:   Loaded Modules:
+09:45:01 PM.422:     vlc-video.so
+09:45:01 PM.422:     text-freetype2.so
+09:45:01 PM.422:     rtmp-services.so
+09:45:01 PM.422:     obs-x264.so
+09:45:01 PM.422:     obs-transitions.so
+09:45:01 PM.422:     obs-outputs.so
+09:45:01 PM.422:     obs-filters.so
+09:45:01 PM.422:     obs-ffmpeg.so
+09:45:01 PM.422:     linux-v4l2.so
+09:45:01 PM.422:     linux-pulseaudio.so
+09:45:01 PM.422:     linux-jack.so
+09:45:01 PM.422:     linux-decklink.so
+09:45:01 PM.422:     linux-capture.so
+09:45:01 PM.422:     linux-alsa.so
+09:45:01 PM.422:     image-source.so
+09:45:01 PM.422:     decklink-ouput-ui.so
+09:45:01 PM.422: ---------------------------------
+09:45:01 PM.422: ==== Startup complete ===============================================
+09:45:01 PM.422: Service '' not found
+09:45:01 PM.425: All scene data cleared
+09:45:01 PM.426: ------------------------------------------------
+09:45:01 PM.429: pulse-input: Server name: 'pulseaudio 13.0'
+09:45:01 PM.429: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+09:45:01 PM.429: pulse-input: Started recording from 'alsa_output.pci-0000_00_09.2.analog-stereo.monitor'
+09:45:01 PM.429: [Loaded global audio device]: 'Desktop Audio'
+09:45:01 PM.431: pulse-input: Server name: 'pulseaudio 13.0'
+09:45:01 PM.432: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+09:45:01 PM.432: pulse-input: Started recording from 'alsa_input.pci-0000_00_09.2.analog-stereo'
+09:45:01 PM.432: [Loaded global audio device]: 'Mic/Aux'
+09:45:01 PM.433: xshm-input: Geometry 1366x768 @ 0,0
+09:45:01 PM.439: Switched to scene 'Scene'
+09:45:01 PM.439: ------------------------------------------------
+09:45:01 PM.439: Loaded scenes:
+09:45:01 PM.439: - scene 'Scene':
+09:45:01 PM.439:     - source: 'Screen Capture (XSHM)' (xshm_input)
+09:45:01 PM.439: ------------------------------------------------
+09:45:03 PM.966: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Desktop Audio)
+09:45:03 PM.966: 
+09:46:51 PM.290: ---------------------------------
+09:46:51 PM.290: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+09:46:51 PM.337: [x264 encoder: 'simple_h264_stream'] settings:
+09:46:51 PM.337: 	rate_control: CBR
+09:46:51 PM.337: 	bitrate:      2500
+09:46:51 PM.337: 	buffer size:  2500
+09:46:51 PM.337: 	crf:          0
+09:46:51 PM.337: 	fps_num:      30
+09:46:51 PM.337: 	fps_den:      1
+09:46:51 PM.337: 	width:        1092
+09:46:51 PM.337: 	height:       614
+09:46:51 PM.337: 	keyint:       250
+09:46:51 PM.337: 
+09:46:51 PM.374: ---------------------------------
+09:46:51 PM.375: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+09:46:51 PM.375: 
+09:46:51 PM.436: ==== Recording Start ===============================================
+09:46:51 PM.437: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gork/2021-05-27 21-46-51.mkv'...
+09:47:50 PM.729: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gork/2021-05-27 21-46-51.mkv' stopped
+09:47:50 PM.729: Output 'simple_file_output': stopping
+09:47:50 PM.729: Output 'simple_file_output': Total frames output: 1760
+09:47:50 PM.729: Output 'simple_file_output': Total drawn frames: 1776 (1779 attempted)
+09:47:50 PM.729: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 3 (0.2%)
+09:47:50 PM.729: ==== Recording Stop ================================================
+09:49:20 PM.146: ---------------------------------
+09:49:20 PM.146: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+09:49:20 PM.146: [x264 encoder: 'simple_h264_stream'] settings:
+09:49:20 PM.146: 	rate_control: CBR
+09:49:20 PM.146: 	bitrate:      2500
+09:49:20 PM.146: 	buffer size:  2500
+09:49:20 PM.146: 	crf:          0
+09:49:20 PM.146: 	fps_num:      30
+09:49:20 PM.146: 	fps_den:      1
+09:49:20 PM.146: 	width:        1092
+09:49:20 PM.146: 	height:       614
+09:49:20 PM.146: 	keyint:       250
+09:49:20 PM.146: 
+09:49:20 PM.154: ---------------------------------
+09:49:20 PM.154: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+09:49:20 PM.154: 
+09:49:20 PM.159: ==== Recording Start ===============================================
+09:49:20 PM.159: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gork/2021-05-27 21-49-20.mkv'...
+09:49:35 PM.131: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gork/2021-05-27 21-49-20.mkv' stopped
+09:49:35 PM.131: Output 'simple_file_output': stopping
+09:49:35 PM.131: Output 'simple_file_output': Total frames output: 431
+09:49:35 PM.131: Output 'simple_file_output': Total drawn frames: 449
+09:49:35 PM.131: ==== Recording Stop ================================================

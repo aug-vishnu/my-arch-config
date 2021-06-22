@@ -1,0 +1,26 @@
+{
+   "appDesc": {
+      "message": "Die Erweiterung zum Anzeigen der Tags eines beliebigen YouTube-Videos"
+   },
+   "appName": {
+      "message": "YouTube Tags"
+   },
+   "optionsSuggestionsName": {
+      "message": "Zeige Vorschläge"
+   },
+   "rowSuggestionClose": {
+      "message": "Schließen"
+   },
+   "rowSuggestionName": {
+      "message": "Vorschlag"
+   },
+   "rowTagsContentEmpty": {
+      "message": "Das Video hat keine Tags"
+   },
+   "rowTagsContentError": {
+      "message": "Error"
+   },
+   "rowTagsName": {
+      "message": "Tags"
+   }
+}

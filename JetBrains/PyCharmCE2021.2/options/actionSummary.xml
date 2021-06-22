@@ -1,0 +1,28 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="CWMHostShowPopupAction">
+      <i c="2" l="1623772318066" />
+    </e>
+    <e n="CollapseRegion">
+      <i c="1" l="1623772302535" />
+    </e>
+    <e n="HideAllWindows">
+      <i c="3" l="1623772349693" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="24" l="1623771644518" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="13" l="1623771644168" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="1" l="1623771516775" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="1" l="1623773253059" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$5">
+      <i c="1" l="1623771482598" />
+    </e>
+  </component>
+</application>

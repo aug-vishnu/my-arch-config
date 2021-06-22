@@ -1,0 +1,770 @@
+Looking for git in: git
+Using git 2.26.2 from git
+> git rev-parse --git-dir
+Open repository: /home/gork/Projects/koffeea_api
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :auth_api/serializers.py
+> git show --textconv :auth_api/models.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/serializers.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/models.py
+> git cat-file -s 5d475fcdbea24643465ce9b45c2baf39db7211b6
+> git cat-file -s 06191d163827bdf1b950a639faa19d89d7914231
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/models.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/models.py
+> git cat-file -s 06b251d84d97dd80575a23568385fbd0f6861707
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/admin.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/admin.py
+> git cat-file -s 55e92199632a10b45ed82cf4142b09c0d07d9cf4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :auth_api/admin.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/admin.py
+> git cat-file -s e7c3747e8807ddd0f3d9c849081df928ee7cd8fa
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :auth_api/views/customer_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/customer_views.py
+> git cat-file -s 0f5adebb33b07c0442d6090198fc6696e09b6d35
+> git show --textconv :auth_api/views/shop_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/shop_views.py
+> git cat-file -s ce7bbbe8a2e1b1cfe58b9acb8b12ddc99dccecdb
+> git show --textconv :auth_api/views/customer_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/customer_views.py
+> git cat-file -s 0f5adebb33b07c0442d6090198fc6696e09b6d35
+> git show --textconv :auth_api/views/shop_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/shop_views.py
+> git cat-file -s ce7bbbe8a2e1b1cfe58b9acb8b12ddc99dccecdb
+> git show --textconv :core_api/admin.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/admin.py
+> git cat-file -s 55e92199632a10b45ed82cf4142b09c0d07d9cf4
+> git show --textconv :core_api/models.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/models.py
+> git cat-file -s 06b251d84d97dd80575a23568385fbd0f6861707
+> git show --textconv :core_api/admin.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/admin.py
+> git cat-file -s 55e92199632a10b45ed82cf4142b09c0d07d9cf4
+> git show --textconv :auth_api/views/shop_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/shop_views.py
+> git cat-file -s ce7bbbe8a2e1b1cfe58b9acb8b12ddc99dccecdb
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gork/Projects/koffeea_api/auth_api/models.py
+> git show --textconv :auth_api/models.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/models.py
+> git cat-file -s 06191d163827bdf1b950a639faa19d89d7914231
+> git show --textconv :auth_api/views/customer_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/customer_views.py
+> git cat-file -s 0f5adebb33b07c0442d6090198fc6696e09b6d35
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gork/Projects/koffeea_api/auth_api/views/customer_views.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/gork/Projects/koffeea_api/auth_api/views/customer_views.py
+> git show --textconv :auth_api/models.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/models.py
+> git cat-file -s 06191d163827bdf1b950a639faa19d89d7914231
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gork/Projects/koffeea_api/core_api/urls.py
+> git show --textconv :core_api/urls.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/urls.py
+> git cat-file -s 770899b5b15efe3464096b1b425cb9c028d460a9
+> git show --textconv :auth_api/views/customer_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/customer_views.py
+> git cat-file -s 0f5adebb33b07c0442d6090198fc6696e09b6d35
+> git show --textconv :auth_api/views/user_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/user_views.py
+> git cat-file -s 0644d7aa193dc7e451237aa1759c1c1cd7247095
+> git show --textconv :auth_api/serializers.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/serializers.py
+> git cat-file -s 5d475fcdbea24643465ce9b45c2baf39db7211b6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :koffeea_api/settings.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/koffeea_api/settings.py
+> git cat-file -s 62d4ec40fa5b9d50ebda688c9f79b9f09767b8fa
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :auth_api/views/customer_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/customer_views.py
+> git cat-file -s 0f5adebb33b07c0442d6090198fc6696e09b6d35
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :auth_api/views/shop_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/shop_views.py
+> git cat-file -s ce7bbbe8a2e1b1cfe58b9acb8b12ddc99dccecdb
+> git show --textconv :auth_api/views/user_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/user_views.py
+> git cat-file -s 0644d7aa193dc7e451237aa1759c1c1cd7247095
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/models.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/models.py
+> git cat-file -s 06b251d84d97dd80575a23568385fbd0f6861707
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gork/Projects/koffeea_api/core_api/views/product_views.py
+> git show --textconv :core_api/views/product_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/views/product_views.py
+> git cat-file -s b9585c64703d01bdc21cf7beba55a34d924ac254
+> git show --textconv :core_api/serializers.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/serializers.py
+> git cat-file -s d7b7ce5cf9bcb8f3b1a2676332357591f1ecf0d7
+> git show --textconv :core_api/views/product_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/views/product_views.py
+> git cat-file -s b9585c64703d01bdc21cf7beba55a34d924ac254
+> git show --textconv :core_api/serializers.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/serializers.py
+> git cat-file -s d7b7ce5cf9bcb8f3b1a2676332357591f1ecf0d7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/views/product_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/views/product_views.py
+> git cat-file -s b9585c64703d01bdc21cf7beba55a34d924ac254
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/serializers.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/serializers.py
+> git cat-file -s d7b7ce5cf9bcb8f3b1a2676332357591f1ecf0d7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/views/product_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/views/product_views.py
+> git cat-file -s b9585c64703d01bdc21cf7beba55a34d924ac254
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git show --textconv :core_api/views/basket_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/views/basket_views.py
+> git cat-file -s 60c6393842c8329766c406d3f8d6d20638c7e97d
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/serializers.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/serializers.py
+> git cat-file -s d7b7ce5cf9bcb8f3b1a2676332357591f1ecf0d7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/views/product_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/views/product_views.py
+> git cat-file -s b9585c64703d01bdc21cf7beba55a34d924ac254
+> git show --textconv :core_api/views/basket_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/views/basket_views.py
+> git cat-file -s 60c6393842c8329766c406d3f8d6d20638c7e97d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gork/Projects/koffeea_api/core_api/views/basket_views.py
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:core_api/views/__pycache__/product_views.cpython-39.pyc
+> git ls-tree -l HEAD -- /home/gork/Projects/koffeea_api/core_api/views/__pycache__/product_views.cpython-39.pyc
+> git ls-tree -l HEAD -- /home/gork/Projects/koffeea_api/core_api/views/__pycache__/product_views.cpython-39.pyc
+> git ls-tree -l HEAD -- /home/gork/Projects/koffeea_api/core_api/views/__pycache__/product_views.cpython-39.pyc
+> git show --textconv HEAD:core_api/views/__pycache__/basket_views.cpython-39.pyc
+> git ls-tree -l HEAD -- /home/gork/Projects/koffeea_api/core_api/views/__pycache__/basket_views.cpython-39.pyc
+> git ls-tree -l HEAD -- /home/gork/Projects/koffeea_api/core_api/views/__pycache__/basket_views.cpython-39.pyc
+> git ls-tree -l HEAD -- /home/gork/Projects/koffeea_api/core_api/views/__pycache__/basket_views.cpython-39.pyc
+> git show --textconv HEAD:core_api/migrations/__pycache__/0003_auto_20210621_2123.cpython-39.pyc
+> git ls-tree -l HEAD -- /home/gork/Projects/koffeea_api/core_api/migrations/__pycache__/0003_auto_20210621_2123.cpython-39.pyc
+> git ls-tree -l HEAD -- /home/gork/Projects/koffeea_api/core_api/migrations/__pycache__/0003_auto_20210621_2123.cpython-39.pyc
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:core_api/views/product_views.py
+> git ls-tree -l HEAD -- /home/gork/Projects/koffeea_api/core_api/views/product_views.py
+> git show --textconv :core_api/models.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/models.py
+> git cat-file -s 06b251d84d97dd80575a23568385fbd0f6861707
+> git show --textconv :core_api/migrations/0001_initial.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/migrations/0001_initial.py
+> git check-ignore -v -z --stdin
+> git cat-file -s 540fa125bc4281289ec7aae22d99079291316767
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gork/Projects/koffeea_api/core_api/serializers.py
+> git show --textconv :core_api/serializers.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/serializers.py
+> git cat-file -s d7b7ce5cf9bcb8f3b1a2676332357591f1ecf0d7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/views/product_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/views/product_views.py
+> git cat-file -s b9585c64703d01bdc21cf7beba55a34d924ac254
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/serializers.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/serializers.py
+> git cat-file -s d7b7ce5cf9bcb8f3b1a2676332357591f1ecf0d7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/models.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/models.py
+> git cat-file -s 06b251d84d97dd80575a23568385fbd0f6861707
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/views/product_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/views/product_views.py
+> git cat-file -s b9585c64703d01bdc21cf7beba55a34d924ac254
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/views/basket_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/views/basket_views.py
+> git cat-file -s 60c6393842c8329766c406d3f8d6d20638c7e97d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :auth_api/views/customer_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/auth_api/views/customer_views.py
+> git cat-file -s 0f5adebb33b07c0442d6090198fc6696e09b6d35
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :core_api/views/basket_views.py
+> git ls-files --stage -- /home/gork/Projects/koffeea_api/core_api/views/basket_views.py
+> git cat-file -s 60c6393842c8329766c406d3f8d6d20638c7e97d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gork/Projects/koffeea_api/core_api/views/basket_views.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/gork/Projects/koffeea_api/core_api/views/basket_views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

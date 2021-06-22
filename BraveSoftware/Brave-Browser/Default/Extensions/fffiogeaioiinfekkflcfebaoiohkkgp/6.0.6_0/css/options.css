@@ -1,0 +1,14 @@
+
+body {
+  margin: 0;
+  padding: 0 20px 20px;
+}
+.options__item {
+  display: flex;
+  align-items: center;
+}
+.options__item-control {
+  margin: 0;
+  margin-left: 4px;
+}
+

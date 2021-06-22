@@ -1,0 +1,5 @@
+2021/05/04-23:57:43.150 d09a Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_sale.alibaba.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/04-23:58:39.582 d09a Level-0 table #5: started
+2021/05/04-23:58:39.703 d09a Level-0 table #5: 22740 bytes OK
+2021/05/04-23:58:39.744 d09a Delete type=0 #3
+2021/05/04-23:58:39.745 d09a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

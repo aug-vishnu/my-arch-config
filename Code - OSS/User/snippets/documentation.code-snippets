@@ -1,0 +1,119 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Docmentation for Django Views": {
+		"prefix": "docview",
+		"body": [
+		  "#########################################################################",
+		  "##  Start $1  ##",
+		  "#########################################################################",
+		  "# $2",
+		  "",
+		  "",
+		  "",
+		  "#########################################################################",
+		  "##  End $1  ##",
+		  "#########################################################################",
+		  "",
+		  "",
+		  "",
+		  "#########################################################################"
+		],
+		"description": "Docmentation for Django Views"
+	  },
+
+
+
+	"Single line for Python": {
+	"prefix": "pyline",
+	"body": [
+		"#############################################################################",
+		"## Start of ${1:Block} ##",
+		"",
+		"## End of ${1:Block} ##",
+		"#############################################################################",
+		""
+	],
+	"description": "Single line for Python"
+	},
+
+	"Single line for JS/TS": {
+	"prefix": "jsline",
+	"body": [
+		"//////////////////////////////////////////////////////////////////////////////////////",
+		"/// Start of ${1:Block} ///",
+		"",
+		"/// End of ${1:Block} ///",
+		"// ////////////////////////////////////////////////////////////////////////////////////",
+
+	],
+	"description": "Single line for Python"
+	},
+
+	"Single line for HTML": {
+	"prefix": "htmlline",
+	"body": [
+		"<!-- ---------------------------|  Start of ${1:Block}  |----------------------------- -->",
+		"",
+		"<!-- ----------------------------|  End of ${1:Block}  |------------------------------ -->",
+	],
+	"description": "Single line for Python"
+	},
+
+
+	// Shortcuts
+	",null = True , blank = True": {
+		"prefix": "null-blank",
+		"body": [
+		  ",null=True, blank=True",
+		],
+	  },
+
+	"request.data.get('${1:query}')": {
+		"prefix": "req-data",
+		"body": [
+		  "request.data.get('${1:query}')",
+		],
+	  },
+	  "request.user": {
+		"prefix": "req-user",
+		"body": [
+		  "request.user",
+		],
+	  },
+
+
+	"Try Query Fucntion": {
+		"prefix": "q-function",
+		"body": [
+		  "try:",
+		  "    ${1:query}",
+		  "except:",
+		  "    return Response({'error': '${2:query} Not Found in Function'}, status=status.HTTP_403_FORBIDDEN)"
+		],
+	  },
+
+	  "Try Query Serializer": {
+		"prefix": "q-serializer",
+		"body": [
+		  "try:",
+		  "    ${1:query}",
+		  "except:",
+		  "    raise serializers.ValidationError('${2:Query} Not Found in Serializer')"
+		],
+	  }
+}

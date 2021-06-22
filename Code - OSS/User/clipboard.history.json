@@ -1,0 +1,2005 @@
+{
+  "version": 2,
+  "clips": [
+    {
+      "value": "                order_discount = int(request.data.get(\"order_discount\"))\n",
+      "createdAt": 1624312882728,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 210,
+            "character": 72
+          },
+          "end": {
+            "line": 210,
+            "character": 72
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/core_api/views/basket_views.py"
+      }
+    },
+    {
+      "value": "            frag['customer_id'] = factors[i].customer_id\n",
+      "createdAt": 1624312019684,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 79,
+            "character": 12
+          },
+          "end": {
+            "line": 79,
+            "character": 12
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/views/customer_views.py"
+      }
+    },
+    {
+      "value": "product_mrp_price",
+      "createdAt": 1624311718339,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 39,
+            "character": 27
+          },
+          "end": {
+            "line": 39,
+            "character": 44
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/core_api/serializers.py"
+      }
+    },
+    {
+      "value": "['product_name', 'product_stock', 'product_gst', \n        'product_code', 'product_vendor_price', 'product_mrp_price',]",
+      "createdAt": 1624310488542,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 20,
+            "character": 17
+          },
+          "end": {
+            "line": 21,
+            "character": 69
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/core_api/serializers.py"
+      }
+    },
+    {
+      "value": "        frag['customer_balance'] = factor.customer_balance\n",
+      "createdAt": 1624308972159,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 111,
+            "character": 55
+          },
+          "end": {
+            "line": 111,
+            "character": 55
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/views/customer_views.py"
+      }
+    },
+    {
+      "value": "            frag['customer_balance'] = factors[i].customer_balance\n",
+      "createdAt": 1624308961571,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 82,
+            "character": 66
+          },
+          "end": {
+            "line": 82,
+            "character": 66
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/views/customer_views.py"
+      }
+    },
+    {
+      "value": "'customer_address_1',",
+      "createdAt": 1624308580018,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 249,
+            "character": 73
+          },
+          "end": {
+            "line": 249,
+            "character": 73
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": ",'customer_name'",
+      "createdAt": 1624308562489,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 199,
+            "character": 36
+          },
+          "end": {
+            "line": 199,
+            "character": 52
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "            customer_mobile = self.validated_data['customer_mobile'],\n",
+      "createdAt": 1624308548460,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 227,
+            "character": 65
+          },
+          "end": {
+            "line": 227,
+            "character": 65
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "    # lead_followup = models.PositiveSmallIntegerField(choices=PERMISSION_TYPES, null=True)\n",
+      "createdAt": 1624308134309,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 329,
+            "character": 24
+          },
+          "end": {
+            "line": 329,
+            "character": 24
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/models.py"
+      }
+    },
+    {
+      "value": "    PERMISSION_TYPES = ((1,'All Acess'),(2,'Create Retrive Update'),(3,'Create Retrive'),(4,'Retrive'),(5,'No Access'))\n",
+      "createdAt": 1624308089639,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 317,
+            "character": 0
+          },
+          "end": {
+            "line": 318,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/models.py"
+      }
+    },
+    {
+      "value": "admin.site.register(CustomerModel)\n",
+      "createdAt": 1624307902835,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 14,
+            "character": 0
+          },
+          "end": {
+            "line": 14,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/admin.py"
+      }
+    },
+    {
+      "value": "##################################################################################\n# Customer Model\nclass CustomerModel(models.Model):\n    # Primary Key\n    customer_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n\n    # Inside Serializers\n    user = models.ForeignKey(Account,on_delete=models.CASCADE)\n    shop = models.ForeignKey(ShopModel ,on_delete=models.CASCADE)\n    \n    # Active Fields\n    customer_name = models.CharField(max_length=50, blank=True, null=True)\n    customer_mobile = models.CharField(max_length=100, blank=True, null=True)\n    customer_address_1 = models.CharField(max_length=100, blank=True, null=True)\n    customer_address_2 = models.CharField(max_length=100, blank=True, null=True)\n    customer_address_3 = models.CharField(max_length=100, blank=True, null=True)\n\n    customer_balance = models.IntegerField(default=0)\n\n    # Auto add Fields\n    time_stamp = models.DateTimeField(auto_now_add=True)\n    \n    class Meta:\n            verbose_name = \"Customer Model\"\n    def __str__(self):\n        return self.shop.shop_name + ' - ' + str(self.customer_name)\n##################################################################################\n",
+      "createdAt": 1624307655374,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 265,
+            "character": 0
+          },
+          "end": {
+            "line": 265,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/models.py"
+      }
+    },
+    {
+      "value": "customer_name",
+      "createdAt": 1624307627797,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 248,
+            "character": 4
+          },
+          "end": {
+            "line": 248,
+            "character": 17
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/models.py"
+      }
+    },
+    {
+      "value": "    email = serializers.CharField()\n",
+      "createdAt": 1622148512169,
+      "copyCount": 2,
+      "useCount": 2,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 132,
+            "character": 35
+          },
+          "end": {
+            "line": 132,
+            "character": 35
+          }
+        },
+        "uri": "file:///home/gork/Projects/Drona/drona_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "        email=self.validated_data['email'].lower(),\n        username=self.validated_data['email'].lower(),\n        new_object = Account(\n            shop = user.shop,\n            email=email[0],\n            username=username[0],\n            user_type = 2, \n        )\n        password = self.validated_data['password']\n\n        new_object.set_password(password)",
+      "createdAt": 1623781492461,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 151,
+            "character": 0
+          },
+          "end": {
+            "line": 161,
+            "character": 41
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "    user = models.ForeignKey(Account,on_delete=models.CASCADE)\n",
+      "createdAt": 1623781451914,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 219,
+            "character": 0
+          },
+          "end": {
+            "line": 220,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/models.py"
+      }
+    },
+    {
+      "value": "        shop = ShopModel.objects.get(shop_id = request.data.get(\"shop_id\"))\n",
+      "createdAt": 1623781100488,
+      "copyCount": 2,
+      "useCount": 2,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 213,
+            "character": 0
+          },
+          "end": {
+            "line": 213,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "            customer_address = self.validated_data['customer_address'],\n",
+      "createdAt": 1619642054486,
+      "copyCount": 2,
+      "useCount": 2,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 275,
+            "character": 41
+          },
+          "end": {
+            "line": 275,
+            "character": 41
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "        fields = ['customer_name','customer_mobile','customer_address_1','customer_address_2','customer_address_3',]\n",
+      "createdAt": 1623781235203,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 203,
+            "character": 0
+          },
+          "end": {
+            "line": 204,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": ",'customer_address',",
+      "createdAt": 1623781213669,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 203,
+            "character": 51
+          },
+          "end": {
+            "line": 203,
+            "character": 71
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "shop",
+      "createdAt": 1623781124037,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 21,
+            "character": 8
+          },
+          "end": {
+            "line": 21,
+            "character": 12
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/views/customer_views.py"
+      }
+    },
+    {
+      "value": "        factor = ShopModel.objects.get(shop_id = request.data.get(\"shop_id\"))\n",
+      "createdAt": 1623781022912,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 95,
+            "character": 0
+          },
+          "end": {
+            "line": 96,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/views/shop_views.py"
+      }
+    },
+    {
+      "value": "            shop = ShopModel.objects.get(shop_id=request.data.get(\"shop_id\"))\n",
+      "createdAt": 1623780808176,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 37,
+            "character": 0
+          },
+          "end": {
+            "line": 38,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/views/shop_views.py"
+      }
+    },
+    {
+      "value": "            frag['customer_id'] = factors[i].customer_id\n            frag['customer_mobile'] = factors[i].customer_mobile\n            frag['customer_balance'] = factors[i].customer_balance\n            frag['customer_address_1'] = factors[i].customer_address_1\n            frag['customer_address_2'] = factors[i].customer_address_2\n            frag['customer_address_3'] = factors[i].customer_address_3\n            frag['customer_name'] = factors[i].customer_name",
+      "createdAt": 1623780468684,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 77,
+            "character": 0
+          },
+          "end": {
+            "line": 83,
+            "character": 60
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/views/customer_views.py"
+      }
+    },
+    {
+      "value": "            frag['customer_address'] = factors[i].customer_address\n",
+      "createdAt": 1623780416690,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 79,
+            "character": 0
+          },
+          "end": {
+            "line": 79,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/views/customer_views.py"
+      }
+    },
+    {
+      "value": "            frag['distributor_mobile'] = factors[i].distributor_mobile\n",
+      "createdAt": 1623780287955,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 286,
+            "character": 0
+          },
+          "end": {
+            "line": 286,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/views/user_views.py"
+      }
+    },
+    {
+      "value": "SubAdmin",
+      "createdAt": 1623780049181,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 113,
+            "character": 4
+          },
+          "end": {
+            "line": 113,
+            "character": 12
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/views/user_views.py"
+      }
+    },
+    {
+      "value": "\nfrom django.conf.urls.static import static\nfrom django.conf import settings\n\nfrom django.contrib import admin\nfrom django.urls import path,include\nfrom core_api import urls as core_urls\nfrom auth_api import urls as auth_urls\nfrom journal_api import urls as journal_urls\nfrom dockt_api import urls as dockt_urls\nfrom credit_api import urls as credit_urls\nfrom invoice_api import urls as invoice_urls\n\nurlpatterns = [\n    path('auth/', include(auth_urls)),\n    path('core/', include(core_urls)),\n    path('journal/', include(journal_urls)),\n    path('dockt/', include(dockt_urls)),\n    path('design/', include(invoice_urls)),\n    path('credit/', include(credit_urls)),\n\n    path('admin/', admin.site.urls),\n]\n\n\n\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\nurlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)\n# For the Image View outside API",
+      "createdAt": 1623778483170,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 28,
+            "character": 32
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/eegai_api/urls.py"
+      }
+    },
+    {
+      "value": "import os\n",
+      "createdAt": 1623777638285,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 13,
+            "character": 0
+          },
+          "end": {
+            "line": 14,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py"
+      }
+    },
+    {
+      "value": "STATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\n\n\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n",
+      "createdAt": 1623777560207,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 158,
+            "character": 0
+          },
+          "end": {
+            "line": 164,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py"
+      }
+    },
+    {
+      "value": "192.168.147.98",
+      "createdAt": 1623777387975,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 30,
+            "character": 12
+          },
+          "end": {
+            "line": 30,
+            "character": 26
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/koffeea_api/settings.py"
+      }
+    },
+    {
+      "value": "CORS_ORIGIN_WHITELIST = [\n    'https://arambaugustus.pythonanywhere.com',\n    'https://arambaug.pythonanywhere.com',\n    'https://nkgroups.co.in',\n    'http://192.168.225.31:4200',\n    'http://192.168.225.34:4200',\n    'http://localhost:4200',\n]",
+      "createdAt": 1623777361954,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 31,
+            "character": 0
+          },
+          "end": {
+            "line": 38,
+            "character": 1
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py"
+      }
+    },
+    {
+      "value": "ALLOWED_HOSTS = ['192.168.43.89', 'eegaicrm.pythonanywhere.com','localhost', '127.0.0.1', '192.168.239.98']\n\n",
+      "createdAt": 1623777345940,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 28,
+            "character": 0
+          },
+          "end": {
+            "line": 30,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/eegai_api/settings.py"
+      }
+    },
+    {
+      "value": "    'core_api',\n",
+      "createdAt": 1623774794205,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 42,
+            "character": 15
+          },
+          "end": {
+            "line": 42,
+            "character": 15
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/koffeea_api/settings.py"
+      }
+    },
+    {
+      "value": "admin.site.register(AdminModel)\n",
+      "createdAt": 1623774710630,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 11,
+            "character": 25
+          },
+          "end": {
+            "line": 11,
+            "character": 25
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/admin.py"
+      }
+    },
+    {
+      "value": "    customer_address = models.CharField(max_length=100, blank=True, null=True)\n",
+      "createdAt": 1623773662395,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 255,
+            "character": 53
+          },
+          "end": {
+            "line": 255,
+            "character": 53
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/models.py"
+      }
+    },
+    {
+      "value": "##################################################################################\n# Admin Model\nclass AdminModel(models.Model):\n    # Primary Key\n    admin_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n\n    # Inside Serializers\n    user = models.ForeignKey(Account,on_delete=models.CASCADE)\n    shop = models.ForeignKey(ShopModel ,on_delete=models.CASCADE)\n\n    # Active Fields\n    admin_name = models.CharField(max_length=20, blank=True, null=True)\n    admin_address = models.CharField(max_length=100, blank=True, null=True)\n    admin_mobile = models.CharField(max_length=100, blank=True, null=True)\n\n\n    # Auto add Fields\n    time_stamp = models.DateTimeField(auto_now_add=True)\n    \n    class Meta:\n            verbose_name = \"Admin Model\"\n    def __str__(self):\n        return self.shop.shop_name + ' - ' + self.user.username\n##################################################################################",
+      "createdAt": 1623773581304,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 162,
+            "character": 0
+          },
+          "end": {
+            "line": 185,
+            "character": 82
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/models.py"
+      }
+    },
+    {
+      "value": "distributor",
+      "createdAt": 1623773506737,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 119,
+            "character": 82
+          },
+          "end": {
+            "line": 119,
+            "character": 82
+          }
+        },
+        "uri": "file:///home/gork/Projects/koffeea_api/auth_api/models.py"
+      }
+    },
+    {
+      "value": "",
+      "createdAt": 1623770430061,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 18,
+            "character": 32
+          },
+          "end": {
+            "line": 18,
+            "character": 32
+          }
+        },
+        "uri": "file:///home/gork/Projects/Hoard/hoard_api/core/admin.py"
+      }
+    },
+    {
+      "value": "asgiref==3.2.10\ncertifi==2020.6.20\nchardet==3.0.4\nDjango==3.0.10\ndjango-cors-headers==3.4.0\ndjango-phonenumber-field==5.0.0\ndjango-tinymce==3.1.0\ndjango-twilio==0.13.0.post1\ndjangorestframework==3.11.1\nidna==2.10\nphonenumbers==8.12.9\nPillow==7.2.0\nPyJWT==1.7.1\npytz==2020.1\nrequests==2.24.0\nsix==1.15.0\nsqlparse==0.3.1\ntwilio==6.45.1\nurllib3==1.25.10\n",
+      "createdAt": 1623769499344,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "pip-requirements",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 19,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Hoard/hoard_api/requirements.txt"
+      }
+    },
+    {
+      "value": "KALEYRA",
+      "createdAt": 1623765183269,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "plaintext",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 31,
+            "character": 0
+          },
+          "end": {
+            "line": 31,
+            "character": 7
+          }
+        },
+        "uri": "file:///home/gork/Zoconut/zoconut/.env"
+      }
+    },
+    {
+      "value": "RAZOR_PAY_API_SECRET = \"WwF4iZCdjOBtrLToHwUCjVl7\"\n",
+      "createdAt": 1623765168751,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "plaintext",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 29,
+            "character": 45
+          },
+          "end": {
+            "line": 29,
+            "character": 45
+          }
+        },
+        "uri": "file:///home/gork/Zoconut/zoconut/.env"
+      }
+    },
+    {
+      "value": "MESSAGE_91_URL",
+      "createdAt": 1623761554808,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 117,
+            "character": 14
+          },
+          "end": {
+            "line": 117,
+            "character": 28
+          }
+        },
+        "uri": "file:///home/gork/Zoconut/zoconut/utils/notify.py"
+      }
+    },
+    {
+      "value": "self.validated_data['name']",
+      "createdAt": 1622148819038,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 156,
+            "character": 13
+          },
+          "end": {
+            "line": 156,
+            "character": 13
+          }
+        },
+        "uri": "file:///home/gork/Projects/Drona/drona_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": ",'email'",
+      "createdAt": 1622148576792,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 137,
+            "character": 56
+          },
+          "end": {
+            "line": 137,
+            "character": 56
+          }
+        },
+        "uri": "file:///home/gork/Projects/Drona/drona_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "        username=self.validated_data['email'].lower(),\n",
+      "createdAt": 1622148530224,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 156,
+            "character": 33
+          },
+          "end": {
+            "line": 156,
+            "character": 33
+          }
+        },
+        "uri": "file:///home/gork/Projects/Drona/drona_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "            username=username[0],\n",
+      "createdAt": 1622148526211,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 158,
+            "character": 33
+          },
+          "end": {
+            "line": 158,
+            "character": 33
+          }
+        },
+        "uri": "file:///home/gork/Projects/Drona/drona_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "journal",
+      "createdAt": 1619985766056,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 88,
+            "character": 33
+          },
+          "end": {
+            "line": 88,
+            "character": 33
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/journal_views.py"
+      }
+    },
+    {
+      "value": "factors[i]",
+      "createdAt": 1619985707393,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 78,
+            "character": 33
+          },
+          "end": {
+            "line": 78,
+            "character": 43
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/journal_views.py"
+      }
+    },
+    {
+      "value": "                sub_frag['journal_response'] = response.journal_response \n",
+      "createdAt": 1619985118220,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 88,
+            "character": 71
+          },
+          "end": {
+            "line": 88,
+            "character": 71
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/journal_views.py"
+      }
+    },
+    {
+      "value": "    path('journal-cud/', JournalCUDView),\n",
+      "createdAt": 1619983439338,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 11,
+            "character": 41
+          },
+          "end": {
+            "line": 11,
+            "character": 41
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/urls.py"
+      }
+    },
+    {
+      "value": "    path('journal-detail/', JournalDetailView),\n",
+      "createdAt": 1619983437333,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 14,
+            "character": 47
+          },
+          "end": {
+            "line": 14,
+            "character": 47
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/urls.py"
+      }
+    },
+    {
+      "value": "#########################################################################\n# Start JournalResponse CRUD  [ Journal - journal ]\n#########################################################################\n",
+      "createdAt": 1619983353573,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 129,
+            "character": 0
+          },
+          "end": {
+            "line": 129,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/journal_views.py"
+      }
+    },
+    {
+      "value": "#########################################################################\n# Start Journal CRUD  [ Journal - journal ]\n#########################################################################\n@api_view(['POST','PUT', 'DELETE' ])\ndef JournalCUDView(request):\n    trail = {}\n\n    # Create Factor\n    if request.method == 'POST':\n        print(request.data)\n        serializer = JournalCreateSerializer(data=request.data)\n        if serializer.is_valid():\n            new_object = serializer.save(user=request.user)\n            trail['message'] = \"Journal Sucessfully Created\"\n            trail['data'] = serializer.data\n            return Response(trail, status=status.HTTP_200_OK)\n        else:\n            trail = serializer.errors\n            return Response(trail, status=status.HTTP_403_FORBIDDEN)\n\n\n    # Edit Factor\n    if request.method == 'PUT':\n        try:\n            factor = JournalModel.objects.get(journal_id=request.data.get(\"journal_id\"))\n        except:\n            raise serializers.ValidationError('Not Found')\n\n        serializer = JournalEditSerializer(factor, data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            trail[\"message\"] = \"Journal Successfully Updated\"\n            trail[\"data\"] =  serializer.data\n            return Response(trail, status=status.HTTP_200_OK)\n        else:\n            trail = serializer.errors\n            return Response(trail, status=status.HTTP_403_FORBIDDEN)",
+      "createdAt": 1619983310003,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 11,
+            "character": 0
+          },
+          "end": {
+            "line": 47,
+            "character": 68
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/journal_views.py"
+      }
+    },
+    {
+      "value": "class JournalEditSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = JournalModel\n        fields = ['journal_comment','journal_rating','machine','follow_up']",
+      "createdAt": 1619983202393,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 62,
+            "character": 0
+          },
+          "end": {
+            "line": 65,
+            "character": 75
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/serializers.py"
+      }
+    },
+    {
+      "value": "                sub_frag['response_id'] = response.journal_response_id \n",
+      "createdAt": 1619979066578,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 86,
+            "character": 71
+          },
+          "end": {
+            "line": 86,
+            "character": 71
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/journal_views.py"
+      }
+    },
+    {
+      "value": "+ ' - ' + str(self.journal.follow_up)",
+      "createdAt": 1619954339060,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 57,
+            "character": 35
+          },
+          "end": {
+            "line": 57,
+            "character": 72
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/models.py"
+      }
+    },
+    {
+      "value": "follow_up",
+      "createdAt": 1619954250407,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 23,
+            "character": 4
+          },
+          "end": {
+            "line": 23,
+            "character": 13
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/models.py"
+      }
+    },
+    {
+      "value": "admin.site.register(ActivityModel)\n",
+      "createdAt": 1619954184334,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 5,
+            "character": 34
+          },
+          "end": {
+            "line": 5,
+            "character": 34
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/admin.py"
+      }
+    },
+    {
+      "value": "            follow_up = self.validated_data['follow_up'],\n",
+      "createdAt": 1619952757952,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 39,
+            "character": 57
+          },
+          "end": {
+            "line": 39,
+            "character": 57
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/serializers.py"
+      }
+    },
+    {
+      "value": "work_free",
+      "createdAt": 1619952740927,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 24,
+            "character": 4
+          },
+          "end": {
+            "line": 24,
+            "character": 13
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/models.py"
+      }
+    },
+    {
+      "value": "    machine = models.ForeignKey(MachineModel ,on_delete=models.CASCADE, blank=True, null=True)\n",
+      "createdAt": 1619951242635,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 45,
+            "character": 11
+          },
+          "end": {
+            "line": 45,
+            "character": 11
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/models.py"
+      }
+    },
+    {
+      "value": "##################################################################################\n# Journal Model\nclass JournalModel(models.Model):\n    # Journal Status\n    RATING = ((1,'Very High'),(2,'High'),(3,'Normal'),(4,'Low'),(5,'Very Low'))\n\n    # Primary Key\n    journal_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n\n    # Inside Serializers\n    shop = models.ForeignKey(ShopModel ,on_delete=models.CASCADE)\n    machine = models.ForeignKey(MachineModel ,on_delete=models.CASCADE, blank=True, null=True)\n\n    # Active Fields\n    journal_comment = models.CharField(max_length=1000, blank=True, null=True)\n    journal_rating = models.PositiveSmallIntegerField(choices=RATING,null=True)\n    follow_up = models.DateTimeField(null=True, blank=True)\n\n    # Auto add Fields\n    time_stamp = models.DateTimeField(auto_now_add=True)\n    \n    class Meta:\n            verbose_name = \"Journal Model\"\n    def __str__(self):\n        return self.shop.shop_name + ' - ' + self.journal_comment\n##################################################################################\n\n\n",
+      "createdAt": 1619951189354,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 7,
+            "character": 0
+          },
+          "end": {
+            "line": 35,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/journal_api/models.py"
+      }
+    },
+    {
+      "value": "            frag['dispatch_to'] = dispatch.dispatch_to\n",
+      "createdAt": 1619682510675,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 331,
+            "character": 46
+          },
+          "end": {
+            "line": 331,
+            "character": 46
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/booking_views.py"
+      }
+    },
+    {
+      "value": "        frag['dispatch_to'] = dispatch.dispatch_to\n",
+      "createdAt": 1619681551070,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 71,
+            "character": 45
+          },
+          "end": {
+            "line": 71,
+            "character": 45
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "'dispatch_to'",
+      "createdAt": 1619679921750,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 24,
+            "character": 21
+          },
+          "end": {
+            "line": 24,
+            "character": 21
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/invoice_api/serializers.py"
+      }
+    },
+    {
+      "value": "    dispatch_to = models.CharField(max_length=25, blank=True, null=True)\n",
+      "createdAt": 1619679862642,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 27,
+            "character": 30
+          },
+          "end": {
+            "line": 27,
+            "character": 30
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/invoice_api/models.py"
+      }
+    },
+    {
+      "value": ",'customer_direct'",
+      "createdAt": 1619642044973,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 259,
+            "character": 51
+          },
+          "end": {
+            "line": 259,
+            "character": 51
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "        frag['customer_mobile'] = factor.customer_mobile\n",
+      "createdAt": 1619641868715,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 225,
+            "character": 56
+          },
+          "end": {
+            "line": 225,
+            "character": 56
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/auth_api/views/customer_views.py"
+      }
+    },
+    {
+      "value": "            frag['customer_feedback'] = factors[i].customer_feedback\n",
+      "createdAt": 1619641856624,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 187,
+            "character": 42
+          },
+          "end": {
+            "line": 187,
+            "character": 42
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/auth_api/views/customer_views.py"
+      }
+    },
+    {
+      "value": "PRODUCT_TYPE_CHOICES[current.product.product_type]",
+      "createdAt": 1619640948333,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 120,
+            "character": 16
+          },
+          "end": {
+            "line": 120,
+            "character": 16
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "PRODUCT_TYPE_CHOICES",
+      "createdAt": 1619640928282,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 22,
+            "character": 8
+          },
+          "end": {
+            "line": 22,
+            "character": 28
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "    PRODUCT_TYPE_CHOICES = ((1, 'Gram'), (2, 'Kilo Gram'), (3, 'Piece'),\n                            (4, 'Box / Packets'),(5, 'Litre'),(6, 'Milli Litre'))\n",
+      "createdAt": 1619640894743,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 17,
+            "character": 0
+          },
+          "end": {
+            "line": 19,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/models.py"
+      }
+    },
+    {
+      "value": "current.product.product_value",
+      "createdAt": 1619640755036,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 116,
+            "character": 37
+          },
+          "end": {
+            "line": 116,
+            "character": 37
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "            sub_frag['product_quantity_value'] = (current.product_quantity * int(current.product.product_value)) \n",
+      "createdAt": 1619640593457,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 139,
+            "character": 0
+          },
+          "end": {
+            "line": 139,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "current.product_quantity",
+      "createdAt": 1619639935134,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 139,
+            "character": 49
+          },
+          "end": {
+            "line": 139,
+            "character": 73
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "            sub_frag['product_quantity'] = current.product_quantity\n",
+      "createdAt": 1619639918627,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 139,
+            "character": 44
+          },
+          "end": {
+            "line": 139,
+            "character": 44
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "'customer_from'",
+      "createdAt": 1619639847923,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 304,
+            "character": 33
+          },
+          "end": {
+            "line": 304,
+            "character": 33
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "    customer_feedback = models.CharField(max_length=100, blank=True, null=True)\n",
+      "createdAt": 1619619265949,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 263,
+            "character": 30
+          },
+          "end": {
+            "line": 263,
+            "character": 30
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/auth_api/models.py"
+      }
+    },
+    {
+      "value": "self.validated_data['classroom']",
+      "createdAt": 1619556345044,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 207,
+            "character": 0
+          },
+          "end": {
+            "line": 207,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Drona/drona_api/core_api/serializers.py"
+      }
+    },
+    {
+      "value": "order_gst_price",
+      "createdAt": 1619458322115,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 153,
+            "character": 34
+          },
+          "end": {
+            "line": 153,
+            "character": 49
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "            sub_frag['product_wo_gst_price'] = (current.product.product_customer_price) - ((current.product.product_customer_price * current.item_quantity) * (current.product.product_gst / 100))\n",
+      "createdAt": 1619458282613,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 119,
+            "character": 0
+          },
+          "end": {
+            "line": 119,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "order_price_text",
+      "createdAt": 1619456489967,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 156,
+            "character": 8
+          },
+          "end": {
+            "line": 156,
+            "character": 24
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "        frag['amount_paid'] = factor.order_price - factor.order_balance\n",
+      "createdAt": 1619456476958,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 154,
+            "character": 0
+          },
+          "end": {
+            "line": 154,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "        print(num2words(36, to = 'currency', lang = 'en_IN'))\n        order_price_text = num2words(36, to = 'currency', lang = 'en_IN')\n",
+      "createdAt": 1619456459947,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 48,
+            "character": 0
+          },
+          "end": {
+            "line": 50,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "num2words(36, to = 'currency', lang = 'en_IN')",
+      "createdAt": 1619456455943,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 48,
+            "character": 14
+          },
+          "end": {
+            "line": 48,
+            "character": 60
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "current.product.product_customer_price",
+      "createdAt": 1619456390337,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 118,
+            "character": 40
+          },
+          "end": {
+            "line": 118,
+            "character": 78
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "            sub_frag['product_gst_price'] = (current.product.product_customer_price * current.item_quantity) * (current.product.product_gst / 100)\n",
+      "createdAt": 1619456372425,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 120,
+            "character": 49
+          },
+          "end": {
+            "line": 120,
+            "character": 49
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "            sub_frag['product_gst'] = current.product.product_gst\n",
+      "createdAt": 1619456336127,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 120,
+            "character": 39
+          },
+          "end": {
+            "line": 120,
+            "character": 39
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": ", to = 'currency'",
+      "createdAt": 1619456287596,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 48,
+            "character": 43
+          },
+          "end": {
+            "line": 48,
+            "character": 43
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/views/invoice_views.py"
+      }
+    },
+    {
+      "value": "                <button data-toggle=\"modal\" class=\"btn submit\" type=\"submit\">\n                    Submit\n                </button>",
+      "createdAt": 1619435754395,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "html",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 77,
+            "character": 0
+          },
+          "end": {
+            "line": 79,
+            "character": 25
+          }
+        },
+        "uri": "file:///home/gork/Projects/WorkFlexi/workflexi-head/index.html"
+      }
+    },
+    {
+      "value": "            font-size: 1em;\n            line-height: 1em;\n            color: #1ABC9C;\n            border: 2px solid #1ABC9C;\n            margin: 10px 0;\n            padding: 16px 20px;\n            min-width: 180px;\n            width: 180px;\n            font-weight: 600;",
+      "createdAt": 1619435499687,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "scss",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 98,
+            "character": 0
+          },
+          "end": {
+            "line": 106,
+            "character": 29
+          }
+        },
+        "uri": "file:///home/gork/Projects/WorkFlexi/workflexi-head/assets/style.scss"
+      }
+    },
+    {
+      "value": "\n        .submit:hover{\n            \n        }",
+      "createdAt": 1619435492806,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "scss",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 136,
+            "character": 0
+          },
+          "end": {
+            "line": 136,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/WorkFlexi/workflexi-head/assets/style.scss"
+      }
+    },
+    {
+      "value": "BankdetailModel",
+      "createdAt": 1619433657382,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 249,
+            "character": 6
+          },
+          "end": {
+            "line": 249,
+            "character": 21
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/dockt_api/models.py"
+      }
+    },
+    {
+      "value": "        InvoiceContentModel.objects.create(\n            shop = new_object\n        )\n",
+      "createdAt": 1619433647310,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "python",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 71,
+            "character": 0
+          },
+          "end": {
+            "line": 71,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/Eegai/eegai_api/auth_api/serializers.py"
+      }
+    },
+    {
+      "value": "    .what-content {\n        margin: 0 2em;\n\n        h2 {\n            color: #1ABC9C;\n            font-weight: 600;\n        }\n    }",
+      "createdAt": 1619432599840,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "scss",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 153,
+            "character": 0
+          },
+          "end": {
+            "line": 160,
+            "character": 5
+          }
+        },
+        "uri": "file:///home/gork/Projects/WorkFlexi/workflexi-head/assets/style.scss"
+      }
+    },
+    {
+      "value": "            height: 100% !important;\n",
+      "createdAt": 1619432541907,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "scss",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 358,
+            "character": 24
+          },
+          "end": {
+            "line": 358,
+            "character": 24
+          }
+        },
+        "uri": "file:///home/gork/Projects/WorkFlexi/workflexi-head/assets/style.scss"
+      }
+    },
+    {
+      "value": "        font-size: 1.2em;\n",
+      "createdAt": 1619432405462,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "scss",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 347,
+            "character": 0
+          },
+          "end": {
+            "line": 347,
+            "character": 0
+          }
+        },
+        "uri": "file:///home/gork/Projects/WorkFlexi/workflexi-head/assets/style.scss"
+      }
+    },
+    {
+      "value": " .footer-top ",
+      "createdAt": 1619432211753,
+      "copyCount": 1,
+      "useCount": 1,
+      "language": "scss",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 377,
+            "character": 7
+          },
+          "end": {
+            "line": 377,
+            "character": 20
+          }
+        },
+        "uri": "file:///home/gork/Projects/WorkFlexi/workflexi-head/assets/style.scss"
+      }
+    }
+  ]
+}

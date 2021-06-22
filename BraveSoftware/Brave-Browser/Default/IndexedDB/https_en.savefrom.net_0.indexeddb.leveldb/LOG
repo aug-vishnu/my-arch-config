@@ -1,0 +1,5 @@
+2021/03/01-21:35:09.795 782 Reusing MANIFEST /home/gork/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_en.savefrom.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/01-21:35:59.586 d27 Level-0 table #5: started
+2021/03/01-21:35:59.672 d27 Level-0 table #5: 1224 bytes OK
+2021/03/01-21:35:59.718 d27 Delete type=0 #3
+2021/03/01-21:35:59.719 d27 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

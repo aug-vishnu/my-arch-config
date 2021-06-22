@@ -1,0 +1,45 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/icon-128.png",
+         "16": "images/icon-16.png",
+         "24": "images/icon-24.png",
+         "32": "images/icon-32.png",
+         "48": "images/icon-48.png"
+      },
+      "default_popup": "settings/index.html",
+      "default_title": "Popup tab switcher: Settings"
+   },
+   "commands": {
+      "next": {
+         "description": "Open recent tabs list. Select next",
+         "suggested_key": {
+            "default": "Alt+Y"
+         }
+      },
+      "previous": {
+         "description": "Open recent tabs list. Select previous",
+         "suggested_key": {
+            "default": "Alt+Shift+Y"
+         }
+      }
+   },
+   "description": "Makes switching between tabs more convenient.",
+   "differential_fingerprint": "1.657a7b7d4e53333f9455fa38606afeea5175b3def938d381140747e802b1768d",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "24": "images/icon-24.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAieeQcbBC5lR8lVBvDqbcE6r4QdYKtEMjZjRkkslB4qffjTjHdR9HxdZSaqbljS0jCA3GfBX2T9Tzdok491RZZU6tutcZQTpZAO47EDJRo93HNufJaqZ08tSTQAoqZs87D83frVlRNJVqveKjxN9d22zT2M1AYM4BVs8oVPUNDTdZUVm9jPqabhAK+V3LhqePbymaz8XQ6shLLcK8OTt3PaJIo2lUlYTCq4wPb4yTeEdscsV/++uv2H/W6XBpSZZG1NanK4n4ZrIKfajW/O6zhqMEqR5nRqA3LiLzza20QXUlTArqRnHv4FtP7cwxyrowYKn1Me/YofxKkZyAS1T0cQIDAQAB",
+   "manifest_version": 2,
+   "name": "Popup Tab Switcher",
+   "permissions": [ "tabs", "activeTab", "file:///" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.9"
+}

@@ -1,0 +1,11 @@
+# You can add comments to these files with #
+h	~/
+D	~/Documents
+d	~/Downloads
+m	~/Music
+dj	~/Projects/Django/
+pp	~/Pictures
+vv	~/Videos
+cf	${XDG_CONFIG_HOME:-$HOME/.config}
+sc	~/.local/bin
+mn	/mnt

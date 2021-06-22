@@ -1,0 +1,26 @@
+{
+   "appDesc": {
+      "message": "YouTube動画のタグを表示するための拡張機能"
+   },
+   "appName": {
+      "message": "YouTube Tags"
+   },
+   "optionsSuggestionsName": {
+      "message": "提案を表示します"
+   },
+   "rowSuggestionClose": {
+      "message": "閉じる"
+   },
+   "rowSuggestionName": {
+      "message": "提案"
+   },
+   "rowTagsContentEmpty": {
+      "message": "ビデオにはタグがありません"
+   },
+   "rowTagsContentError": {
+      "message": "エラー"
+   },
+   "rowTagsName": {
+      "message": "タグ"
+   }
+}
